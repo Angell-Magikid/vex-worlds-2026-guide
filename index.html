@@ -108,13 +108,28 @@
                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 mt-2 hidden">
         </div>
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">入住酒店 | Hotel Name</label>
-          <input type="text" id="hotelName" placeholder="e.g., Embassy Suites" 
-                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          <label class="block text-sm font-medium text-gray-700 mb-1">🏨 Hotel | 酒店</label>
+          <select id="hotelSelect" onchange="handleHotelSelect()" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white">
+            <option value="">-- Select Hotel | 选择酒店 --</option>
+            <option value="Embassy Suites by Hilton St. Louis Downtown|610 North 7th Street, St. Louis, MO 63101, United States of America">Embassy Suites by Hilton St. Louis Downtown</option>
+            <option value="Drury Plaza St. Louis at the Arch|2 South 4th Street, St. Louis, MO 63102, United States of America">Drury Plaza St. Louis at the Arch</option>
+            <option value="Four Seasons St. Louis|999 North Second Street, St. Louis, MO 63102, United States of America">Four Seasons St. Louis</option>
+            <option value="Fairfield Inn & Suites Downtown|2144 Market St, St. Louis, MO 63103, United States of America">Fairfield Inn & Suites Downtown</option>
+            <option value="Hilton St. Louis at the Ballpark|1 South Broadway, St. Louis, MO 63102, United States of America">Hilton St. Louis at the Ballpark</option>
+            <option value="Hilton Pennywell St. Louis at the Arch|400 Olive Street, St. Louis, MO 63102, United States of America">Hilton Pennywell St. Louis at the Arch</option>
+            <option value="Hotel St. Louis - a Marriott Autograph Collection|705 Olive Street, St. Louis, MO 63101, United States of America">Hotel St. Louis - Marriott Autograph</option>
+            <option value="HoteLumiere|901 N. First Street, St. Louis, MO 63102, United States of America">HoteLumiere</option>
+            <option value="Hyatt Regency St. Louis at The Arch|315 Chestnut Street, St. Louis, MO 63102, United States of America">Hyatt Regency St. Louis at The Arch</option>
+            <option value="Live! by Loews|799 Clark Ave., St. Louis, MO 63102, United States of America">Live! by Loews</option>
+            <option value="The Westin St. Louis|811 Spruce St, St. Louis, MO 63102, United States of America">The Westin St. Louis</option>
+            <option value="custom">-- Other | 其他 (手动输入) --</option>
+          </select>
+          <input type="text" id="hotelName" placeholder="Hotel Name | 酒店名称" 
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 mt-2">
         </div>
         <div class="md:col-span-2">
-          <label class="block text-sm font-medium text-gray-700 mb-1">酒店地址 | Hotel Address</label>
-          <input type="text" id="hotelAddress" placeholder="Full address" 
+          <label class="block text-sm font-medium text-gray-700 mb-1">📍 Address | 地址</label>
+          <input type="text" id="hotelAddress" placeholder="Full address | 完整地址" 
                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
         </div>
       </form>
@@ -953,6 +968,30 @@
       saveTeamInfo();
     });
 
+    // Hotel select dropdown
+    const hotelSelect = document.getElementById('hotelSelect');
+    const hotelNameInput = document.getElementById('hotelName');
+    const hotelAddressInput = document.getElementById('hotelAddress');
+
+    function handleHotelSelect() {
+      const selected = hotelSelect.value;
+      if (selected === 'custom') {
+        hotelNameInput.value = '';
+        hotelAddressInput.value = '';
+        hotelNameInput.placeholder = 'Enter hotel name | 输入酒店名称';
+        hotelAddressInput.placeholder = 'Enter full address | 输入完整地址';
+        hotelNameInput.focus();
+      } else if (selected) {
+        const parts = selected.split('|');
+        hotelNameInput.value = parts[0];
+        hotelAddressInput.value = parts[1] || '';
+      } else {
+        hotelNameInput.value = '';
+        hotelAddressInput.value = '';
+      }
+      saveTeamInfo();
+    }
+
     // Load saved data
     const saved = localStorage.getItem('vexTeamInfo');
     if (saved) {
@@ -968,8 +1007,25 @@
           teamNumberInput.value = data.teamNumber;
         }
       }
-      document.getElementById('hotelName').value = data.hotelName || '';
-      document.getElementById('hotelAddress').value = data.hotelAddress || '';
+      
+      // Restore hotel selection
+      if (data.hotelName) {
+        // Try to find matching hotel from dropdown
+        const options = hotelSelect.options;
+        let found = false;
+        for (let i = 0; i < options.length; i++) {
+          if (options[i].value.startsWith(data.hotelName + '|') || options[i].value === data.hotelName) {
+            hotelSelect.value = options[i].value;
+            found = true;
+            break;
+          }
+        }
+        if (!found) {
+          hotelSelect.value = 'custom';
+          hotelNameInput.value = data.hotelName;
+        }
+        hotelAddressInput.value = data.hotelAddress || '';
+      }
       savedInfo.classList.remove('hidden');
     }
 
