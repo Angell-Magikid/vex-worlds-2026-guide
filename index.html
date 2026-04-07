@@ -110,10 +110,15 @@
     <!-- Team Info Form (personalized) -->
     <section class="max-w-4xl mx-auto px-4 -mt-5">
       <div class="team-card rounded-xl p-5 shadow-lg mb-6">
-        <h3 class="text-base font-bold mb-3 text-sky-800">
-          📋 My Team Info &nbsp;<span class="text-sm font-normal text-sky-500">本赛队信息</span>
-          <span class="float-right text-xs text-sky-400 bg-sky-100 px-2 py-0.5 rounded">🔒 <span id="labLabel"></span></span>
-        </h3>
+        <div id="teamCardHeader" class="flex items-center justify-between mb-3">
+          <h3 class="text-base font-bold text-sky-800">
+            📋 My Team Info &nbsp;<span class="text-sm font-normal text-sky-500">本赛队信息</span>
+            <span class="text-xs text-sky-400 bg-sky-100 px-2 py-0.5 rounded ml-2">🔒 <span id="labLabel"></span></span>
+          </h3>
+          <button type="button" id="editTeamBtn" onclick="toggleTeamForm()" class="hidden text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-3 py-1.5 rounded-lg font-medium transition-colors">
+            ✏️ Edit 编辑
+          </button>
+        </div>
         <form id="teamForm" class="grid md:grid-cols-2 gap-3">
           <div>
             <label class="block text-xs font-medium text-gray-700 mb-1">
@@ -1077,13 +1082,51 @@
       }
     }
 
+    // Toggle form collapse/expand
+    function toggleTeamForm() {
+      const form = document.getElementById('teamForm');
+      const editBtn = document.getElementById('editTeamBtn');
+      const teamCardHeader = document.getElementById('teamCardHeader');
+      
+      if (form.classList.contains('collapsed')) {
+        // Expand
+        form.classList.remove('collapsed', 'hidden');
+        editBtn.classList.add('hidden');
+      } else {
+        // Collapse
+        form.classList.add('collapsed', 'hidden');
+        editBtn.classList.remove('hidden');
+      }
+    }
+
+    // Check if both team and hotel selected, auto-collapse
+    function checkFormComplete() {
+      const teamVal = document.getElementById('teamSelect').value;
+      const hotelVal = hotelSelect.value;
+      const editBtn = document.getElementById('editTeamBtn');
+      const form = document.getElementById('teamForm');
+      
+      if (teamVal && (hotelVal || hotelNameInput.value)) {
+        // Both selected - collapse
+        form.classList.add('collapsed', 'hidden');
+        editBtn.classList.remove('hidden');
+      }
+    }
+
     // Init
     window.addEventListener('DOMContentLoaded', () => {
       checkStoredLab();
       setTimeout(loadSavedTeam, 100);
-      document.getElementById('teamForm').addEventListener('change', saveTeamInfo);
+      document.getElementById('teamForm').addEventListener('change', (e) => {
+        saveTeamInfo();
+        if (e.target.id === 'teamSelect' || e.target.id === 'hotelSelect') {
+          setTimeout(checkFormComplete, 50);
+        }
+      });
       hotelNameInput.addEventListener('input', saveTeamInfo);
       hotelAddressInput.addEventListener('input', saveTeamInfo);
+      // Initial check for saved data
+      setTimeout(checkFormComplete, 200);
     });
   </script>
 
