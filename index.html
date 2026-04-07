@@ -29,9 +29,10 @@
 <body class="bg-gray-50 min-h-screen">
 
   <!-- Header -->
-  <header class="hero-bg text-white py-8 px-4">
+  <header class="hero-bg text-white py-6 px-4">
     <div class="max-w-4xl mx-auto text-center">
-      <div class="text-sm text-blue-300 mb-2 font-medium">🤖 Magikid Robotics Lab</div>
+      <!-- Magikid Logo -->
+      <img src="images/logo.png" alt="Magikid Robotics Lab" class="h-16 md:h-20 mx-auto mb-3 object-contain">
       <h1 class="text-3xl md:text-4xl font-bold mb-1">VEX World Championship 2026 Guide</h1>
       <p class="text-blue-300 text-lg mb-4">VEX 机器人世锦赛指南</p>
       <div class="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full text-sm">
@@ -176,6 +177,9 @@
       </button>
       <button onclick="showTab('news')" id="tab-news" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
         📰 News <span class="text-xs text-gray-400">最新资讯</span>
+      </button>
+      <button onclick="showTab('videos')" id="tab-videos" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
+        🎬 Videos <span class="text-xs text-gray-400">视频</span>
       </button>
     </div>
   </nav>
@@ -926,6 +930,54 @@
               <span class="font-medium text-blue-700">RobotEvents.com &nbsp;<span class="text-gray-400 font-normal">赛事平台</span></span>
               <span class="text-gray-400 text-xs">robotevents.com →</span>
             </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ===== VIDEOS TAB ===== -->
+    <div id="content-videos" class="tab-content hidden">
+      <div class="space-y-6">
+
+        <!-- Videos Header -->
+        <div class="bg-gradient-to-r from-purple-600 to-indigo-700 rounded-xl p-5 text-white shadow-md">
+          <div class="flex items-center gap-3">
+            <span class="text-3xl">🎬</span>
+            <div>
+              <div class="text-xl font-bold">VEX Worlds Videos</div>
+              <div class="text-purple-200 text-sm">VEX 世锦赛精彩视频</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 1: 2025 Worlds Recap -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <div class="bg-gradient-to-r from-slate-800 to-slate-900 px-6 py-4">
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">📹 VEX Worlds Recap &nbsp;·&nbsp; 世锦赛回顾</div>
+            <h2 class="text-lg font-bold text-white">2025 VEX Robotics World Championship Recap</h2>
+            <p class="text-slate-400 text-sm mt-1">2025 VEX 机器人世锦赛精彩回顾</p>
+          </div>
+          <div class="p-4 bg-gray-900">
+            <video controls class="w-full rounded-lg" poster="">
+              <source src="videos/2025-worlds-recap.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <!-- Video 2: 2026 Worlds Welcome -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <div class="bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-4">
+            <div class="text-xs font-semibold text-amber-200 uppercase tracking-wider mb-1">🏆 Welcome Video &nbsp;·&nbsp; 欢迎视频</div>
+            <h2 class="text-lg font-bold text-white">2026 VEX Robotics World Championship — Welcome!</h2>
+            <p class="text-amber-100 text-sm mt-1">2026 VEX 机器人世锦赛 · 欢迎致辞</p>
+          </div>
+          <div class="p-4 bg-gray-900">
+            <video controls class="w-full rounded-lg" poster="">
+              <source src="videos/2026-worlds-welcome.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
 
