@@ -3,36 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2026 VEX 世锦赛指南 | World Championship Guide</title>
+  <title>VEX World Championship 2026 Guide | 世锦赛指南</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * { font-family: 'Inter', system-ui, sans-serif; }
-    .bilingual { display: flex; flex-direction: column; gap: 0.15rem; }
-    .bilingual .cn { font-weight: 600; }
-    .bilingual .en { color: #6b7280; font-size: 0.85em; }
+    /* bilingual: English primary, Chinese secondary */
+    .bi { display: flex; flex-direction: column; gap: 0.1rem; }
+    .bi .en { font-weight: 600; color: #111827; }
+    .bi .cn { font-size: 0.82em; color: #6b7280; font-weight: 400; }
+    /* Inline bilingual pairs */
+    .bi-inline .cn { font-size: 0.88em; color: #9ca3af; margin-left: 4px; }
     .hero-bg { background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); }
     .card-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 40px rgba(0,0,0,0.1); }
-    .tab-active { border-bottom: 3px solid #3b82f6; color: #3b82f6; }
+    .tab-active { border-bottom: 3px solid #3b82f6; color: #3b82f6; font-weight: 600; }
     .team-card { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 4px solid #0ea5e9; }
-    .timeline-dot { width: 12px; height: 12px; background: #3b82f6; border-radius: 50%; flex-shrink: 0; }
-    .schedule-row { display: flex; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb; }
+    .schedule-row { display: flex; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb; align-items: flex-start; }
     .schedule-row:last-child { border-bottom: none; }
-    .time-col { min-width: 100px; font-weight: 600; color: #374151; }
+    .time-col { min-width: 110px; font-weight: 600; color: #374151; font-size: 0.9em; padding-top: 2px; }
+    .rule-en { font-weight: 600; }
+    .rule-cn { font-size: 0.875rem; color: #6b7280; margin-top: 2px; }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
-  
+
   <!-- Header -->
   <header class="hero-bg text-white py-8 px-4">
     <div class="max-w-4xl mx-auto text-center">
-      <div class="text-sm text-blue-300 mb-2">🤖 VEX Robotics World Championship 2026</div>
-      <h1 class="text-3xl md:text-4xl font-bold mb-2">VEX 机器人世锦赛指南</h1>
-      <p class="text-xl text-blue-200 mb-4">World Championship Guide</p>
-      <div class="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full">
+      <div class="text-sm text-blue-300 mb-2 font-medium">🤖 Magikid Robotics Lab</div>
+      <h1 class="text-3xl md:text-4xl font-bold mb-1">VEX World Championship 2026 Guide</h1>
+      <p class="text-blue-300 text-lg mb-4">VEX 机器人世锦赛指南</p>
+      <div class="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full text-sm">
         <span>📍</span>
-        <span>St. Louis, Missouri | April 26-30, 2026</span>
+        <span>St. Louis, Missouri &nbsp;|&nbsp; April 26–30, 2026</span>
       </div>
     </div>
   </header>
@@ -40,14 +44,17 @@
   <!-- Team Info Form -->
   <section class="max-w-4xl mx-auto px-4 -mt-6">
     <div class="team-card rounded-xl p-6 shadow-lg mb-8">
-      <h3 class="text-lg font-bold mb-4 text-sky-800">📋 赛队信息 | Team Information</h3>
+      <h3 class="text-lg font-bold mb-4 text-sky-800">
+        📋 Team Information
+        <span class="text-sm font-normal text-sky-600 ml-2">赛队信息</span>
+      </h3>
       <form id="teamForm" class="grid md:grid-cols-2 gap-4">
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">赛队编号 | Team Number</label>
+          <label class="block text-sm font-medium text-gray-700 mb-1">
+            Team Number <span class="text-gray-400 font-normal">赛队编号</span>
+          </label>
           <select id="teamSelect" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white">
-            <option value="">-- 选择赛队 | Select Team --</option>
-            
-            <!-- 🌟 USA - Southern California -->
+            <option value="">-- Select Team | 选择赛队 --</option>
             <optgroup label="🇺🇸 Southern California">
               <option value="3207F">3207F - Diamond Bar (ES)</option>
               <option value="3211G">3211G - Diamond Bar (MS)</option>
@@ -59,8 +66,6 @@
               <option value="9452M">9452M - San Marino (ES)</option>
               <option value="286A">286A - Tustin (ES)</option>
             </optgroup>
-            
-            <!-- 🍎 USA - Northern California -->
             <optgroup label="🇺🇸 Northern California">
               <option value="81777A">81777A - Cupertino (ES)</option>
               <option value="81777X">81777X - Cupertino (ES)</option>
@@ -73,8 +78,6 @@
               <option value="2675C">2675C - Fremont (ES)</option>
               <option value="2675F">2675F - Fremont (ES)</option>
             </optgroup>
-            
-            <!-- 🤠 USA - Texas -->
             <optgroup label="🇺🇸 Texas">
               <option value="1779A">1779A - Cedar Park (ES)</option>
               <option value="77298A">77298A - Cedar Park (MS)</option>
@@ -83,64 +86,66 @@
               <option value="75035M">75035M - Frisco (MS)</option>
               <option value="21136A">21136A - Highland Park / Dallas (MS)</option>
             </optgroup>
-            
-            <!-- 🌲 USA - Other US -->
             <optgroup label="🇺🇸 Other US">
               <option value="2737A">2737A - Redmond / Seattle (ES)</option>
             </optgroup>
-            
-            <!-- 🇦🇺 Australia -->
             <optgroup label="🇦🇺 Australia">
               <option value="18697A">18697A - Castle Hill / Sydney (ES)</option>
               <option value="69699A">69699A - Castle Hill / Sydney (ES)</option>
               <option value="46658A">46658A - Pymble / Sydney (ES)</option>
             </optgroup>
-            
-            <!-- 🇨🇳 China -->
             <optgroup label="🇨🇳 China">
               <option value="9066A">9066A - Beijing (ES)</option>
               <option value="60666A">60666A - Shanghai (ES)</option>
             </optgroup>
-            
-            <option value="custom">-- Other / 其他 (手动输入) --</option>
+            <option value="custom">-- Other | 其他 (manual entry 手动输入) --</option>
           </select>
-          <input type="text" id="teamNumber" placeholder="e.g., 88888A" 
-                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 mt-2 hidden">
+          <input type="text" id="teamNumber" placeholder="e.g., 88888A"
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 mt-2 hidden">
         </div>
+
         <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">🏨 Hotel | 酒店</label>
-          <select id="hotelSelect" onchange="handleHotelSelect()" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white">
+          <label class="block text-sm font-medium text-gray-700 mb-1">
+            🏨 Hotel <span class="text-gray-400 font-normal">酒店</span>
+          </label>
+          <select id="hotelSelect" onchange="handleHotelSelect()" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 bg-white">
             <option value="">-- Select Hotel | 选择酒店 --</option>
-            <option value="Embassy Suites by Hilton St. Louis Downtown|610 North 7th Street, St. Louis, MO 63101, United States of America">Embassy Suites by Hilton St. Louis Downtown</option>
-            <option value="Drury Plaza St. Louis at the Arch|2 South 4th Street, St. Louis, MO 63102, United States of America">Drury Plaza St. Louis at the Arch</option>
-            <option value="Four Seasons St. Louis|999 North Second Street, St. Louis, MO 63102, United States of America">Four Seasons St. Louis</option>
-            <option value="Fairfield Inn & Suites Downtown|2144 Market St, St. Louis, MO 63103, United States of America">Fairfield Inn & Suites Downtown</option>
-            <option value="Hilton St. Louis at the Ballpark|1 South Broadway, St. Louis, MO 63102, United States of America">Hilton St. Louis at the Ballpark</option>
-            <option value="Hilton Pennywell St. Louis at the Arch|400 Olive Street, St. Louis, MO 63102, United States of America">Hilton Pennywell St. Louis at the Arch</option>
-            <option value="Hotel St. Louis - a Marriott Autograph Collection|705 Olive Street, St. Louis, MO 63101, United States of America">Hotel St. Louis - Marriott Autograph</option>
-            <option value="HoteLumiere|901 N. First Street, St. Louis, MO 63102, United States of America">HoteLumiere</option>
-            <option value="Hyatt Regency St. Louis at The Arch|315 Chestnut Street, St. Louis, MO 63102, United States of America">Hyatt Regency St. Louis at The Arch</option>
-            <option value="Live! by Loews|799 Clark Ave., St. Louis, MO 63102, United States of America">Live! by Loews</option>
-            <option value="The Westin St. Louis|811 Spruce St, St. Louis, MO 63102, United States of America">The Westin St. Louis</option>
-            <option value="custom">-- Other | 其他 (手动输入) --</option>
+            <option value="Embassy Suites by Hilton St. Louis Downtown|610 North 7th Street, St. Louis, MO 63101">Embassy Suites by Hilton St. Louis Downtown</option>
+            <option value="Drury Plaza St. Louis at the Arch|2 South 4th Street, St. Louis, MO 63102">Drury Plaza St. Louis at the Arch</option>
+            <option value="Four Seasons St. Louis|999 North Second Street, St. Louis, MO 63102">Four Seasons St. Louis</option>
+            <option value="Fairfield Inn & Suites Downtown|2144 Market St, St. Louis, MO 63103">Fairfield Inn &amp; Suites Downtown</option>
+            <option value="Hilton St. Louis at the Ballpark|1 South Broadway, St. Louis, MO 63102">Hilton St. Louis at the Ballpark</option>
+            <option value="Hilton Pennywell St. Louis at the Arch|400 Olive Street, St. Louis, MO 63102">Hilton Pennywell St. Louis at the Arch</option>
+            <option value="Hotel St. Louis - a Marriott Autograph Collection|705 Olive Street, St. Louis, MO 63101">Hotel St. Louis – Marriott Autograph</option>
+            <option value="HoteLumiere|901 N. First Street, St. Louis, MO 63102">HoteLumiere</option>
+            <option value="Hyatt Regency St. Louis at The Arch|315 Chestnut Street, St. Louis, MO 63102">Hyatt Regency St. Louis at The Arch</option>
+            <option value="Live! by Loews|799 Clark Ave., St. Louis, MO 63102">Live! by Loews</option>
+            <option value="The Westin St. Louis|811 Spruce St, St. Louis, MO 63102">The Westin St. Louis</option>
+            <option value="custom">-- Other | 其他 (manual entry 手动输入) --</option>
           </select>
-          <input type="text" id="hotelName" placeholder="Hotel Name | 酒店名称" 
-                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 mt-2">
+          <input type="text" id="hotelName" placeholder="Hotel name | 酒店名称"
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 mt-2">
         </div>
+
         <div class="md:col-span-2">
-          <label class="block text-sm font-medium text-gray-700 mb-1">📍 Address | 地址</label>
-          <input type="text" id="hotelAddress" placeholder="Full address | 完整地址" 
-                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+          <label class="block text-sm font-medium text-gray-700 mb-1">
+            📍 Hotel Address <span class="text-gray-400 font-normal">酒店地址</span>
+          </label>
+          <input type="text" id="hotelAddress" placeholder="Full address | 完整地址"
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
         </div>
       </form>
+
       <div id="savedInfo" class="mt-4 p-3 bg-sky-100 rounded-lg text-sm hidden">
-        <span class="font-semibold">✓ Saved | 已保存</span>
+        <span class="font-semibold text-sky-700">✓ Saved &nbsp;<span class="font-normal text-sky-500">已保存</span></span>
       </div>
-      
+
       <!-- Team Info Display -->
       <div id="teamInfoDisplay" class="mt-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200 hidden">
-        <h4 class="font-bold text-blue-800 mb-2">📊 赛队排名信息 | Team Ranking Info</h4>
-        <div id="teamDetails" class="text-sm"></div>
+        <h4 class="font-bold text-blue-800 mb-2">
+          📊 Team Info <span class="text-sm font-normal text-blue-500">赛队信息</span>
+        </h4>
+        <div id="teamDetailsDiv" class="text-sm"></div>
       </div>
     </div>
   </section>
@@ -149,25 +154,25 @@
   <nav class="max-w-4xl mx-auto px-4 mb-6">
     <div class="flex border-b border-gray-200 overflow-x-auto">
       <button onclick="showTab('overview')" id="tab-overview" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap tab-active text-sm">
-        总览 Overview
+        Overview <span class="text-xs text-gray-400">总览</span>
       </button>
       <button onclick="showTab('day26')" id="tab-day26" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-        26日 Apr 26
+        Apr 26 <span class="text-xs text-gray-400">26日</span>
       </button>
       <button onclick="showTab('day27')" id="tab-day27" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-        27日 Apr 27
+        Apr 27 <span class="text-xs text-gray-400">27日</span>
       </button>
       <button onclick="showTab('day28')" id="tab-day28" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-        28日 Apr 28
+        Apr 28 <span class="text-xs text-gray-400">28日</span>
       </button>
       <button onclick="showTab('day29')" id="tab-day29" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-        29日 Apr 29
+        Apr 29 <span class="text-xs text-gray-400">29日</span>
       </button>
       <button onclick="showTab('day30')" id="tab-day30" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-        30日 Apr 30
+        Apr 30 <span class="text-xs text-gray-400">30日</span>
       </button>
       <button onclick="showTab('info')" id="tab-info" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-        实用信息 Info
+        Info <span class="text-xs text-gray-400">实用信息</span>
       </button>
     </div>
   </nav>
@@ -175,36 +180,34 @@
   <!-- Main Content -->
   <main class="max-w-4xl mx-auto px-4 pb-12">
 
-    <!-- Overview Tab -->
+    <!-- ===== OVERVIEW TAB ===== -->
     <div id="content-overview" class="tab-content">
-      <!-- Quick Info Cards -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-        
-        <!-- Hotel Card -->
+
+        <!-- Practice Field Card -->
         <div class="bg-white rounded-xl p-5 shadow-md card-hover transition-all duration-300">
           <div class="text-3xl mb-3">🏨</div>
-          <div class="bilingual">
-            <span class="cn text-lg font-bold text-gray-800">MAGIKID专属练习场</span>
-            <span class="en text-gray-600">Practice Field</span>
+          <div class="bi">
+            <span class="en text-lg">MAGIKID Practice Field</span>
+            <span class="cn">Magikid 专属练习场</span>
           </div>
           <div class="mt-3 space-y-1 text-sm">
             <div class="font-medium">Embassy Suites by Hilton</div>
             <div class="text-gray-500">St. Louis Downtown</div>
-            <div class="text-gray-500">610 North 7th Street</div>
-            <div class="text-gray-500">St. Louis, Missouri 63101</div>
+            <div class="text-gray-500">610 North 7th Street, MO 63101</div>
           </div>
-          <div class="mt-3 text-xs text-red-600 bg-red-50 p-2 rounded">
-            ⚠️ 每赛队仅接受一位成年人陪同入场<br>
-            <span class="text-gray-500">One adult per team, Student Centered Policy</span>
+          <div class="mt-3 text-xs bg-red-50 text-red-600 p-2 rounded">
+            ⚠️ One adult per team — Student Centered Policy<br>
+            <span class="text-gray-400">每赛队仅限一位成年人陪同</span>
           </div>
         </div>
 
         <!-- Venue Card -->
         <div class="bg-white rounded-xl p-5 shadow-md card-hover transition-all duration-300">
           <div class="text-3xl mb-3">🏟️</div>
-          <div class="bilingual">
-            <span class="cn text-lg font-bold text-gray-800">比赛场馆</span>
-            <span class="en text-gray-600">Competition Venue</span>
+          <div class="bi">
+            <span class="en text-lg">Competition Venue</span>
+            <span class="cn">比赛场馆</span>
           </div>
           <div class="mt-3 space-y-1 text-sm">
             <div class="font-medium">America's Center</div>
@@ -212,81 +215,82 @@
             <div class="text-gray-500">St. Louis, Missouri</div>
           </div>
           <div class="mt-3 text-xs text-gray-500">
-            VIQRC 小学/初中组: Apr 28-30
+            VIQRC Elementary &amp; Middle School: Apr 28–30<br>
+            <span class="text-gray-400">小学/初中组：4月28–30日</span>
           </div>
         </div>
 
         <!-- Contacts Card -->
         <div class="bg-white rounded-xl p-5 shadow-md card-hover transition-all duration-300">
           <div class="text-3xl mb-3">📞</div>
-          <div class="bilingual">
-            <span class="cn text-lg font-bold text-gray-800">紧急联系</span>
-            <span class="en text-gray-600">Emergency Contacts</span>
+          <div class="bi">
+            <span class="en text-lg">Emergency Contacts</span>
+            <span class="cn">紧急联系人</span>
           </div>
           <div class="mt-3 space-y-2 text-sm">
             <div>
-              <span class="font-medium">Kai/Leo</span>
-              <span class="text-gray-500 ml-1">leo@magikidlab.com</span>
+              <span class="font-medium">Kai / Leo</span>
+              <span class="text-gray-500 ml-1 text-xs">leo@magikidlab.com</span>
+              <div class="text-gray-400 text-xs">Practice Field 练习场</div>
             </div>
             <div>
               <span class="font-medium">Angell</span>
-              <span class="text-gray-500 ml-1">310-780-3793</span>
+              <span class="text-gray-500 ml-1 text-xs">310-780-3793</span>
+              <div class="text-gray-400 text-xs">HQ Contact 总部联系</div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- 5-Day Agenda Summary -->
+      <!-- 5-Day Summary -->
       <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4">
-          <h2 class="text-xl font-bold bilingual">
-            <span class="cn">每日概览 Daily Schedule</span>
-            <span class="en text-blue-200 text-sm">April 26-30</span>
-          </h2>
+          <h2 class="text-xl font-bold">Daily Schedule Overview</h2>
+          <p class="text-blue-200 text-sm">每日概览 · April 26–30, 2026</p>
         </div>
         <div class="divide-y">
           <div class="p-4 hover:bg-gray-50 cursor-pointer" onclick="showTab('day26')">
             <div class="flex items-center gap-3">
-              <div class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium">Apr 26</div>
-              <div class="bilingual">
-                <span class="cn">周日 - Check-in / 领Badge & 手环 / 练习</span>
-                <span class="en text-gray-500 text-sm">Sun - Team Check-in, Badge/Wristband, Practice</span>
+              <div class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-semibold min-w-fit">Apr 26 Sun</div>
+              <div class="bi">
+                <span class="en text-sm">Team Check-in · Badge &amp; Wristband Pickup · Practice</span>
+                <span class="cn">赛队报到 · 领取手环 · 练习</span>
               </div>
             </div>
           </div>
           <div class="p-4 hover:bg-gray-50 cursor-pointer" onclick="showTab('day27')">
             <div class="flex items-center gap-3">
-              <div class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Apr 27</div>
-              <div class="bilingual">
-                <span class="cn">周一 - 练习 / 领奖 / VRC决赛观摩</span>
-                <span class="en text-gray-500 text-sm">Mon - Practice / Awards / Watch VRC Finals</span>
+              <div class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold min-w-fit">Apr 27 Mon</div>
+              <div class="bi">
+                <span class="en text-sm">Practice · Collect Participation Medals · Watch VRC Finals</span>
+                <span class="cn">练习 · 领取奖牌 · 观摩 VRC 决赛</span>
               </div>
             </div>
           </div>
           <div class="p-4 hover:bg-gray-50 cursor-pointer" onclick="showTab('day28')">
             <div class="flex items-center gap-3">
-              <div class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">Apr 28</div>
-              <div class="bilingual">
-                <span class="cn">周二 - VIQRC 小学/初中组 第1天</span>
-                <span class="en text-gray-500 text-sm">Tue - VIQRC MS/ES Day 1: Check-in, Inspection, Skills</span>
+              <div class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold min-w-fit">Apr 28 Tue</div>
+              <div class="bi">
+                <span class="en text-sm">VIQRC Day 1 — Pit Setup, Robot Inspection, Skills, Opening Ceremony</span>
+                <span class="cn">第1天：调试区布置 · 机器人检录 · 技能赛 · 开幕式</span>
               </div>
             </div>
           </div>
           <div class="p-4 hover:bg-gray-50 cursor-pointer" onclick="showTab('day29')">
             <div class="flex items-center gap-3">
-              <div class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">Apr 29</div>
-              <div class="bilingual">
-                <span class="cn">周三 - VIQRC 小学/初中组 第2天</span>
-                <span class="en text-gray-500 text-sm">Wed - VIQRC MS/ES Day 2: Skills, Qualifications</span>
+              <div class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold min-w-fit">Apr 29 Wed</div>
+              <div class="bi">
+                <span class="en text-sm">VIQRC Day 2 — Practice &amp; Qualifying Matches, Skills Challenge</span>
+                <span class="cn">第2天：练习赛 · 资格赛 · 技能挑战赛</span>
               </div>
             </div>
           </div>
           <div class="p-4 hover:bg-gray-50 cursor-pointer" onclick="showTab('day30')">
             <div class="flex items-center gap-3">
-              <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-medium">Apr 30</div>
-              <div class="bilingual">
-                <span class="cn">周四 - VIQRC 小学/初中组 第3天 (决赛日)</span>
-                <span class="en text-gray-500 text-sm">Thu - VIQRC MS/ES Day 3: Finals, Awards, Closing</span>
+              <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold min-w-fit">Apr 30 Thu</div>
+              <div class="bi">
+                <span class="en text-sm">VIQRC Day 3 (Finals) — Alliance Selection, Division Finals, World Finals &amp; Closing</span>
+                <span class="cn">第3天（决赛日）：联盟选择 · 分区决赛 · 总决赛 · 闭幕式</span>
               </div>
             </div>
           </div>
@@ -294,78 +298,78 @@
       </div>
     </div>
 
-    <!-- Day 26 Tab -->
+    <!-- ===== DAY 26 TAB ===== -->
     <div id="content-day26" class="tab-content hidden">
       <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-6 py-4">
-          <h2 class="text-xl font-bold">4月26日 周日 | April 26, Sunday</h2>
-          <p class="text-indigo-200 text-sm">Check-in / Badge & Wristband / 练习 | Team Check-in, Practice</p>
+          <h2 class="text-xl font-bold">April 26, Sunday</h2>
+          <p class="text-indigo-200 text-sm">4月26日 周日 · Team Check-in · Badge &amp; Wristband · Practice</p>
         </div>
         <div class="p-6 space-y-6">
-          
-          <!-- Check-in Info -->
+
+          <!-- Check-in -->
           <div class="border-l-4 border-indigo-500 pl-4">
             <h3 class="font-bold text-lg flex items-center gap-2">
-              <span>📋</span>
-              <span>赛队报到 | Team Check-in</span>
+              📋 Team Check-in <span class="text-sm font-normal text-gray-400">赛队报到</span>
             </h3>
-            <div class="mt-3 bg-indigo-50 rounded-lg p-4">
-              <p class="font-medium mb-2">📍 报到地点 | Location</p>
-              <p class="text-gray-700">Plaza Lobby (广场大厅)</p>
-              <p class="text-gray-500 text-sm">America's Center Convention Complex</p>
+            <div class="mt-3 bg-indigo-50 rounded-lg p-4 text-sm">
+              <p class="font-semibold mb-1">📍 Location — Plaza Lobby</p>
+              <p class="text-gray-500">地点：广场大厅</p>
+              <p class="text-gray-600 mt-1">America's Center Convention Complex</p>
             </div>
-            <div class="mt-3 text-sm text-orange-600 bg-orange-50 p-3 rounded">
-              <p class="font-medium">⚠️ 停车证 | Parking Pass</p>
-              <p class="mt-1">停车证仅发给赛队教练，需在报到后领取</p>
-              <p class="text-gray-500">Parking passes are for teams only, distributed to coach at team check-in</p>
+            <div class="mt-3 text-sm bg-orange-50 text-orange-700 p-3 rounded">
+              <p class="font-semibold">⚠️ Parking Pass — for team coaches only, collected at check-in</p>
+              <p class="text-gray-500 mt-1">停车证仅发给赛队教练，须在报到时领取</p>
             </div>
           </div>
 
           <!-- Badge & Wristband -->
           <div class="border-l-4 border-pink-500 pl-4">
             <h3 class="font-bold text-lg flex items-center gap-2">
-              <span>🏷️</span>
-              <span>Badge & 手环领取 | Badge & Wristband Pickup</span>
+              🏷️ Badge &amp; Wristband Pickup <span class="text-sm font-normal text-gray-400">领取手环和姓名牌</span>
             </h3>
-            <div class="mt-3 bg-pink-50 rounded-lg p-4">
-              <p class="text-gray-700">所有2026年VEX世锦赛参与者必须：</p>
-              <p class="text-gray-500 text-sm mt-1">All attendees to VEX Worlds 2026 will be required to:</p>
-              <ul class="mt-2 space-y-1 text-sm text-gray-600">
-                <li>✅ 领取并佩戴Badge (姓名牌)</li>
-                <li class="text-gray-400">✅ Obtain and wear at all times a wristband and/or name badge</li>
-                <li>✅ 才能进入 Exhibition Hall 和 Dome</li>
-                <li class="text-gray-400">✅ For entrance into the exhibit hall and dome</li>
+            <div class="mt-3 bg-pink-50 rounded-lg p-4 text-sm space-y-2">
+              <p class="font-medium">All VEX Worlds 2026 attendees are required to:</p>
+              <p class="text-gray-400">所有 VEX 世锦赛 2026 参与者须：</p>
+              <ul class="space-y-1 text-gray-600">
+                <li>✅ Obtain and wear a wristband and/or name badge at all times
+                  <div class="text-gray-400 text-xs pl-4">全程佩戴手环及姓名牌</div>
+                </li>
+                <li>✅ Present badge/wristband to enter the Exhibition Hall and Dome
+                  <div class="text-gray-400 text-xs pl-4">进入展厅和 Dome 主会场时须出示</div>
+                </li>
               </ul>
             </div>
           </div>
 
-          <!-- Practice -->
+          <!-- Practice Field -->
           <div class="border-l-4 border-blue-500 pl-4">
             <h3 class="font-bold text-lg flex items-center gap-2">
-              <span>🤖</span>
-              <span>MAGIKID练习场开放 | Practice Field Open</span>
+              🤖 MAGIKID Practice Field Open <span class="text-sm font-normal text-gray-400">专属练习场开放</span>
             </h3>
-            <div class="mt-2 bg-blue-50 rounded-lg p-4">
+            <div class="mt-2 bg-blue-50 rounded-lg p-4 text-sm">
               <p class="font-medium">Embassy Suites by Hilton St. Louis Downtown</p>
-              <p class="text-gray-600 text-sm">610 North 7th Street, St. Louis, Missouri 63101</p>
+              <p class="text-gray-500">610 North 7th Street, St. Louis, MO 63101</p>
             </div>
-            <div class="mt-3 text-sm text-red-600 bg-red-50 p-3 rounded border border-red-200">
-              <p class="font-medium">⚠️ 重要规定 | Important Rules</p>
-              <ul class="mt-2 space-y-1">
-                <li>🚫 每赛队仅接受 <strong>一位成年人</strong> 陪同入场</li>
-                <li class="text-gray-600">Only ONE adult per team allowed in practice area</li>
-                <li>📜 必须严格遵守 <strong>Student Centered 条款</strong></li>
-                <li class="text-gray-600">Must strictly follow Student Centered Policy</li>
+            <div class="mt-3 text-sm bg-red-50 text-red-600 p-3 rounded border border-red-200">
+              <p class="font-semibold">⚠️ Important Rules — Practice Area</p>
+              <p class="text-gray-500 text-xs mb-2">重要规定</p>
+              <ul class="space-y-1">
+                <li>🚫 <strong>One adult per team</strong> allowed in the practice area
+                  <div class="text-gray-400 text-xs pl-4">每赛队仅限一位成年人进入练习区</div>
+                </li>
+                <li>📜 <strong>Student Centered Policy</strong> must be strictly followed
+                  <div class="text-gray-400 text-xs pl-4">必须严格遵守 Student Centered 条款</div>
+                </li>
               </ul>
             </div>
-            <div class="mt-3 text-sm text-purple-600 bg-purple-50 p-3 rounded">
-              <p class="font-medium">💡 家长建议 | Parent Suggestion</p>
-              <p>家长不能进入练习场，可以：</p>
-              <p class="text-gray-500">Parents cannot enter practice field, consider:</p>
-              <ul class="mt-1 space-y-1">
-                <li>🎯 报名做志愿者 | Sign up as Volunteer</li>
-                <li>🛍️ 逛Exhibition Hall</li>
-                <li>🍽️ 探索St. Louis美食</li>
+            <div class="mt-3 text-sm bg-purple-50 text-purple-700 p-3 rounded">
+              <p class="font-semibold">💡 For Parents — Cannot enter practice field</p>
+              <p class="text-gray-400 text-xs mb-1">家长不得进入练习场，可选择：</p>
+              <ul class="space-y-1">
+                <li>🎯 Sign up as a volunteer <span class="text-gray-400 text-xs">报名做志愿者</span></li>
+                <li>🛍️ Explore the Exhibition Hall <span class="text-gray-400 text-xs">逛展览大厅</span></li>
+                <li>🍽️ Discover St. Louis food &amp; attractions <span class="text-gray-400 text-xs">探索圣路易斯美食</span></li>
               </ul>
             </div>
           </div>
@@ -374,384 +378,371 @@
       </div>
     </div>
 
-    <!-- Day 27 Tab -->
+    <!-- ===== DAY 27 TAB ===== -->
     <div id="content-day27" class="tab-content hidden">
       <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-4">
-          <h2 class="text-xl font-bold">4月27日 周一 | April 27, Monday</h2>
-          <p class="text-green-100 text-sm">练习 / 领奖 / VRC决赛观摩 | Practice, Awards, VRC Finals</p>
+          <h2 class="text-xl font-bold">April 27, Monday</h2>
+          <p class="text-green-100 text-sm">4月27日 周一 · Practice · Medals · Watch VRC Finals</p>
         </div>
         <div class="p-6 space-y-6">
-          
+
           <!-- Practice -->
           <div class="border-l-4 border-blue-500 pl-4">
             <h3 class="font-bold text-lg flex items-center gap-2">
-              <span>🤖</span>
-              <span>MAGIKID练习场开放 | Practice Field Open</span>
+              🤖 MAGIKID Practice Field Open <span class="text-sm font-normal text-gray-400">专属练习场开放</span>
             </h3>
-            <div class="mt-2 bg-blue-50 rounded-lg p-4">
+            <div class="mt-2 bg-blue-50 rounded-lg p-4 text-sm">
               <p class="font-medium">Embassy Suites by Hilton St. Louis Downtown</p>
-              <p class="text-gray-600 text-sm">610 North 7th Street</p>
+              <p class="text-gray-500">610 North 7th Street, St. Louis, MO 63101</p>
             </div>
-            <div class="mt-3 text-sm text-red-600 bg-red-50 p-3 rounded">
-              ⚠️ 每赛队仅接受一位成年人入场 | One adult per team only
+            <div class="mt-2 text-sm bg-red-50 text-red-600 p-3 rounded">
+              ⚠️ One adult per team only &nbsp;<span class="text-gray-400">每赛队仅限一位成年人</span>
             </div>
           </div>
 
-          <!-- Awards -->
+          <!-- Medals & Souvenirs -->
           <div class="border-l-4 border-yellow-500 pl-4">
             <h3 class="font-bold text-lg flex items-center gap-2">
-              <span>🎁</span>
-              <span>领取奖牌和纪念品 | Awards & Souvenirs Pickup</span>
+              🎁 Collect Participation Medals &amp; Souvenirs <span class="text-sm font-normal text-gray-400">领取参赛奖牌及纪念品</span>
             </h3>
-            <p class="text-gray-600 mt-2">领取世锦赛参与奖牌和纪念品</p>
-            <p class="text-gray-500 text-sm">Pick up participation medals and souvenirs</p>
-            <p class="text-sm mt-1">📍 地点待通知 | Location: TBD</p>
+            <div class="mt-2 text-sm text-gray-600">
+              <p>Pick up your World Championship participation medals and souvenirs.</p>
+              <p class="text-gray-400">领取世锦赛参赛奖牌和纪念品</p>
+              <p class="mt-2 text-orange-600">📍 Location: TBD &nbsp;<span class="text-gray-400">地点待通知</span></p>
+            </div>
           </div>
 
           <!-- VRC Finals -->
           <div class="border-l-4 border-purple-500 pl-4">
             <h3 class="font-bold text-lg flex items-center gap-2">
-              <span>🏆</span>
-              <span>VRC决赛观摩 | Watch VRC Finals</span>
+              🏆 Watch VRC Finals <span class="text-sm font-normal text-gray-400">观摩 VRC 决赛</span>
             </h3>
-            <div class="mt-3 bg-purple-50 rounded-lg p-4">
-              <p class="font-medium">VEX V5机器人挑战赛 决赛</p>
-              <p class="text-gray-600">VEX V5 Robotics Competition Finals</p>
-              <div class="mt-3 space-y-1 text-sm">
-                <p>📍 地点: America's Center - Dome</p>
-                <p>⏰ 时间: 晚上 5:00 PM - 7:00 PM (待确认)</p>
-                <p class="text-gray-500">Location: America's Center - Dome</p>
-                <p class="text-gray-500">Time: 5:00 PM - 7:00 PM (TBD)</p>
-              </div>
+            <div class="mt-3 bg-purple-50 rounded-lg p-4 text-sm space-y-2">
+              <p class="font-semibold">VEX V5 Robotics Competition — World Finals</p>
+              <p class="text-gray-400">VEX V5 机器人挑战赛世界总决赛</p>
+              <p>📍 America's Center — Dome</p>
+              <p>⏰ 5:00 PM – 7:00 PM (subject to change)
+                <span class="text-gray-400 text-xs ml-1">时间待确认</span>
+              </p>
             </div>
-            <div class="mt-3 text-sm text-blue-600 bg-blue-50 p-3 rounded">
-              💡 强烈建议观摩VRC决赛，感受顶级机器人比赛氛围！<br>
-              <span class="text-gray-500">Highly recommended to watch VRC Finals!</span>
+            <div class="mt-3 text-sm bg-blue-50 text-blue-700 p-3 rounded">
+              💡 Highly recommended! Experience world-class robot competition.
+              <p class="text-gray-400 text-xs mt-1">强烈建议观摩！感受顶级机器人比赛氛围</p>
             </div>
           </div>
 
-          <!-- Contact -->
+          <!-- Contacts -->
           <div class="bg-gray-100 rounded-lg p-4">
-            <h4 class="font-bold mb-2">📋 联系人 | Contacts</h4>
-            <div class="grid grid-cols-2 gap-2 text-sm">
-              <div>
-                <span class="font-medium">Kai/Leo</span><br>
-                <span class="text-gray-500">leo@magikidlab.com</span>
+            <h4 class="font-bold mb-3">📋 Contacts <span class="text-sm font-normal text-gray-400">联系人</span></h4>
+            <div class="grid grid-cols-2 gap-3 text-sm">
+              <div class="bg-white rounded-lg p-3">
+                <div class="font-semibold">Kai / Leo</div>
+                <div class="text-gray-500 text-xs">leo@magikidlab.com</div>
+                <div class="text-gray-400 text-xs mt-1">Practice Field 练习场</div>
               </div>
-              <div>
-                <span class="font-medium">Angell</span><br>
-                <span class="text-gray-500">310-780-3793</span>
+              <div class="bg-white rounded-lg p-3">
+                <div class="font-semibold">Angell</div>
+                <div class="text-gray-500 text-xs">310-780-3793</div>
+                <div class="text-gray-400 text-xs mt-1">HQ Contact 总部</div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
 
-    <!-- Day 28 Tab -->
+    <!-- ===== DAY 28 TAB ===== -->
     <div id="content-day28" class="tab-content hidden">
       <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-4">
-          <h2 class="text-xl font-bold">4月28日 周二 | April 28, Tuesday</h2>
-          <p class="text-purple-200 text-sm">VIQRC 小学/初中组 第1天 | VIQRC MS/ES Day 1</p>
+          <h2 class="text-xl font-bold">April 28, Tuesday — VIQRC Day 1</h2>
+          <p class="text-purple-200 text-sm">4月28日 周二 · VIQRC 小学/初中组 第1天</p>
         </div>
         <div class="p-6">
-          
-          <!-- Venue Hours -->
           <div class="text-center mb-6 bg-purple-50 rounded-lg p-4">
-            <p class="text-2xl font-bold text-purple-700">🏟️ America's Center</p>
-            <p class="text-gray-600">场馆开放时间 | Venue Hours</p>
-            <p class="text-lg font-medium">10:00 AM - 7:00 PM</p>
+            <p class="text-xl font-bold text-purple-700">🏟️ America's Center</p>
+            <p class="font-medium mt-1">Venue Hours: 10:00 AM – 7:00 PM</p>
+            <p class="text-gray-400 text-sm">场馆开放时间</p>
           </div>
-
-          <!-- Detailed Schedule -->
           <div class="space-y-1">
-            
+
             <div class="schedule-row">
               <div class="time-col">10:00 AM</div>
               <div class="flex-1">
-                <p class="font-medium">�arena 场馆开放 | Venue Opens</p>
-                <p class="text-gray-500 text-sm">Opening for all teams</p>
+                <p class="rule-en">🏟️ Venue Opens</p>
+                <p class="rule-cn">场馆开放</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">10:00 - 5:30 PM</div>
+              <div class="time-col">10:00 AM–5:30 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🔧 赛队调试区布置 | Pit Setup</p>
-                <p class="text-gray-500 text-sm">Team pit area setup</p>
+                <p class="rule-en">🔧 Pit Setup</p>
+                <p class="rule-cn">赛队调试区布置</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">10:30 AM - 4:30 PM</div>
+              <div class="time-col">10:30 AM–4:30 PM</div>
               <div class="flex-1">
-                <p class="font-medium">✅ 机器人检录 | Robot Inspection</p>
-                <p class="text-gray-500 text-sm">Verify robot meets all specifications</p>
+                <p class="rule-en">✅ Robot Inspection</p>
+                <p class="rule-cn">机器人检录（核验规格）</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">10:30 AM - 5:30 PM</div>
+              <div class="time-col">10:30 AM–5:30 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🏋️ 练习场地开放 | Practice Fields Open</p>
-                <p class="text-gray-500 text-sm">Practice area available for all teams</p>
+                <p class="rule-en">🏋️ Practice Fields Open</p>
+                <p class="rule-cn">练习场地开放</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">11:00 AM - 5:30 PM</div>
+              <div class="time-col">11:00 AM–5:30 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🎮 技能挑战赛 | Robot Skills Challenge</p>
-                <p class="text-gray-500 text-sm">Driver Skills & Programming Skills</p>
+                <p class="rule-en">🎮 Robot Skills Challenge</p>
+                <p class="rule-cn">技能挑战赛（手动 &amp; 自动）</p>
               </div>
             </div>
 
             <div class="schedule-row bg-purple-100 rounded-lg p-3">
-              <div class="time-col">6:00 - 7:00 PM</div>
+              <div class="time-col">6:00–7:00 PM</div>
               <div class="flex-1">
-                <p class="font-bold text-purple-700">🎉 开幕式 | Opening Ceremony</p>
-                <p class="text-purple-600 text-sm">国家代表队入场式 | Parade of Nations</p>
-                <p class="text-gray-500 text-xs">📍 Dome 主会场</p>
+                <p class="font-bold text-purple-700">🎉 Opening Ceremony — Parade of Nations</p>
+                <p class="text-purple-500 text-sm">开幕式 · 国家代表队入场式</p>
+                <p class="text-gray-500 text-xs mt-1">📍 Dome Main Arena &nbsp;主会场</p>
               </div>
             </div>
 
             <div class="schedule-row">
               <div class="time-col">7:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🔒 场馆关闭 | Venue Closes</p>
+                <p class="rule-en">🔒 Venue Closes</p>
+                <p class="rule-cn">场馆关闭</p>
               </div>
             </div>
 
           </div>
-
-          <div class="mt-6 text-sm text-gray-500 text-center">
-            <p>Source: <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815-VEX-Robotics-World-Championship-Schedule" target="_blank" class="text-blue-600 hover:underline">RECF VIQRC Schedule</a></p>
+          <div class="mt-6 text-xs text-gray-400 text-center">
+            Source: <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815" target="_blank" class="text-blue-500 hover:underline">RECF VIQRC Official Schedule</a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Day 29 Tab -->
+    <!-- ===== DAY 29 TAB ===== -->
     <div id="content-day29" class="tab-content hidden">
       <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="bg-gradient-to-r from-orange-600 to-orange-700 text-white px-6 py-4">
-          <h2 class="text-xl font-bold">4月29日 周三 | April 29, Wednesday</h2>
-          <p class="text-orange-200 text-sm">VIQRC 小学/初中组 第2天 | VIQRC MS/ES Day 2</p>
+          <h2 class="text-xl font-bold">April 29, Wednesday — VIQRC Day 2</h2>
+          <p class="text-orange-200 text-sm">4月29日 周三 · VIQRC 小学/初中组 第2天</p>
         </div>
         <div class="p-6">
-          
-          <!-- Venue Hours -->
           <div class="text-center mb-6 bg-orange-50 rounded-lg p-4">
-            <p class="text-2xl font-bold text-orange-700">🏟️ America's Center</p>
-            <p class="text-gray-600">场馆开放时间 | Venue Hours</p>
-            <p class="text-lg font-medium">7:30 AM - 7:00 PM</p>
+            <p class="text-xl font-bold text-orange-700">🏟️ America's Center</p>
+            <p class="font-medium mt-1">Venue Hours: 7:30 AM – 7:00 PM</p>
+            <p class="text-gray-400 text-sm">场馆开放时间</p>
           </div>
-
-          <!-- Detailed Schedule -->
           <div class="space-y-1">
-            
+
             <div class="schedule-row">
               <div class="time-col">7:30 AM</div>
               <div class="flex-1">
-                <p class="font-medium">�arena 场馆开放 | Venue Opens</p>
+                <p class="rule-en">🏟️ Venue Opens</p>
+                <p class="rule-cn">场馆开放</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">7:30 AM - 7:00 PM</div>
+              <div class="time-col">7:30 AM–7:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🏋️ 练习场地开放 | Practice Fields Open</p>
+                <p class="rule-en">🏋️ Practice Fields Open</p>
+                <p class="rule-cn">练习场地全天开放</p>
               </div>
             </div>
 
             <div class="schedule-row bg-orange-100 rounded-lg p-3">
-              <div class="time-col">8:00 - 8:15 AM</div>
+              <div class="time-col">8:00–8:15 AM</div>
               <div class="flex-1">
-                <p class="font-bold text-orange-700">📢 晨间启动会 | Division Morning Launch</p>
-                <p class="text-orange-600 text-sm">各赛区晨间启动会 (分区信息待公布)</p>
-                <p class="text-gray-500 text-xs">Division Morning Launch (Division TBD)</p>
+                <p class="font-bold text-orange-700">📢 Division Morning Launch</p>
+                <p class="text-orange-500 text-sm">晨间启动会（各赛区）· Division TBD 分区待公布</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">8:15 AM - 12:00 PM</div>
+              <div class="time-col">8:15 AM–12:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🎮 技能挑战赛 | Robot Skills Challenge</p>
-                <p class="text-gray-500 text-sm">Driver Skills & Programming Skills</p>
+                <p class="rule-en">🎮 Robot Skills Challenge</p>
+                <p class="rule-cn">技能挑战赛</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">8:15 AM - 12:00 PM</div>
+              <div class="time-col">8:15 AM–12:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🏁 练习赛 & 资格赛 | Practice Matches & Qualifying Matches</p>
+                <p class="rule-en">🏁 Practice Matches &amp; Qualifying Matches (AM)</p>
+                <p class="rule-cn">练习赛 &amp; 资格赛（上午场）</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">12:00 - 1:00 PM</div>
+              <div class="time-col">12:00–1:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🍽️ 午休 | Lunch Break</p>
+                <p class="rule-en">🍽️ Lunch Break</p>
+                <p class="rule-cn">午休</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">1:00 - 7:00 PM</div>
+              <div class="time-col">1:00–7:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🏁 资格赛 | Qualifying Matches</p>
-                <p class="text-gray-500 text-sm">Continue qualifying matches</p>
-              </div>
-            </div>
-
-            <div class="schedule-row">
-              <div class="time-col">1:00 - 7:00 PM</div>
-              <div class="flex-1">
-                <p class="font-medium">🎮 技能挑战赛 | Robot Skills Challenge</p>
+                <p class="rule-en">🏁 Qualifying Matches (PM) &amp; Robot Skills Challenge</p>
+                <p class="rule-cn">资格赛（下午场）&amp; 技能挑战赛继续</p>
               </div>
             </div>
 
             <div class="schedule-row">
               <div class="time-col">7:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🔒 场馆关闭 | Venue Closes</p>
+                <p class="rule-en">🔒 Venue Closes</p>
+                <p class="rule-cn">场馆关闭</p>
               </div>
             </div>
 
           </div>
-
-          <div class="mt-6 text-sm text-gray-500 text-center">
-            <p>Source: <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815-VEX-Robotics-World-Championship-Schedule" target="_blank" class="text-blue-600 hover:underline">RECF VIQRC Schedule</a></p>
+          <div class="mt-6 text-xs text-gray-400 text-center">
+            Source: <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815" target="_blank" class="text-blue-500 hover:underline">RECF VIQRC Official Schedule</a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Day 30 Tab -->
+    <!-- ===== DAY 30 TAB ===== -->
     <div id="content-day30" class="tab-content hidden">
       <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-4">
-          <h2 class="text-xl font-bold">4月30日 周四 | April 30, Thursday</h2>
-          <p class="text-red-200 text-sm">VIQRC 小学/初中组 第3天 (决赛日) | VIQRC MS/ES Day 3 (Finals Day)</p>
+          <h2 class="text-xl font-bold">April 30, Thursday — VIQRC Day 3 (Finals Day)</h2>
+          <p class="text-red-200 text-sm">4月30日 周四 · VIQRC 小学/初中组 第3天（决赛日）</p>
         </div>
         <div class="p-6">
-          
-          <!-- Venue Hours -->
           <div class="text-center mb-6 bg-red-50 rounded-lg p-4">
-            <p class="text-2xl font-bold text-red-700">🏟️ America's Center</p>
-            <p class="text-gray-600">场馆开放时间 | Venue Hours</p>
-            <p class="text-lg font-medium">7:30 AM - 7:00 PM</p>
+            <p class="text-xl font-bold text-red-700">🏟️ America's Center</p>
+            <p class="font-medium mt-1">Venue Hours: 7:30 AM – 7:00 PM</p>
+            <p class="text-gray-400 text-sm">场馆开放时间</p>
           </div>
-
-          <!-- Detailed Schedule -->
           <div class="space-y-1">
-            
+
             <div class="schedule-row">
               <div class="time-col">7:30 AM</div>
               <div class="flex-1">
-                <p class="font-medium">�arena 场馆开放 | Venue Opens</p>
+                <p class="rule-en">🏟️ Venue Opens</p>
+                <p class="rule-cn">场馆开放</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">7:30 AM - 4:30 PM</div>
+              <div class="time-col">7:30 AM–4:30 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🏋️ 练习场地开放 | Practice Fields Open</p>
+                <p class="rule-en">🏋️ Practice Fields Open</p>
+                <p class="rule-cn">练习场地开放</p>
               </div>
             </div>
 
             <div class="schedule-row bg-red-100 rounded-lg p-3">
-              <div class="time-col">8:00 - 8:15 AM</div>
+              <div class="time-col">8:00–8:15 AM</div>
               <div class="flex-1">
-                <p class="font-bold text-red-700">📢 晨间启动会 | Division Morning Launch</p>
-                <p class="text-red-600 text-sm">各赛区晨间启动会</p>
+                <p class="font-bold text-red-700">📢 Division Morning Launch</p>
+                <p class="text-red-500 text-sm">晨间启动会（各赛区）</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">8:15 - 10:00 AM</div>
+              <div class="time-col">8:15–10:00 AM</div>
               <div class="flex-1">
-                <p class="font-medium">🎮 技能挑战赛 | Robot Skills Challenge (Final)</p>
+                <p class="rule-en">🎮 Robot Skills Challenge — Final Runs</p>
+                <p class="rule-cn">技能挑战赛最终轮</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">8:15 AM - 12:00 PM</div>
+              <div class="time-col">8:15 AM–12:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🏁 资格赛 | Qualifying Matches (Final)</p>
+                <p class="rule-en">🏁 Final Qualifying Matches</p>
+                <p class="rule-cn">资格赛最终轮</p>
               </div>
             </div>
 
             <div class="schedule-row">
               <div class="time-col">12:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🤝 联盟选择 | Alliance Selection</p>
-                <p class="text-gray-500 text-sm">Top 8 teams select alliance partners</p>
+                <p class="rule-en">🤝 Alliance Selection — Top 8 teams choose partners</p>
+                <p class="rule-cn">联盟选择：前8名赛队选择盟友</p>
               </div>
             </div>
 
             <div class="schedule-row">
-              <div class="time-col">12:30 - 1:30 PM</div>
+              <div class="time-col">12:30–1:30 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🍽️ 午休 | Lunch Break</p>
+                <p class="rule-en">🍽️ Lunch Break</p>
+                <p class="rule-cn">午休</p>
               </div>
             </div>
 
             <div class="schedule-row bg-yellow-100 rounded-lg p-3">
-              <div class="time-col">2:00 - 4:30 PM</div>
+              <div class="time-col">2:00–4:30 PM</div>
               <div class="flex-1">
-                <p class="font-bold text-yellow-700">🏆 赛区决赛 & 颁奖 | Division Finals & Awards</p>
-                <p class="text-yellow-600 text-sm">各赛区决赛和评审奖公布</p>
-                <p class="text-gray-500 text-xs">Division Finals and Judged Awards</p>
+                <p class="font-bold text-yellow-700">🏆 Division Finals &amp; Judged Awards Ceremony</p>
+                <p class="text-yellow-600 text-sm">各赛区分组决赛 &amp; 评审奖颁奖</p>
               </div>
             </div>
 
             <div class="schedule-row bg-gradient-to-r from-red-100 to-yellow-100 rounded-lg p-3 border-2 border-red-300">
-              <div class="time-col">5:00 - 7:00 PM</div>
+              <div class="time-col">5:00–7:00 PM</div>
               <div class="flex-1">
-                <p class="font-bold text-red-700">🎊 总决赛、闭幕式 & 新赛季发布 | World Finals, Closing & New Season Reveal</p>
-                <p class="text-red-600 text-sm">📍 Dome 主会场</p>
-                <p class="text-gray-500 text-xs">All division champions compete in Dome</p>
+                <p class="font-bold text-red-700">🎊 World Finals · Closing Ceremony · New Season Reveal</p>
+                <p class="text-red-500 text-sm">总决赛 · 闭幕式 · 新赛季发布</p>
+                <p class="text-gray-400 text-xs mt-1">📍 Dome Main Arena — All division champions &nbsp;主会场</p>
               </div>
             </div>
 
             <div class="schedule-row">
               <div class="time-col">7:00 PM</div>
               <div class="flex-1">
-                <p class="font-medium">🔒 场馆关闭 | Venue Closes</p>
+                <p class="rule-en">🔒 Venue Closes</p>
+                <p class="rule-cn">场馆关闭</p>
               </div>
             </div>
 
           </div>
-
-          <div class="mt-6 text-sm text-gray-500 text-center">
-            <p>Source: <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815-VEX-Robotics-World-Championship-Schedule" target="_blank" class="text-blue-600 hover:underline">RECF VIQRC Schedule</a></p>
+          <div class="mt-6 text-xs text-gray-400 text-center">
+            Source: <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815" target="_blank" class="text-blue-500 hover:underline">RECF VIQRC Official Schedule</a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Info Tab -->
+    <!-- ===== INFO TAB ===== -->
     <div id="content-info" class="tab-content hidden">
       <div class="space-y-6">
-        
+
         <!-- Emergency Contacts -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>📞</span>
-            <span class="bilingual"><span class="cn">紧急联系</span><span class="en">Emergency Contacts</span></span>
+            📞 Emergency Contacts <span class="text-sm font-normal text-gray-400">紧急联系人</span>
           </h2>
           <div class="grid md:grid-cols-2 gap-4">
             <div class="bg-blue-50 rounded-lg p-4">
               <div class="font-bold text-lg">Kai / Leo</div>
-              <div class="text-gray-600">leo@magikidlab.com</div>
-              <div class="text-gray-500 text-sm">练习场联系 | Practice Field</div>
+              <div class="text-gray-600 text-sm">leo@magikidlab.com</div>
+              <div class="text-gray-400 text-xs mt-1">Practice Field Contact &nbsp;练习场联系</div>
             </div>
             <div class="bg-green-50 rounded-lg p-4">
               <div class="font-bold text-lg">Angell</div>
-              <div class="text-gray-600">310-780-3793</div>
-              <div class="text-gray-500 text-sm">总部联系 | HQ Contact</div>
+              <div class="text-gray-600 text-sm">310-780-3793</div>
+              <div class="text-gray-400 text-xs mt-1">HQ Contact &nbsp;总部联系</div>
             </div>
           </div>
         </div>
@@ -759,16 +750,16 @@
         <!-- Venue Info -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>🏟️</span>
-            <span class="bilingual"><span class="cn">比赛场馆</span><span class="en">Competition Venue</span></span>
+            🏟️ Competition Venue <span class="text-sm font-normal text-gray-400">比赛场馆</span>
           </h2>
-          <div class="bg-gray-50 rounded-lg p-4">
-            <div class="font-bold text-lg">America's Center Convention Complex</div>
-            <div class="text-gray-600">St. Louis, Missouri</div>
-            <div class="mt-3 text-sm text-gray-500">
-              <p>🚗 接驳/卸载区域:</p>
-              <p>Washington St & 8th (出租车/网约车)</p>
-              <p>7th & Convention Plaza (巴士/大型车辆)</p>
+          <div class="bg-gray-50 rounded-lg p-4 text-sm space-y-2">
+            <div class="font-bold text-base">America's Center Convention Complex</div>
+            <div class="text-gray-500">St. Louis, Missouri</div>
+            <div class="mt-2 border-t pt-2 text-gray-600">
+              <p class="font-semibold">🚗 Drop-off / Pick-up Zones</p>
+              <p class="text-gray-400 text-xs mb-1">接送/卸载区域</p>
+              <p>• Washington St &amp; 8th — Taxi / Rideshare &nbsp;<span class="text-gray-400">出租车 / 网约车</span></p>
+              <p>• 7th &amp; Convention Plaza — Bus / Large Vehicles &nbsp;<span class="text-gray-400">大巴 / 大型车辆</span></p>
             </div>
           </div>
         </div>
@@ -776,34 +767,32 @@
         <!-- Parking Info -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>🅿️</span>
-            <span class="bilingual"><span class="cn">停车信息</span><span class="en">Parking Information</span></span>
+            🅿️ Parking Information <span class="text-sm font-normal text-gray-400">停车信息</span>
           </h2>
-          <div class="bg-yellow-50 rounded-lg p-4">
-            <p class="font-medium text-orange-700">⚠️ 停车证仅发给赛队教练</p>
-            <p class="text-gray-500 text-sm">Parking passes are for teams only, distributed to coach at check-in</p>
-            <div class="mt-3 space-y-2 text-sm">
-              <p>• 每赛队1张免费停车证 | One free parking pass per team</p>
-              <p>• 仅在N区地面停车场有效 | Valid only at Lot N</p>
-              <p>• 需在报到后领取 | Pick up at team check-in</p>
-              <p>• 60分钟内必须返回移动车辆 | Must move vehicle within 60 min</p>
-            </div>
+          <div class="bg-yellow-50 rounded-lg p-4 text-sm space-y-2">
+            <p class="font-semibold text-orange-700">⚠️ Parking passes issued to team coaches only at check-in</p>
+            <p class="text-gray-400">停车证仅在报到时发给赛队教练</p>
+            <ul class="mt-2 space-y-1 text-gray-700">
+              <li>• One free parking pass per team &nbsp;<span class="text-gray-400">每赛队1张免费停车证</span></li>
+              <li>• Valid at Lot N surface parking only &nbsp;<span class="text-gray-400">仅限 N 区地面停车场</span></li>
+              <li>• Must be collected at team check-in &nbsp;<span class="text-gray-400">须在报到时领取</span></li>
+              <li>• Vehicle must be moved within 60 minutes &nbsp;<span class="text-gray-400">60分钟内须移车</span></li>
+            </ul>
           </div>
         </div>
 
-        <!-- Hotel Info -->
+        <!-- Practice Field Hotel -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>🏨</span>
-            <span class="bilingual"><span class="cn">练习场酒店</span><span class="en">Practice Field Hotel</span></span>
+            🏨 MAGIKID Practice Field Hotel <span class="text-sm font-normal text-gray-400">专属练习场酒店</span>
           </h2>
-          <div class="bg-green-50 rounded-lg p-4">
-            <div class="font-bold text-lg">Embassy Suites by Hilton St. Louis Downtown</div>
+          <div class="bg-green-50 rounded-lg p-4 text-sm space-y-1">
+            <div class="font-bold text-base">Embassy Suites by Hilton St. Louis Downtown</div>
             <div class="text-gray-600">610 North 7th Street</div>
             <div class="text-gray-600">St. Louis, Missouri 63101</div>
-            <div class="mt-3 text-sm text-red-600 bg-red-100 rounded p-2">
-              ⚠️ <strong>每赛队仅接受一位成年人入场</strong><br>
-              <span class="text-gray-600">One adult per team only</span>
+            <div class="mt-3 bg-red-100 text-red-600 rounded p-2">
+              ⚠️ <strong>One adult per team</strong> — Student Centered Policy applies
+              <p class="text-gray-500 mt-1">每赛队仅限一位成年人 · 须遵守学生主导条款</p>
             </div>
           </div>
         </div>
@@ -811,42 +800,47 @@
         <!-- Student Centered Policy -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>📜</span>
-            <span class="bilingual"><span class="cn">Student Centered 条款</span><span class="en">Student Centered Policy</span></span>
+            📜 Student Centered Policy <span class="text-sm font-normal text-gray-400">学生主导条款</span>
           </h2>
-          <div class="bg-amber-50 rounded-lg p-4 text-sm">
-            <p class="mb-2">VEX机器人比赛强调学生主导:</p>
-            <ul class="list-disc list-inside text-gray-600 space-y-1">
-              <li>学生负责操作和编程机器人</li>
-              <li>成年人仅提供指导，不能代替操作</li>
-              <li>比赛过程中学生需独立完成任务</li>
+          <div class="bg-amber-50 rounded-lg p-4 text-sm space-y-2">
+            <p class="font-semibold">VEX competitions are student-led and student-operated:</p>
+            <p class="text-gray-400 text-xs">VEX 机器人比赛强调学生主导：</p>
+            <ul class="list-disc list-inside text-gray-600 space-y-2 mt-1">
+              <li>Students operate and program the robot independently
+                <div class="text-gray-400 text-xs pl-4">学生独立操作和编程机器人</div>
+              </li>
+              <li>Adults may coach but cannot substitute or directly operate
+                <div class="text-gray-400 text-xs pl-4">成年人仅可指导，不得代替操作</div>
+              </li>
+              <li>Students must complete all competition tasks on their own
+                <div class="text-gray-400 text-xs pl-4">比赛过程中学生须独立完成所有任务</div>
+              </li>
             </ul>
-            <p class="mt-3 text-gray-500 text-xs">Students run the robots - adults guide only</p>
           </div>
         </div>
 
-        <!-- General Rules -->
+        <!-- Entry Requirements -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>📋</span>
-            <span class="bilingual"><span class="cn">入场规定</span><span class="en">Entry Requirements</span></span>
+            📋 Entry Requirements <span class="text-sm font-normal text-gray-400">入场规定</span>
           </h2>
-          <div class="space-y-3">
+          <div class="space-y-3 text-sm">
             <div class="bg-red-50 border border-red-200 rounded-lg p-3">
-              <p class="font-bold text-red-700">🎫 Badge & 手环必须全天佩戴 | Badge & Wristband Required</p>
-              <p class="text-sm text-gray-600 mt-1">All attendees must wear badge and wristband at all times</p>
+              <p class="font-bold text-red-700">🎫 Badge &amp; Wristband Required at All Times</p>
+              <p class="text-gray-500 mt-1">所有参与者须全程佩戴姓名牌和手环</p>
+              <p class="text-gray-400 text-xs">Required for entry into the Exhibition Hall and Dome</p>
             </div>
             <div class="bg-orange-50 border border-orange-200 rounded-lg p-3">
-              <p class="font-bold text-orange-700">🚫 禁止外带食物饮料 | No Outside Food/Drink</p>
-              <p class="text-sm text-gray-600 mt-1">No outside food or beverages allowed in the venue</p>
+              <p class="font-bold text-orange-700">🚫 No Outside Food or Beverages</p>
+              <p class="text-gray-500 mt-1">禁止携带外部食品及饮料进入场馆</p>
             </div>
             <div class="bg-orange-50 border border-orange-200 rounded-lg p-3">
-              <p class="font-bold text-orange-700">🎊 禁止彩带/五彩纸屑 | No Glitter/Confetti</p>
-              <p class="text-sm text-gray-600 mt-1">Glitter, confetti, and similar items are prohibited</p>
+              <p class="font-bold text-orange-700">🎊 No Glitter, Confetti, or Similar Items</p>
+              <p class="text-gray-500 mt-1">禁止携带彩带、五彩纸屑等类似物品</p>
             </div>
             <div class="bg-blue-50 border border-blue-200 rounded-lg p-3">
-              <p class="font-bold text-blue-700">👔 着装要求 | Dress Code</p>
-              <p class="text-sm text-gray-600 mt-1">穿着专业、有序 | Dress professionally and appropriately</p>
+              <p class="font-bold text-blue-700">👔 Dress Code — Professional and Appropriate</p>
+              <p class="text-gray-500 mt-1">着装须专业、整洁、得体</p>
             </div>
           </div>
         </div>
@@ -854,39 +848,37 @@
         <!-- Photography Rules -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>📷</span>
-            <span class="bilingual"><span class="cn">拍照规定</span><span class="en">Photography Rules</span></span>
+            📷 Photography Rules <span class="text-sm font-normal text-gray-400">拍照规定</span>
           </h2>
-          <div class="space-y-3">
+          <div class="space-y-3 text-sm">
             <div class="bg-amber-50 border border-amber-200 rounded-lg p-3">
-              <p class="font-bold text-amber-700">⚡ Dome内禁止使用闪光灯 | No Flash Photography in Dome</p>
-              <p class="text-sm text-gray-600 mt-1">Flash photography is not allowed during matches in the Dome</p>
+              <p class="font-bold text-amber-700">⚡ No Flash Photography in the Dome</p>
+              <p class="text-gray-500 mt-1">Dome 主会场比赛期间禁止使用闪光灯</p>
             </div>
             <div class="bg-green-50 border border-green-200 rounded-lg p-3">
-              <p class="font-bold text-green-700">✅ Exhibition Hall拍照 | Photography Allowed in Exhibition Hall</p>
-              <p class="text-sm text-gray-600 mt-1">Feel free to take photos in the Exhibition Hall area</p>
+              <p class="font-bold text-green-700">✅ Photography Freely Allowed in Exhibition Hall</p>
+              <p class="text-gray-500 mt-1">展览大厅（Exhibition Hall）内可自由拍照</p>
             </div>
           </div>
         </div>
 
-        <!-- Safety Rules -->
+        <!-- Safety Guidelines -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>🛡️</span>
-            <span class="bilingual"><span class="cn">安全规定</span><span class="en">Safety Guidelines</span></span>
+            🛡️ Safety Guidelines <span class="text-sm font-normal text-gray-400">安全规定</span>
           </h2>
-          <div class="space-y-3">
+          <div class="space-y-3 text-sm">
             <div class="bg-purple-50 border border-purple-200 rounded-lg p-3">
-              <p class="font-bold text-purple-700">👨‍👩‍👧‍👦 学生必须有成人陪同 | Students Must Have Adult Supervision</p>
-              <p class="text-sm text-gray-600 mt-1">Students must be accompanied by an adult at all times</p>
+              <p class="font-bold text-purple-700">👨‍👩‍👧‍👦 Students Must Be Accompanied by an Adult</p>
+              <p class="text-gray-500 mt-1">学生须始终在成人监护下活动</p>
             </div>
             <div class="bg-blue-50 border border-blue-200 rounded-lg p-3">
-              <p class="font-bold text-blue-700">🚶 安全有序疏散 | Safe & Orderly Evacuation</p>
-              <p class="text-sm text-gray-600 mt-1">In case of emergency, evacuate safely and orderly</p>
+              <p class="font-bold text-blue-700">🚶 Evacuate Safely and in an Orderly Manner</p>
+              <p class="text-gray-500 mt-1">紧急情况下须安全、有序地疏散</p>
             </div>
             <div class="bg-teal-50 border border-teal-200 rounded-lg p-3">
-              <p class="font-bold text-teal-700">🤝 尊重所有人 | Respect Everyone</p>
-              <p class="text-sm text-gray-600 mt-1">Treat all attendees, volunteers, and staff with respect</p>
+              <p class="font-bold text-teal-700">🤝 Treat Everyone with Respect</p>
+              <p class="text-gray-500 mt-1">尊重所有参与者、志愿者及工作人员</p>
             </div>
           </div>
         </div>
@@ -894,40 +886,46 @@
         <!-- Division Info -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>📍</span>
-            <span class="bilingual"><span class="cn">分区信息</span><span class="en">Division Information</span></span>
+            📍 Division Assignments <span class="text-sm font-normal text-gray-400">分区信息</span>
           </h2>
-          <div class="bg-gray-100 rounded-lg p-4 text-center">
-            <p class="text-gray-500">分区信息将在赛前公布</p>
-            <p class="text-gray-400 text-sm">Division assignments will be posted before the event</p>
-            <p class="mt-2 text-sm">📧 <a href="https://www.robotevents.com" target="_blank" class="text-blue-600 hover:underline">Check RobotEvents.com</a></p>
+          <div class="bg-gray-100 rounded-lg p-4 text-center text-sm">
+            <p class="text-gray-600 font-medium">Division assignments will be announced before the event.</p>
+            <p class="text-gray-400 mt-1">分区信息将在赛前正式公布</p>
+            <p class="mt-3">
+              📧 Check <a href="https://www.robotevents.com" target="_blank" class="text-blue-600 hover:underline font-medium">RobotEvents.com</a> for updates
+            </p>
           </div>
         </div>
 
         <!-- Official Resources -->
         <div class="bg-white rounded-xl shadow-md p-6">
           <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
-            <span>🔗</span>
-            <span class="bilingual"><span class="cn">官方资源</span><span class="en">Official Resources</span></span>
+            🔗 Official Resources <span class="text-sm font-normal text-gray-400">官方资源</span>
           </h2>
-          <div class="space-y-2">
-            <a href="https://recf.org/vex-robotics-world-championship/vex-robotics-world-championship-agenda/" target="_blank" 
-               class="block p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
-              <span class="font-medium text-blue-700">RECF Official Agenda</span>
-              <span class="text-gray-500 text-sm ml-2">recf.org</span>
+          <div class="space-y-2 text-sm">
+            <a href="https://recf.org/vex-robotics-world-championship/vex-robotics-world-championship-agenda/" target="_blank"
+               class="flex items-center justify-between p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+              <span class="font-medium text-blue-700">RECF Official Agenda &nbsp;<span class="text-gray-400 font-normal">官方日程</span></span>
+              <span class="text-gray-400 text-xs">recf.org →</span>
             </a>
-            <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815-VEX-Robotics-World-Championship-Schedule" target="_blank" 
-               class="block p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
-              <span class="font-medium text-blue-700">VIQRC Detailed Schedule</span>
-              <span class="text-gray-500 text-sm ml-2">recf.org</span>
+            <a href="https://viqrc-kb.recf.org/hc/en-us/articles/9758771857815-VEX-Robotics-World-Championship-Schedule" target="_blank"
+               class="flex items-center justify-between p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+              <span class="font-medium text-blue-700">VIQRC Detailed Schedule &nbsp;<span class="text-gray-400 font-normal">详细赛程</span></span>
+              <span class="text-gray-400 text-xs">recf.org →</span>
             </a>
-            <a href="https://recf.org/vex_worlds/parking-at-vex-worlds-2/" target="_blank" 
-               class="block p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
-              <span class="font-medium text-blue-700">Parking Information</span>
-              <span class="text-gray-500 text-sm ml-2">recf.org</span>
+            <a href="https://recf.org/vex_worlds/parking-at-vex-worlds-2/" target="_blank"
+               class="flex items-center justify-between p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+              <span class="font-medium text-blue-700">Parking Guide &nbsp;<span class="text-gray-400 font-normal">停车指南</span></span>
+              <span class="text-gray-400 text-xs">recf.org →</span>
+            </a>
+            <a href="https://www.robotevents.com" target="_blank"
+               class="flex items-center justify-between p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition">
+              <span class="font-medium text-blue-700">RobotEvents.com &nbsp;<span class="text-gray-400 font-normal">赛事平台</span></span>
+              <span class="text-gray-400 text-xs">robotevents.com →</span>
             </a>
           </div>
         </div>
+
       </div>
     </div>
 
@@ -936,14 +934,14 @@
   <!-- Footer -->
   <footer class="bg-gray-800 text-white py-8 px-4 mt-12">
     <div class="max-w-4xl mx-auto text-center">
-      <p class="text-gray-400 mb-2">🤖 VEX Robotics World Championship 2026</p>
-      <p class="text-gray-500 text-sm">April 26-30 | St. Louis, Missouri | America's Center</p>
-      <p class="text-gray-600 text-xs mt-4">Created for Magikid Teams | Made with ❤️</p>
+      <p class="text-gray-300 font-semibold mb-1">🤖 Magikid Robotics Lab</p>
+      <p class="text-gray-400 text-sm">VEX World Championship 2026 &nbsp;|&nbsp; April 26–30 &nbsp;|&nbsp; St. Louis, Missouri</p>
+      <p class="text-gray-500 text-xs mt-4">Created for Magikid Teams &nbsp;·&nbsp; Made with ❤️</p>
     </div>
   </footer>
 
   <script>
-    // Tab switching
+    // ---- Tab switching ----
     function showTab(tabName) {
       document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
       document.querySelectorAll('nav button').forEach(el => el.classList.remove('tab-active'));
@@ -951,13 +949,67 @@
       document.getElementById('tab-' + tabName).classList.add('tab-active');
     }
 
-    // Team info storage
-    const teamSelect = document.getElementById('teamSelect');
-    const teamNumberInput = document.getElementById('teamNumber');
-    const teamForm = document.getElementById('teamForm');
-    const savedInfo = document.getElementById('savedInfo');
+    // ---- Team details data ----
+    const teamDetails = {
+      // Southern California
+      '3207F':  { lab: 'Diamond Bar', region: 'Southern California', division: 'ES' },
+      '3211G':  { lab: 'Diamond Bar', region: 'Southern California', division: 'MS' },
+      '3211H':  { lab: 'Diamond Bar', region: 'Southern California', division: 'MS' },
+      '3988D':  { lab: 'Irvine',      region: 'Southern California', division: 'ES' },
+      '3988S':  { lab: 'Irvine',      region: 'Southern California', division: 'ES' },
+      '3369B':  { lab: 'Irvine',      region: 'Southern California', division: 'MS' },
+      '6104C':  { lab: 'San Diego',   region: 'Southern California', division: 'ES' },
+      '9452M':  { lab: 'San Marino',  region: 'Southern California', division: 'ES' },
+      '286A':   { lab: 'Tustin',      region: 'Southern California', division: 'ES' },
+      // Northern California
+      '81777A': { lab: 'Cupertino',   region: 'Northern California', division: 'ES' },
+      '81777X': { lab: 'Cupertino',   region: 'Northern California', division: 'ES' },
+      '81777Y': { lab: 'Cupertino',   region: 'Northern California', division: 'ES' },
+      '81777T': { lab: 'Cupertino',   region: 'Northern California', division: 'MS' },
+      '81777U': { lab: 'Cupertino',   region: 'Northern California', division: 'MS' },
+      '81777W': { lab: 'Cupertino',   region: 'Northern California', division: 'MS' },
+      '81777Z': { lab: 'Cupertino',   region: 'Northern California', division: 'MS' },
+      '2675B':  { lab: 'Fremont',     region: 'Northern California', division: 'ES' },
+      '2675C':  { lab: 'Fremont',     region: 'Northern California', division: 'ES' },
+      '2675F':  { lab: 'Fremont',     region: 'Northern California', division: 'ES' },
+      // Texas
+      '1779A':   { lab: 'Cedar Park',          region: 'Texas', division: 'ES' },
+      '77298A':  { lab: 'Cedar Park',          region: 'Texas', division: 'MS' },
+      '2166A':   { lab: 'Frisco',              region: 'Texas', division: 'ES' },
+      '2166B':   { lab: 'Frisco',              region: 'Texas', division: 'MS' },
+      '75035M':  { lab: 'Frisco',              region: 'Texas', division: 'MS' },
+      '21136A':  { lab: 'Highland Park / Dallas', region: 'Texas', division: 'MS' },
+      // Other US
+      '2737A':   { lab: 'Redmond / Seattle',  region: 'Other US',   division: 'ES' },
+      // Australia
+      '18697A':  { lab: 'Castle Hill / Sydney', region: 'Australia', division: 'ES' },
+      '69699A':  { lab: 'Castle Hill / Sydney', region: 'Australia', division: 'ES' },
+      '46658A':  { lab: 'Pymble / Sydney',      region: 'Australia', division: 'ES' },
+      // China
+      '9066A':   { lab: 'Beijing',  region: 'China', division: 'ES' },
+      '60666A':  { lab: 'Shanghai', region: 'China', division: 'ES' },
+    };
 
-    // Show custom input when "Other" selected
+    const regionFlag = {
+      'Southern California': '🇺🇸',
+      'Northern California': '🇺🇸',
+      'Texas':               '🇺🇸',
+      'Other US':            '🇺🇸',
+      'Australia':           '🇦🇺',
+      'China':               '🇨🇳'
+    };
+
+    const teamSelect      = document.getElementById('teamSelect');
+    const teamNumberInput = document.getElementById('teamNumber');
+    const teamForm        = document.getElementById('teamForm');
+    const savedInfo       = document.getElementById('savedInfo');
+    const teamInfoDisplay = document.getElementById('teamInfoDisplay');
+    const teamDetailsDiv  = document.getElementById('teamDetailsDiv');
+    const hotelSelect     = document.getElementById('hotelSelect');
+    const hotelNameInput  = document.getElementById('hotelName');
+    const hotelAddressInput = document.getElementById('hotelAddress');
+
+    // ---- Team select ----
     teamSelect.addEventListener('change', () => {
       if (teamSelect.value === 'custom') {
         teamNumberInput.classList.remove('hidden');
@@ -968,36 +1020,84 @@
       saveTeamInfo();
     });
 
-    // Hotel select dropdown
-    const hotelSelect = document.getElementById('hotelSelect');
-    const hotelNameInput = document.getElementById('hotelName');
-    const hotelAddressInput = document.getElementById('hotelAddress');
-
+    // ---- Hotel select ----
     function handleHotelSelect() {
-      const selected = hotelSelect.value;
-      if (selected === 'custom') {
+      const val = hotelSelect.value;
+      if (val === 'custom') {
         hotelNameInput.value = '';
         hotelAddressInput.value = '';
-        hotelNameInput.placeholder = 'Enter hotel name | 输入酒店名称';
-        hotelAddressInput.placeholder = 'Enter full address | 输入完整地址';
         hotelNameInput.focus();
-      } else if (selected) {
-        const parts = selected.split('|');
-        hotelNameInput.value = parts[0];
+      } else if (val) {
+        const parts = val.split('|');
+        hotelNameInput.value    = parts[0] || '';
         hotelAddressInput.value = parts[1] || '';
       } else {
-        hotelNameInput.value = '';
+        hotelNameInput.value    = '';
         hotelAddressInput.value = '';
       }
       saveTeamInfo();
     }
 
-    // Load saved data
+    // ---- Display team info ----
+    function displayTeamInfo(teamId) {
+      const info = teamDetails[teamId];
+      if (info) {
+        const flag    = regionFlag[info.region] || '🌍';
+        const divText = info.division === 'ES'
+          ? 'Elementary School 小学组'
+          : 'Middle School 初中组';
+        teamDetailsDiv.innerHTML = `
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+            <div class="bg-white rounded-lg p-2 text-center">
+              <div class="text-gray-400 text-xs">Team No. 队号</div>
+              <div class="font-bold text-blue-600 text-lg">${teamId}</div>
+            </div>
+            <div class="bg-white rounded-lg p-2 text-center">
+              <div class="text-gray-400 text-xs">Lab 所属</div>
+              <div class="font-semibold text-sm">${info.lab}</div>
+            </div>
+            <div class="bg-white rounded-lg p-2 text-center">
+              <div class="text-gray-400 text-xs">Region 地区</div>
+              <div class="font-semibold text-sm">${flag} ${info.region}</div>
+            </div>
+            <div class="bg-white rounded-lg p-2 text-center">
+              <div class="text-gray-400 text-xs">Division 组别</div>
+              <div class="font-semibold text-sm">${divText}</div>
+            </div>
+          </div>`;
+        teamInfoDisplay.classList.remove('hidden');
+      } else {
+        teamInfoDisplay.classList.add('hidden');
+      }
+    }
+
+    // ---- Save ----
+    function saveTeamInfo() {
+      const teamNum = teamSelect.value === 'custom' ? teamNumberInput.value : teamSelect.value;
+      const data = {
+        teamNumber:   teamNum,
+        hotelName:    hotelNameInput.value,
+        hotelAddress: hotelAddressInput.value
+      };
+      localStorage.setItem('vexTeamInfo', JSON.stringify(data));
+      if (data.teamNumber || data.hotelName) {
+        savedInfo.classList.remove('hidden');
+      }
+      if (teamSelect.value && teamSelect.value !== 'custom') {
+        displayTeamInfo(teamSelect.value);
+      } else {
+        teamInfoDisplay.classList.add('hidden');
+      }
+    }
+
+    teamForm.addEventListener('input',  saveTeamInfo);
+    teamForm.addEventListener('change', saveTeamInfo);
+
+    // ---- Restore saved data ----
     const saved = localStorage.getItem('vexTeamInfo');
     if (saved) {
       const data = JSON.parse(saved);
       if (data.teamNumber) {
-        // Check if it's a known team
         if (teamDetails[data.teamNumber]) {
           teamSelect.value = data.teamNumber;
           displayTeamInfo(data.teamNumber);
@@ -1007,134 +1107,24 @@
           teamNumberInput.value = data.teamNumber;
         }
       }
-      
-      // Restore hotel selection
       if (data.hotelName) {
-        // Try to find matching hotel from dropdown
-        const options = hotelSelect.options;
+        const opts = hotelSelect.options;
         let found = false;
-        for (let i = 0; i < options.length; i++) {
-          if (options[i].value.startsWith(data.hotelName + '|') || options[i].value === data.hotelName) {
-            hotelSelect.value = options[i].value;
+        for (let i = 0; i < opts.length; i++) {
+          if (opts[i].value.startsWith(data.hotelName + '|') || opts[i].value === data.hotelName) {
+            hotelSelect.value = opts[i].value;
             found = true;
             break;
           }
         }
         if (!found) {
-          hotelSelect.value = 'custom';
-          hotelNameInput.value = data.hotelName;
+          hotelSelect.value     = 'custom';
+          hotelNameInput.value  = data.hotelName;
         }
         hotelAddressInput.value = data.hotelAddress || '';
       }
       savedInfo.classList.remove('hidden');
     }
-
-    // Team details data from CSV
-    const teamDetails = {
-      // Southern California
-      '3207F': { lab: 'Diamond Bar', region: 'Southern California', division: 'ES' },
-      '3211G': { lab: 'Diamond Bar', region: 'Southern California', division: 'MS' },
-      '3211H': { lab: 'Diamond Bar', region: 'Southern California', division: 'MS' },
-      '3988D': { lab: 'Irvine', region: 'Southern California', division: 'ES' },
-      '3988S': { lab: 'Irvine', region: 'Southern California', division: 'ES' },
-      '3369B': { lab: 'Irvine', region: 'Southern California', division: 'MS' },
-      '6104C': { lab: 'San Diego', region: 'Southern California', division: 'ES' },
-      '9452M': { lab: 'San Marino', region: 'Southern California', division: 'ES' },
-      '286A': { lab: 'Tustin', region: 'Southern California', division: 'ES' },
-      // Northern California
-      '81777A': { lab: 'Cupertino', region: 'Northern California', division: 'ES' },
-      '81777X': { lab: 'Cupertino', region: 'Northern California', division: 'ES' },
-      '81777Y': { lab: 'Cupertino', region: 'Northern California', division: 'ES' },
-      '81777T': { lab: 'Cupertino', region: 'Northern California', division: 'MS' },
-      '81777U': { lab: 'Cupertino', region: 'Northern California', division: 'MS' },
-      '81777W': { lab: 'Cupertino', region: 'Northern California', division: 'MS' },
-      '81777Z': { lab: 'Cupertino', region: 'Northern California', division: 'MS' },
-      '2675B': { lab: 'Fremont', region: 'Northern California', division: 'ES' },
-      '2675C': { lab: 'Fremont', region: 'Northern California', division: 'ES' },
-      '2675F': { lab: 'Fremont', region: 'Northern California', division: 'ES' },
-      // Texas
-      '1779A': { lab: 'Cedar Park', region: 'Texas', division: 'ES' },
-      '77298A': { lab: 'Cedar Park', region: 'Texas', division: 'MS' },
-      '2166A': { lab: 'Frisco', region: 'Texas', division: 'ES' },
-      '2166B': { lab: 'Frisco', region: 'Texas', division: 'MS' },
-      '75035M': { lab: 'Frisco', region: 'Texas', division: 'MS' },
-      '21136A': { lab: 'Highland Park / Dallas', region: 'Texas', division: 'MS' },
-      // Other US
-      '2737A': { lab: 'Redmond / Seattle', region: 'Other US', division: 'ES' },
-      // Australia
-      '18697A': { lab: 'Castle Hill / Sydney', region: 'Australia', division: 'ES' },
-      '69699A': { lab: 'Castle Hill / Sydney', region: 'Australia', division: 'ES' },
-      '46658A': { lab: 'Pymble / Sydney', region: 'Australia', division: 'ES' },
-      // China
-      '9066A': { lab: 'Beijing', region: 'China', division: 'ES' },
-      '60666A': { lab: 'Shanghai', region: 'China', division: 'ES' },
-    };
-
-    const teamInfoDisplay = document.getElementById('teamInfoDisplay');
-    const teamDetailsDiv = document.getElementById('teamDetails');
-
-    function displayTeamInfo(teamId) {
-      const info = teamDetails[teamId];
-      if (info) {
-        const divBadge = info.division === 'ES' ? '🏫 小学 Elementary School' : '🏫 中学 Middle School';
-        const regionFlag = {
-          'Southern California': '🇺🇸',
-          'Northern California': '🍎',
-          'Texas': '🤠',
-          'Other US': '🌲',
-          'Australia': '🇦🇺',
-          'China': '🇨🇳'
-        }[info.region] || '🌍';
-        
-        teamDetailsDiv.innerHTML = `
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
-            <div class="bg-white rounded-lg p-2 text-center">
-              <span class="text-gray-500 text-xs">队号</span><br>
-              <span class="font-bold text-lg text-blue-600">${teamId}</span>
-            </div>
-            <div class="bg-white rounded-lg p-2 text-center">
-              <span class="text-gray-500 text-xs">所属Lab</span><br>
-              <span class="font-semibold">${info.lab}</span>
-            </div>
-            <div class="bg-white rounded-lg p-2 text-center">
-              <span class="text-gray-500 text-xs">地区</span><br>
-              <span class="font-semibold">${regionFlag} ${info.region}</span>
-            </div>
-            <div class="bg-white rounded-lg p-2 text-center">
-              <span class="text-gray-500 text-xs">组别</span><br>
-              <span class="font-semibold">${divBadge}</span>
-            </div>
-          </div>
-        `;
-        teamInfoDisplay.classList.remove('hidden');
-      } else {
-        teamInfoDisplay.classList.add('hidden');
-      }
-    }
-
-    function saveTeamInfo() {
-      const teamNum = teamSelect.value === 'custom' ? teamNumberInput.value : teamSelect.value;
-      const data = {
-        teamNumber: teamNum,
-        hotelName: document.getElementById('hotelName').value,
-        hotelAddress: document.getElementById('hotelAddress').value
-      };
-      localStorage.setItem('vexTeamInfo', JSON.stringify(data));
-      if (data.teamNumber || data.hotelName) {
-        savedInfo.classList.remove('hidden');
-      }
-      
-      // Display team info if selected from dropdown
-      if (teamSelect.value && teamSelect.value !== 'custom') {
-        displayTeamInfo(teamSelect.value);
-      } else {
-        teamInfoDisplay.classList.add('hidden');
-      }
-    }
-
-    // Save on input
-    teamForm.addEventListener('input', saveTeamInfo);
-    teamForm.addEventListener('change', saveTeamInfo);
   </script>
 </body>
 </html>
