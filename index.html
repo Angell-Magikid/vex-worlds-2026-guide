@@ -24,16 +24,15 @@
     .time-col { min-width: 110px; font-weight: 600; color: #374151; font-size: 0.9em; padding-top: 2px; }
     .rule-en { font-weight: 600; }
     .rule-cn { font-size: 0.875rem; color: #6b7280; margin-top: 2px; }
-    /* Gate screen */
-    #gate { display: flex; }
-    body.gated #gate { display: flex; }
+    /* Gate screen — body.gated means user is logged in, so hide gate / show app */
+    body:not(.gated) #gate { display: flex !important; }
     body.gated #app { display: none; }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
 
   <!-- ===== LOGIN GATE ===== -->
-  <div id="gate" class="hidden fixed inset-0 z-50 hero-bg items-center justify-center p-4">
+  <div id="gate" class="fixed inset-0 z-50 hero-bg items-center justify-center p-4">
     <div class="w-full max-w-md">
       <!-- Logo -->
       <div class="text-center mb-8">
@@ -60,22 +59,15 @@
                    class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:ring-0 text-lg tracking-wider uppercase"
                    autocomplete="off" spellcheck="false">
           </div>
-          <p class="text-xs text-gray-400 text-center">
-            Format | 格式: <code class="bg-gray-100 px-1 rounded">LabName2026</code>
-            &nbsp;·&nbsp; e.g., <code class="bg-gray-100 px-1 rounded">Irvine2026</code>
-          </p>
           <button type="submit"
                   class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition text-lg">
             Activate &nbsp;<span class="font-normal text-blue-200 text-sm">激活访问</span>
           </button>
         </form>
 
-        <div class="mt-6 pt-5 border-t border-gray-100">
-          <p class="text-xs text-gray-400 text-center mb-3">Available Lab Codes | 可用激活码</p>
-          <div class="grid grid-cols-2 gap-1.5 text-xs" id="codeList">
-            <!-- Populated by JS -->
-          </div>
-        </div>
+        <p class="text-xs text-gray-400 text-center mt-4">
+          Code 由教练提供 | Code provided by your coach
+        </p>
       </div>
 
       <p class="text-center text-blue-300 text-xs mt-6">
@@ -887,15 +879,6 @@
 
     let currentLab = null;
 
-    // Gate population
-    function populateCodeList() {
-      const container = document.getElementById('codeList');
-      const codes = Object.keys(labCodes).filter(k => k !== 'Magikid2026');
-      container.innerHTML = codes.map(code =>
-        `<span class="bg-blue-50 text-blue-700 px-2 py-1 rounded text-center font-mono text-xs cursor-pointer hover:bg-blue-100" onclick="document.getElementById('gateCode').value='${code}'">${code}</span>`
-      ).join('');
-    }
-
     function handleGate(e) {
       e.preventDefault();
       const code = document.getElementById('gateCode').value.trim();
@@ -903,9 +886,7 @@
         currentLab = code;
         localStorage.setItem('vexLabCode', code);
         localStorage.setItem('vexLabData', JSON.stringify(labCodes[code]));
-        document.getElementById('gate').classList.add('hidden');
-        document.getElementById('gate').classList.remove('flex');
-        document.body.classList.remove('gated');
+        document.body.classList.add('gated'); // hide gate via CSS, show app
         setupLabView(labCodes[code]);
       } else {
         document.getElementById('gateError').classList.remove('hidden');
@@ -913,9 +894,7 @@
     }
 
     function handleLogout() {
-      document.getElementById('gate').classList.remove('hidden');
-      document.getElementById('gate').classList.add('flex');
-      document.body.classList.add('gated');
+      document.body.classList.remove('gated'); // show gate via CSS
       document.getElementById('gateCode').value = '';
       document.getElementById('gateError').classList.add('hidden');
       currentLab = null;
@@ -966,15 +945,11 @@
     function checkStoredLab() {
       const stored = localStorage.getItem('vexLabCode');
       if (stored && labCodes[stored]) {
-        document.getElementById('gate').classList.add('hidden');
-        document.getElementById('gate').classList.remove('flex');
         currentLab = stored;
+        document.body.classList.add('gated'); // hide gate, show app
         setupLabView(labCodes[stored]);
       } else {
-        document.getElementById('gate').classList.remove('hidden');
-        document.getElementById('gate').classList.add('flex');
-        document.body.classList.add('gated');
-        populateCodeList();
+        document.body.classList.remove('gated'); // show gate (body does not have .gated)
       }
     }
 
