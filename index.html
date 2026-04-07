@@ -24,15 +24,14 @@
     .time-col { min-width: 110px; font-weight: 600; color: #374151; font-size: 0.9em; padding-top: 2px; }
     .rule-en { font-weight: 600; }
     .rule-cn { font-size: 0.875rem; color: #6b7280; margin-top: 2px; }
-    /* Gate screen — body.gated means user is logged in, so hide gate / show app */
-    body:not(.gated) #gate { display: flex !important; }
-    body.gated #app { display: none; }
+    /* Gate screen */
+    #gate.hidden, #app.hidden { display: none; }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
 
   <!-- ===== LOGIN GATE ===== -->
-  <div id="gate" class="fixed inset-0 z-50 hero-bg items-center justify-center p-4">
+  <div id="gate" class="hidden fixed inset-0 z-50 hero-bg items-center justify-center p-4">
     <div class="w-full max-w-md">
       <!-- Logo -->
       <div class="text-center mb-8">
@@ -66,7 +65,8 @@
         </form>
 
         <p class="text-xs text-gray-400 text-center mt-4">
-          Code 由教练提供 | Code provided by your coach
+          Disclaimer: This app is primarily for Magikid teams attending the 2026 VEX Worlds. For any official competition rules, please refer to REC Foundation. <br>
+          免责声明：本应用主要为参加2026世锦赛的MAGIKID赛队提供便利和沟通，比赛规则相关内容以REC官网为准。
         </p>
       </div>
 
@@ -77,7 +77,7 @@
   </div>
 
   <!-- ===== MAIN APP ===== -->
-  <div id="app">
+  <div id="app" class="hidden">
 
     <!-- Header -->
     <header class="hero-bg text-white py-5 px-4">
@@ -882,16 +882,13 @@
     function handleGate(e) {
       e.preventDefault();
       const raw = document.getElementById('gateCode').value.trim();
-      // Normalize: first char uppercase, rest lowercase, then append 2026 if missing
-      const parts = raw.replace(/2026$/i, '').match(/^([a-z]+)(.*)$/i);
-      const code = parts ? parts[1].charAt(0).toUpperCase() + parts[1].slice(1).toLowerCase() + '2026' : raw.toLowerCase().includes('2026') ? raw.toUpperCase() : raw;
-      // Case-insensitive lookup
-      const matchedKey = Object.keys(labCodes).find(k => k.toLowerCase() === code.toLowerCase());
+      const matchedKey = Object.keys(labCodes).find(k => k.toLowerCase() === raw.toLowerCase());
       if (matchedKey) {
         currentLab = matchedKey;
         localStorage.setItem('vexLabCode', matchedKey);
         localStorage.setItem('vexLabData', JSON.stringify(labCodes[matchedKey]));
-        document.body.classList.add('gated'); // hide gate via CSS, show app
+        document.getElementById('gate').classList.add('hidden');
+        document.getElementById('app').classList.remove('hidden');
         setupLabView(labCodes[matchedKey]);
       } else {
         document.getElementById('gateError').classList.remove('hidden');
@@ -899,7 +896,8 @@
     }
 
     function handleLogout() {
-      document.body.classList.remove('gated'); // show gate via CSS
+      document.getElementById('gate').classList.remove('hidden');
+      document.getElementById('app').classList.add('hidden');
       document.getElementById('gateCode').value = '';
       document.getElementById('gateError').classList.add('hidden');
       currentLab = null;
@@ -953,10 +951,12 @@
       if (matchedKey) {
         currentLab = matchedKey;
         localStorage.setItem('vexLabCode', matchedKey); // normalize key case
-        document.body.classList.add('gated'); // hide gate, show app
+        document.getElementById('gate').classList.add('hidden');
+        document.getElementById('app').classList.remove('hidden');
         setupLabView(labCodes[matchedKey]);
       } else {
-        document.body.classList.remove('gated'); // show gate (body does not have .gated)
+        document.getElementById('gate').classList.remove('hidden');
+        document.getElementById('app').classList.add('hidden');
       }
     }
 
