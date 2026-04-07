@@ -80,15 +80,24 @@
   <div id="app" class="hidden">
 
     <!-- Header -->
-    <header class="hero-bg text-white py-4 px-4">
-      <div class="max-w-4xl mx-auto flex items-center justify-between">
-        <div class="flex items-center gap-3">
-          <img src="images/logo.png" alt="Magikid" class="h-10 md:h-12 object-contain flex-shrink-0">
-          <h1 class="text-lg md:text-xl font-bold">World 2026</h1>
+    <header class="hero-bg text-white py-5 px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-4">
+            <img src="images/logo.png" alt="Magikid" class="h-12 md:h-16 object-contain flex-shrink-0">
+            <div>
+              <h1 class="text-xl md:text-2xl font-bold">VEX World Championship 2026</h1>
+              <p class="text-blue-300 text-sm">VEX 机器人世锦赛指南</p>
+            </div>
+          </div>
+          <button onclick="handleLogout()" id="logoutBtn" class="hidden text-blue-200 hover:text-white text-xs border border-blue-300/50 px-3 py-2 rounded transition">
+            Logout <span class="text-blue-400">退出</span>
+          </button>
         </div>
-        <button onclick="handleLogout()" id="logoutBtn" class="hidden text-xs text-white/80 hover:text-white border border-white/30 px-3 py-1.5 rounded-lg transition bg-white/10">
-          🚪 Logout <span class="text-white/60">退出</span>
-        </button>
+        <div class="mt-3 flex items-center gap-2 text-sm text-blue-200">
+          <span>📍</span>
+          <span>St. Louis, Missouri &nbsp;|&nbsp; April 26–30, 2026</span>
+        </div>
       </div>
     </header>
 
@@ -976,9 +985,6 @@
         });
       }
 
-      document.getElementById('labNameDisplay').textContent = lab.lab;
-      document.getElementById('labTeamsDisplay').textContent = lab.teams.length > 0 ? `${lab.teams.length} teams · ${lab.teams.join(', ')}` : 'All teams';
-      document.getElementById('labBadge').classList.remove('hidden');
       document.getElementById('logoutBtn').classList.remove('hidden');
       document.getElementById('labLabel').textContent = lab.lab;
     }
