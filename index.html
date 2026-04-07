@@ -174,6 +174,9 @@
       <button onclick="showTab('info')" id="tab-info" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
         Info <span class="text-xs text-gray-400">实用信息</span>
       </button>
+      <button onclick="showTab('news')" id="tab-news" class="px-4 py-3 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
+        📰 News <span class="text-xs text-gray-400">最新资讯</span>
+      </button>
     </div>
   </nav>
 
@@ -924,6 +927,146 @@
               <span class="text-gray-400 text-xs">robotevents.com →</span>
             </a>
           </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ===== NEWS TAB ===== -->
+    <div id="content-news" class="tab-content hidden">
+      <div class="space-y-6">
+
+        <!-- News Header Banner -->
+        <div class="bg-gradient-to-r from-amber-500 to-orange-600 rounded-xl p-5 text-white shadow-md">
+          <div class="flex items-center gap-3">
+            <span class="text-3xl">📰</span>
+            <div>
+              <div class="text-xl font-bold">Latest Updates &amp; News</div>
+              <div class="text-amber-100 text-sm">最新资讯 &amp; 规则更新</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- News Card: Game Manual 4.0 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <!-- Card Header -->
+          <div class="bg-gradient-to-r from-blue-700 to-blue-900 px-6 py-4 text-white">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <div class="text-xs font-semibold text-blue-300 uppercase tracking-wider mb-1">📋 Rule Update &nbsp;·&nbsp; 规则更新</div>
+                <h2 class="text-lg font-bold leading-snug">VIQRC Mix &amp; Match Game Manual v4.0 Update</h2>
+                <p class="text-blue-200 text-sm mt-1">VIQRC Mix &amp; Match 规则手册 4.0 版更新 — 世锦赛前最后一次更新</p>
+              </div>
+              <span class="text-2xl flex-shrink-0">🔔</span>
+            </div>
+            <a href="https://www.vexforum.com/t/viqrc-mix-match-game-manual-updates/137665"
+               target="_blank"
+               class="inline-flex items-center gap-1 mt-3 text-xs text-blue-200 hover:text-white underline underline-offset-2 transition">
+              View Official Thread | 查看官方原文 →
+            </a>
+          </div>
+
+          <!-- Updates List -->
+          <div class="divide-y divide-gray-100">
+
+            <!-- Update 1 -->
+            <div class="p-5">
+              <div class="flex gap-3">
+                <span class="flex-shrink-0 w-7 h-7 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <div class="flex-1">
+                  <p class="font-semibold text-gray-800">Updated definition of Code of Conduct (CoC) violations to clarify intent</p>
+                  <p class="text-sm text-gray-500 mt-0.5">更新了 CoC（行为准则）相关违规的定义，以明确意图</p>
+                  <div class="mt-3 bg-gray-50 rounded-lg p-3 text-sm text-gray-700 space-y-2">
+                    <p>Non-referee event staff may review on-site video/photo footage during CoC investigations; these reviews cannot overturn rulings already made by the head referee.</p>
+                    <p class="text-gray-500">裁判以外的赛事工作人员可在 CoC 违规调查中查阅视频录像和/或照片；但这些审查不能改变主裁判已做出的比赛判罚。</p>
+                  </div>
+                  <div class="mt-2 inline-flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-amber-700 text-xs px-3 py-1.5 rounded-lg font-medium">
+                    <span>💡</span>
+                    <span>Key takeaway: Head referee has final authority. | 主裁判说了算，其他人的审查结果无法推翻判罚。</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Update 2 -->
+            <div class="p-5">
+              <div class="flex gap-3">
+                <span class="flex-shrink-0 w-7 h-7 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                <div class="flex-1">
+                  <p class="font-semibold text-gray-800"><code class="bg-gray-100 px-1.5 py-0.5 rounded text-blue-700">&lt;R16&gt;</code> — New clause specifying legal non-VEX rubber band dimensions</p>
+                  <p class="text-sm text-gray-500 mt-0.5">新增条款，明确合法非 VEX 橡皮筋的尺寸要求</p>
+                  <div class="mt-3 bg-blue-50 rounded-lg p-3 text-sm">
+                    <p class="font-semibold text-blue-800 mb-2">Legal dimensions | 合法尺寸：</p>
+                    <ul class="space-y-1 text-gray-700">
+                      <li class="flex items-center gap-2"><span class="text-blue-400">•</span> <span>Length: ≤ 7.5 inches &nbsp;<span class="text-gray-400">长度不超过 7.5 英寸</span></span></li>
+                      <li class="flex items-center gap-2"><span class="text-blue-400">•</span> <span>Width: ≤ 0.25 inches &nbsp;<span class="text-gray-400">宽度不超过 0.25 英寸</span></span></li>
+                    </ul>
+                  </div>
+                  <div class="mt-2 inline-flex items-center gap-1.5 bg-red-50 border border-red-200 text-red-700 text-xs px-3 py-1.5 rounded-lg font-medium">
+                    <span>⚠️</span>
+                    <span>Key takeaway: Check rubber band size carefully! | 注意橡皮筋尺寸，不要随意选购。</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Update 3 -->
+            <div class="p-5">
+              <div class="flex gap-3">
+                <span class="flex-shrink-0 w-7 h-7 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                <div class="flex-1">
+                  <p class="font-semibold text-gray-800"><code class="bg-gray-100 px-1.5 py-0.5 rounded text-blue-700">&lt;T8&gt;</code> — Revised with new clause on full-event Disqualification (DQ)</p>
+                  <p class="text-sm text-gray-500 mt-0.5">修订并新增条款，说明全场取消资格（full-event DQ）相关信息</p>
+                  <div class="mt-3 bg-gray-50 rounded-lg p-3 text-sm text-gray-700 space-y-2">
+                    <p>If the RECF Regional Support Manager determines that a team should be disqualified from future matches based on a CoC investigation, the EP may use the full-event DQ feature in TM to remove the team from all remaining matches. That team's qualification slots will be automatically filled by the next teams at the end of the schedule, with corresponding matches removed.</p>
+                    <p class="text-gray-500">如 RECF 区域支持经理根据 CoC 调查结果判定某队应被取消后续参赛资格，EP 可使用 TM 中的全场取消资格功能将该队伍从所有后续比赛中移除。其资格赛名额由赛程末尾的队伍自动补上。</p>
+                  </div>
+                  <div class="mt-2 inline-flex items-center gap-1.5 bg-red-50 border border-red-200 text-red-700 text-xs px-3 py-1.5 rounded-lg font-medium">
+                    <span>⚠️</span>
+                    <span>Key takeaway: Violations may result in full event DQ. | 赛队违规可能被取消全部参赛资格。</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Update 4 -->
+            <div class="p-5">
+              <div class="flex gap-3">
+                <span class="flex-shrink-0 w-7 h-7 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                <div class="flex-1">
+                  <p class="font-semibold text-gray-800"><code class="bg-gray-100 px-1.5 py-0.5 rounded text-blue-700">&lt;T12&gt;</code> — New clause on full-event DQ after Finals Alliance formation</p>
+                  <p class="text-sm text-gray-500 mt-0.5">新增条款，说明 Finals Alliance 组建完成后的全场取消资格处理方式</p>
+                  <div class="mt-3 bg-gray-50 rounded-lg p-3 text-sm text-gray-700 space-y-2">
+                    <p>If a team must be removed from the Finals schedule after Alliance selection (per <code class="bg-gray-200 px-1 rounded">&lt;T8&gt; clause e</code>), the EP may use TM to remove them. Their Alliance spot is manually filled by the highest-ranked team not yet in Finals. If that team cannot or will not participate, the EP may select the next highest-ranked willing team. If no substitute is available, the remaining Alliance team competes alone.</p>
+                    <p class="text-gray-500">如某队在 Finals Alliance 组建完成后因 CoC 违规被取消资格，其名额由 EP 手动从未参加 Finals Alliance 的最高排名队伍中填补；如无队伍可用，剩余队伍将单独参赛。</p>
+                  </div>
+                  <div class="mt-2 inline-flex items-center gap-1.5 bg-red-50 border border-red-200 text-red-700 text-xs px-3 py-1.5 rounded-lg font-medium">
+                    <span>⚠️</span>
+                    <span>Key takeaway: DQ can happen even in Finals — replacement may or may not be available. | 决赛阶段也可能被取消资格，不保证有替补队伍。</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Footer link -->
+          <div class="bg-gray-50 px-6 py-4 border-t border-gray-100">
+            <div class="flex items-center justify-between flex-wrap gap-2">
+              <span class="text-xs text-gray-400">Source: VEX Forum official thread &nbsp;·&nbsp; 来源：VEX 论坛官方帖</span>
+              <a href="https://www.vexforum.com/t/viqrc-mix-match-game-manual-updates/137665" target="_blank"
+                 class="inline-flex items-center gap-1 text-sm font-medium text-blue-600 hover:text-blue-800 transition">
+                Read Full Update | 查看完整原文
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder for future news -->
+        <div class="bg-white rounded-xl shadow-sm border border-dashed border-gray-300 p-6 text-center text-sm text-gray-400">
+          <span class="text-2xl block mb-2">🔔</span>
+          <p class="font-medium">More updates coming soon | 更多资讯持续更新中</p>
         </div>
 
       </div>
