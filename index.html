@@ -282,7 +282,13 @@
             </div>
             <div class="text-xs text-gray-600">
               <div class="font-medium">Embassy Suites by Hilton</div>
-              <div class="text-gray-400">610 North 7th St, St. Louis, MO 63101</div>
+              <div class="flex items-center justify-between mt-1">
+                <span class="text-gray-400">610 North 7th St, St. Louis, MO 63101</span>
+                <div class="flex gap-1 flex-shrink-0">
+                  <button onclick="openMap('610 North 7th Street, St. Louis, MO 63101')" class="text-xs bg-green-100 hover:bg-green-200 text-green-700 px-1.5 py-0.5 rounded font-medium">🗺️</button>
+                  <button onclick="copyAddress('610 North 7th St, St. Louis, MO 63101')" class="text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-1.5 py-0.5 rounded font-medium">📋</button>
+                </div>
+              </div>
               <div class="mt-1.5 text-red-600 text-xs">⚠️ One adult per team · 家长限1人陪同</div>
             </div>
           </div>
@@ -294,7 +300,13 @@
             </div>
             <div class="text-xs text-gray-600">
               <div class="font-medium">America's Center</div>
-              <div class="text-gray-400">Convention Complex, St. Louis</div>
+              <div class="flex items-center justify-between mt-1">
+                <span class="text-gray-400">701 Washington Ave, St. Louis, MO 63101</span>
+                <div class="flex gap-1 flex-shrink-0">
+                  <button onclick="openMap('701 Washington Ave, St. Louis, MO 63101')" class="text-xs bg-green-100 hover:bg-green-200 text-green-700 px-1.5 py-0.5 rounded font-medium">🗺️</button>
+                  <button onclick="copyAddress('701 Washington Ave, St. Louis, MO 63101')" class="text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-1.5 py-0.5 rounded font-medium">📋</button>
+                </div>
+              </div>
               <div class="mt-1.5 text-xs text-gray-500">VIQRC ES &amp; MS: Apr 28–30</div>
             </div>
           </div>
@@ -405,8 +417,16 @@
                 🤖 MAGIKID Practice Field Open <span class="text-sm font-normal text-gray-400">专属练习场开放</span>
               </h3>
               <div class="mt-2 bg-blue-50 rounded-lg p-3 text-sm">
-                <p class="font-semibold">Embassy Suites by Hilton St. Louis Downtown</p>
-                <p class="text-gray-500">610 North 7th Street, St. Louis, MO 63101</p>
+                <div class="flex items-center justify-between">
+                  <div>
+                    <p class="font-semibold">Embassy Suites by Hilton St. Louis Downtown</p>
+                    <p class="text-gray-500">610 North 7th Street, St. Louis, MO 63101</p>
+                  </div>
+                  <div class="flex gap-1 flex-shrink-0 ml-2">
+                    <button onclick="openMap('610 North 7th Street, St. Louis, MO 63101')" class="text-xs bg-green-100 hover:bg-green-200 text-green-700 px-2 py-1 rounded font-medium">🗺️</button>
+                    <button onclick="copyAddress('610 North 7th Street, St. Louis, MO 63101')" class="text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-2 py-1 rounded font-medium">📋</button>
+                  </div>
+                </div>
               </div>
               <div class="mt-2 text-xs bg-red-50 text-red-600 p-2.5 rounded border border-red-200">
                 <p class="font-semibold">⚠️ Practice Area Rules</p>
@@ -573,8 +593,16 @@
             </h2>
             <div class="space-y-2 text-sm">
               <div class="bg-gray-50 rounded-lg p-3">
-                <div class="font-semibold">🏟️ America's Center Convention Complex</div>
-                <div class="text-gray-500">701 Washington Ave, St. Louis, MO 63101</div>
+                <div class="flex items-center justify-between">
+                  <div>
+                    <div class="font-semibold">🏟️ America's Center Convention Complex</div>
+                    <div class="text-gray-500">701 Washington Ave, St. Louis, MO 63101</div>
+                  </div>
+                  <div class="flex gap-1 flex-shrink-0">
+                    <button onclick="openMap('701 Washington Ave, St. Louis, MO 63101')" class="text-xs bg-green-100 hover:bg-green-200 text-green-700 px-2 py-1 rounded font-medium">🗺️</button>
+                    <button onclick="copyAddress('701 Washington Ave, St. Louis, MO 63101')" class="text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-2 py-1 rounded font-medium">📋</button>
+                  </div>
+                </div>
               </div>
               <div class="bg-gray-50 rounded-lg p-3">
                 <div class="font-semibold">🅿️ Parking</div>
@@ -998,24 +1026,82 @@
       }
     }
 
-    // Team display
+    // Team display with hotel info
     function displayTeamInfo(teamNum) {
       const infoDiv = document.getElementById('teamInfoDisplay');
       const detailsDiv = document.getElementById('teamDetailsDiv');
+      const hotelName = hotelNameInput.value;
+      const hotelAddress = hotelAddressInput.value;
+      
       if (teamNum && teamDetails[teamNum]) {
         const info = teamDetails[teamNum];
+        let hotelHtml = '';
+        if (hotelName) {
+          hotelHtml = `
+          <div class="mt-2 pt-2 border-t border-blue-200">
+            <div class="flex items-center gap-1.5 text-gray-400 text-xs mb-1">🏨 Hotel · 酒店</div>
+            <div class="flex items-center justify-between">
+              <div class="text-xs">
+                <span class="font-semibold text-gray-700">${hotelName}</span>
+                ${hotelAddress ? `<br><span class="text-gray-500">${hotelAddress}</span>` : ''}
+              </div>
+              <div class="flex gap-1 flex-shrink-0">
+                <button onclick="openMap('${hotelAddress.replace(/'/g, "\\'")}')" class="text-xs bg-green-100 hover:bg-green-200 text-green-700 px-2 py-1 rounded font-medium">🗺️ Map</button>
+                <button onclick="copyAddress('${hotelAddress.replace(/'/g, "\\'")}')" class="text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-2 py-1 rounded font-medium">📋 Copy</button>
+              </div>
+            </div>
+          </div>`;
+        }
         detailsDiv.innerHTML = `
           <div class="grid grid-cols-3 gap-2 text-xs">
             <div><span class="text-gray-400">Team</span><br><span class="font-bold text-blue-800">${teamNum}</span></div>
             <div><span class="text-gray-400">Lab</span><br><span class="font-semibold">${info.lab}</span></div>
             <div><span class="text-gray-400">Division</span><br><span class="font-semibold">${info.div}</span></div>
           </div>
+          ${hotelHtml}
         `;
+        infoDiv.classList.remove('hidden');
+      } else if (hotelName) {
+        // Only hotel, no team
+        detailsDiv.innerHTML = `
+          <div class="flex items-center justify-between text-xs">
+            <div>
+              <span class="font-semibold text-gray-700">🏨 ${hotelName}</span>
+              ${hotelAddress ? `<br><span class="text-gray-500">${hotelAddress}</span>` : ''}
+            </div>
+            <div class="flex gap-1 flex-shrink-0">
+              <button onclick="openMap('${hotelAddress.replace(/'/g, "\\'")}')" class="text-xs bg-green-100 hover:bg-green-200 text-green-700 px-2 py-1 rounded font-medium">🗺️ Map</button>
+              <button onclick="copyAddress('${hotelAddress}')" class="text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-2 py-1 rounded font-medium">📋 Copy</button>
+            </div>
+          </div>`;
         infoDiv.classList.remove('hidden');
       } else {
         infoDiv.classList.add('hidden');
       }
       saveTeamInfo();
+    }
+
+    // Map & Copy functions
+    function openMap(address) {
+      if (!address) { alert('No address available'); return; }
+      const encoded = encodeURIComponent(address + ', St. Louis, MO');
+      window.open(`https://www.google.com/maps/search/?api=1&query=${encoded}`, '_blank');
+    }
+    
+    function copyAddress(address) {
+      if (!address) { alert('No address available'); return; }
+      navigator.clipboard.writeText(address).then(() => {
+        const btn = event.target;
+        const original = btn.textContent;
+        btn.textContent = '✓';
+        btn.classList.remove('bg-blue-100', 'hover:bg-blue-200', 'text-blue-700');
+        btn.classList.add('bg-green-100', 'text-green-700');
+        setTimeout(() => {
+          btn.textContent = original;
+          btn.classList.add('bg-blue-100', 'hover:bg-blue-200', 'text-blue-700');
+          btn.classList.remove('bg-green-100', 'text-green-700');
+        }, 1500);
+      });
     }
 
     // Hotel select
@@ -1058,12 +1144,8 @@
       const saved = localStorage.getItem('vexTeamInfo');
       if (saved && currentLab) {
         const data = JSON.parse(saved);
-        if (data.teamNumber) {
-          const ts = document.getElementById('teamSelect');
-          ts.value = data.teamNumber;
-          displayTeamInfo(data.teamNumber);
-        }
         if (data.hotelName) {
+          // Load hotel first
           const options = hotelSelect.options;
           let found = false;
           for (let i = 0; i < options.length; i++) {
@@ -1078,6 +1160,14 @@
             hotelNameInput.value = data.hotelName;
           }
           hotelAddressInput.value = data.hotelAddress || '';
+        }
+        if (data.teamNumber) {
+          const ts = document.getElementById('teamSelect');
+          ts.value = data.teamNumber;
+          displayTeamInfo(data.teamNumber);
+        } else if (data.hotelName) {
+          // Show hotel card even without team selected
+          displayTeamInfo('');
         }
       }
     }
