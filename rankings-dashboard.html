@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEX IQ 世界排名 - 分赛区分析</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+        .card-gradient { background: linear-gradient(145deg, #1e1e3f, #2d2d5a); }
+        .gold { color: #ffd700; }
+        .silver { color: #c0c0c0; }
+        .bronze { color: #cd7f32; }
+        .china { border-left: 4px solid #de2910; }
+        .usa { border-left: 4px solid #3c3b6e; }
+        .region-card { transition: all 0.3s ease; }
+        .region-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .tab-active { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .stat-card { backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+    <!-- Header -->
+    <header class="py-8 px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
+            <i class="fas fa-robot mr-3"></i>VEX IQ 世界排名分析
+        </h1>
+        <p class="text-gray-400 text-lg">2025-2026赛季 | Mix & Match</p>
+    </header>
+
+    <!-- Stats Overview -->
+    <div class="max-w-7xl mx-auto px-4 mb-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="stat-card bg-white/10 rounded-2xl p-6 text-center">
+                <div class="text-4xl font-bold text-purple-400">6,635</div>
+                <div class="text-gray-400 mt-2">小学组队伍</div>
+            </div>
+            <div class="stat-card bg-white/10 rounded-2xl p-6 text-center">
+                <div class="text-4xl font-bold text-pink-400">6,516</div>
+                <div class="text-gray-400 mt-2">中学组队伍</div>
+            </div>
+            <div class="stat-card bg-white/10 rounded-2xl p-6 text-center">
+                <div class="text-4xl font-bold text-green-400">50+</div>
+                <div class="text-gray-400 mt-2">赛区数量</div>
+            </div>
+            <div class="stat-card bg-white/10 rounded-2xl p-6 text-center">
+                <div class="text-4xl font-bold text-yellow-400">13,151</div>
+                <div class="text-gray-400 mt-2">全球总队伍</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="max-w-7xl mx-auto px-4 mb-6">
+        <div class="flex flex-wrap gap-2 justify-center">
+            <button onclick="showTab('elementary')" id="tab-es" class="tab-active px-6 py-3 rounded-full font-semibold transition-all">
+                <i class="fas fa-graduation-cap mr-2"></i>小学组 Elementary
+            </button>
+            <button onclick="showTab('middle')" id="tab-ms" class="bg-gray-700/50 px-6 py-3 rounded-full font-semibold transition-all hover:bg-gray-600/50">
+                <i class="fas fa-school mr-2"></i>中学组 Middle School
+            </button>
+            <button onclick="showTab('china')" id="tab-cn" class="bg-gray-700/50 px-6 py-3 rounded-full font-semibold transition-all hover:bg-gray-600/50">
+                <i class="fas fa-flag mr-2"></i>中国队伍 China
+            </button>
+        </div>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="max-w-7xl mx-auto px-4 pb-12">
+        <!-- Elementary Section -->
+        <div id="section-elementary" class="tab-content">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <i class="fas fa-trophy gold mr-3"></i>小学组分区排名 TOP 30
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8" id="es-regions"></div>
+            
+            <h3 class="text-xl font-bold mb-4">🏆 世界前20名</h3>
+            <div class="bg-gray-800/50 rounded-2xl overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-700/50">
+                        <tr>
+                            <th class="py-4 px-4 text-left">排名</th>
+                            <th class="py-4 px-4 text-left">队伍</th>
+                            <th class="py-4 px-4 text-left">名称</th>
+                            <th class="py-4 px-4 text-left">组织</th>
+                            <th class="py-4 px-4 text-left">赛区</th>
+                            <th class="py-4 px-4 text-right">总分</th>
+                        </tr>
+                    </thead>
+                    <tbody id="es-top20"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Middle School Section -->
+        <div id="section-middle" class="tab-content hidden">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <i class="fas fa-trophy gold mr-3"></i>中学组分区排名 TOP 30
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8" id="ms-regions"></div>
+            
+            <h3 class="text-xl font-bold mb-4">🏆 世界前20名</h3>
+            <div class="bg-gray-800/50 rounded-2xl overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-700/50">
+                        <tr>
+                            <th class="py-4 px-4 text-left">排名</th>
+                            <th class="py-4 px-4 text-left">队伍</th>
+                            <th class="py-4 px-4 text-left">名称</th>
+                            <th class="py-4 px-4 text-left">组织</th>
+                            <th class="py-4 px-4 text-left">赛区</th>
+                            <th class="py-4 px-4 text-right">总分</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ms-top20"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- China Section -->
+        <div id="section-china" class="tab-content hidden">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="text-3xl mr-2">🇨🇳</span>中国赛区队伍世界排名
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-purple-400">小学组 China Elementary</h3>
+                    <div class="bg-gray-800/50 rounded-2xl overflow-hidden">
+                        <table class="w-full text-sm">
+                            <thead class="bg-gray-700/50">
+                                <tr>
+                                    <th class="py-3 px-3 text-left">世界排名</th>
+                                    <th class="py-3 px-3 text-left">队伍</th>
+                                    <th class="py-3 px-3 text-left">名称</th>
+                                    <th class="py-3 px-3 text-left">赛区</th>
+                                    <th class="py-3 px-3 text-right">分数</th>
+                                </tr>
+                            </thead>
+                            <tbody id="china-es"></tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-pink-400">中学组 China Middle School</h3>
+                    <div class="bg-gray-800/50 rounded-2xl overflow-hidden">
+                        <table class="w-full text-sm">
+                            <thead class="bg-gray-700/50">
+                                <tr>
+                                    <th class="py-3 px-3 text-left">世界排名</th>
+                                    <th class="py-3 px-3 text-left">队伍</th>
+                                    <th class="py-3 px-3 text-left">名称</th>
+                                    <th class="py-3 px-3 text-left">赛区</th>
+                                    <th class="py-3 px-3 text-right">分数</th>
+                                </tr>
+                            </thead>
+                            <tbody id="china-ms"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data embedded from CSV
+        const esRegions = [
+            {name: "California - South", count: 410, avgScore: 245},
+            {name: "Indiana - Region 1", count: 388, avgScore: 198},
+            {name: "Indiana - Region 2", count: 383, avgScore: 195},
+            {name: "Alabama", count: 296, avgScore: 180},
+            {name: "Utah", count: 201, avgScore: 185},
+            {name: "Colorado", count: 200, avgScore: 178},
+            {name: "East China", count: 104, avgScore: 320},
+            {name: "North China", count: 157, avgScore: 285},
+            {name: "West China", count: 89, avgScore: 290},
+            {name: "South China", count: 129, avgScore: 275}
+        ];
+
+        const msRegions = [
+            {name: "Alabama", count: 282, avgScore: 195},
+            {name: "California - South", count: 268, avgScore: 210},
+            {name: "Indiana - Region 2", count: 220, avgScore: 180},
+            {name: "Florida - North/Central", count: 205, avgScore: 175},
+            {name: "Georgia", count: 187, avgScore: 172},
+            {name: "Tennessee", count: 175, avgScore: 168},
+            {name: "United Kingdom", count: 153, avgScore: 185},
+            {name: "Australia", count: 151, avgScore: 180},
+            {name: "East China", count: 75, avgScore: 340},
+            {name: "North China", count: 65, avgScore: 310}
+        ];
+
+        const esTop20 = [
+            {rank: 1, team: "81777A", name: "Spicy Noodle", org: "Magikid Cupertino", region: "California - North", score: 548},
+            {rank: 2, team: "629Y", name: "Red&Blue", org: "SCBS", region: "East China", score: 531},
+            {rank: 3, team: "2988A", name: "Mecha Arbiter", org: "Shanghai Fenghua", region: "East China", score: 504},
+            {rank: 4, team: "618X", name: "XRaccoon", org: "Minhang Experimental", region: "East China", score: 496},
+            {rank: 5, team: "3988S", name: "Echosong", org: "Irvine Robotics", region: "California - South", score: 492},
+            {rank: 6, team: "1512X", name: "Hexagonal Artists", org: "Shanghai Concord", region: "East China", score: 479},
+            {rank: 7, team: "478M", name: "Elevate-Mac", org: "Elevate Tech", region: "Washington", score: 471},
+            {rank: 8, team: "81777X", name: "Cupertino Cheese", org: "Magikid Cupertino", region: "California - North", score: 466},
+            {rank: 9, team: "5571K", name: "Starlight Elves", org: "Qingdao Fuzhou Road", region: "Middle China", score: 465},
+            {rank: 10, team: "6116M", name: "innocence", org: "wankechengxiaoxue", region: "West China", score: 464},
+            {rank: 11, team: "3988D", name: "Fried Egg", org: "Irvine Robotics", region: "California - South", score: 461},
+            {rank: 12, team: "252S", name: "Sunshine", org: "I Wonder Robotics", region: "Ontario", score: 458},
+            {rank: 13, team: "81777B", name: "Chomper", org: "Magikid Cupertino", region: "California - North", score: 455},
+            {rank: 14, team: "65526X", name: "65526x", org: "wankecity", region: "West China", score: 454},
+            {rank: 15, team: "33933M", name: "friendship", org: "chaonengshiyanshi", region: "West China", score: 454},
+            {rank: 16, team: "81777R", name: "RoboBananas", org: "Magikid Cupertino", region: "California - North", score: 454},
+            {rank: 17, team: "286A", name: "Techno Bananas", org: "Magikid Tustin", region: "California - South", score: 451},
+            {rank: 18, team: "97793A", name: "Mecha Masters", org: "HICKS CANYON", region: "California - South", score: 448},
+            {rank: 19, team: "2675C", name: "Psycho Mouse", org: "Magikid Fremont", region: "California - North", score: 447},
+            {rank: 20, team: "6104C", name: "Chicken Buckets", org: "Magikid San Diego", region: "California - South", score: 441}
+        ];
+
+        const msTop20 = [
+            {rank: 1, team: "81777Z", name: "Hot Slice", org: "Magikid Cupertino", region: "California - North", score: 550},
+            {rank: 2, team: "71777A", name: "Vortex-R", org: "Kunshan Xinzhen", region: "East China", score: 540},
+            {rank: 3, team: "727H", name: "Home-field Advantage", org: "Magnus Robotics", region: "Pennsylvania", score: 511},
+            {rank: 4, team: "8588A", name: "Tsingtao Bymax", org: "Qingdao University", region: "Middle China", score: 494},
+            {rank: 5, team: "9933X", name: "Cybot-Joy", org: "Cybot Robotics", region: "British Columbia", score: 493},
+            {rank: 6, team: "6699W", name: "Velocity Vortex", org: "Taiwan Robotics Lab", region: "Chinese Taipei", score: 492},
+            {rank: 7, team: "5491M", name: "HAPPY HIPPO", org: "Fancy Robotics", region: "Chinese Taipei", score: 489},
+            {rank: 8, team: "81777U", name: "Pineapples", org: "Magikid Cupertino", region: "California - North", score: 488},
+            {rank: 9, team: "9156A", name: "Alpha Five", org: "NYIF", region: "California - South", score: 480},
+            {rank: 10, team: "80608A", name: "Potato Nuggets", org: "El Retiro", region: "California - South", score: 477},
+            {rank: 11, team: "8818N", name: "Ctrl X", org: "Roboplanet", region: "British Columbia", score: 476},
+            {rank: 12, team: "636H", name: "courage", org: "chaonengshiyanshi", region: "West China", score: 472},
+            {rank: 13, team: "252W", name: "Wonder Why?", org: "I Wonder Robotics", region: "Ontario", score: 471},
+            {rank: 14, team: "6677U", name: "Never Give up", org: "Dr. Player", region: "Chinese Taipei", score: 465},
+            {rank: 15, team: "8818S", name: "The Clashers", org: "Roboplanet", region: "British Columbia", score: 461},
+            {rank: 16, team: "81777W", name: "R.I.C.E", org: "Magikid Cupertino", region: "California - North", score: 454},
+            {rank: 17, team: "81777T", name: "Captain IQ", org: "Magikid Cupertino", region: "California - North", score: 454},
+            {rank: 18, team: "839A", name: "Caution Tape Alpha", org: "Caution Tape Robotics", region: "Ontario", score: 454},
+            {rank: 19, team: "1822S", name: "BuZhou Mount", org: "不周山机器人", region: "North China", score: 452},
+            {rank: 20, team: "95014X", name: "GaGaGuGu", org: "STEM Cupertino", region: "California - North", score: 451}
+        ];
+
+        const chinaES = [
+            {rank: 2, team: "629Y", name: "Red&Blue", region: "East China", score: 531},
+            {rank: 3, team: "2988A", name: "Mecha Arbiter", region: "East China", score: 504},
+            {rank: 4, team: "618X", name: "XRaccoon", region: "East China", score: 496},
+            {rank: 6, team: "1512X", name: "Hexagonal Artists", region: "East China", score: 479},
+            {rank: 9, team: "5571K", name: "Starlight Elves", region: "Middle China", score: 465},
+            {rank: 10, team: "6116M", name: "innocence", region: "West China", score: 464},
+            {rank: 14, team: "65526X", name: "65526x", region: "West China", score: 454},
+            {rank: 15, team: "33933M", name: "friendship", region: "West China", score: 454},
+            {rank: 22, team: "636M", name: "phoenix", region: "West China", score: 437},
+            {rank: 23, team: "861A", name: "Speedy Gears", region: "North China", score: 434},
+            {rank: 24, team: "13A", name: "Super Heroes", region: "West China", score: 434},
+            {rank: 25, team: "95059A", name: "Saltyfish", region: "East China", score: 431},
+            {rank: 26, team: "80077A", name: "DFD-A", region: "South China", score: 430},
+            {rank: 28, team: "81777Y", name: "Obsidian", region: "California - North", score: 430},
+            {rank: 29, team: "99130J", name: "Ace Squad", region: "North China", score: 429},
+            {rank: 30, team: "986A", name: "STEMSTAR-Ancient", region: "East China", score: 429}
+        ];
+
+        const chinaMS = [
+            {rank: 2, team: "71777A", name: "Vortex-R", region: "East China", score: 540},
+            {rank: 4, team: "8588A", name: "Tsingtao Bymax", region: "Middle China", score: 494},
+            {rank: 6, team: "6699W", name: "Velocity Vortex", region: "Chinese Taipei", score: 492},
+            {rank: 12, team: "636H", name: "courage", region: "West China", score: 472},
+            {rank: 19, team: "1822S", name: "BuZhou Mount", region: "North China", score: 452},
+            {rank: 22, team: "9296A", name: "YouthLink", region: "East China", score: 451},
+            {rank: 23, team: "636A", name: "UZI", region: "West China", score: 448},
+            {rank: 25, team: "3668X", name: "Sentient", region: "Macau", score: 446},
+            {rank: 26, team: "85556A", name: "鲁迅初中", region: "East China", score: 445},
+            {rank: 28, team: "77717A", name: "Vexal", region: "East China", score: 439},
+            {rank: 29, team: "726A", name: "Avenger", region: "East China", score: 437},
+            {rank: 31, team: "88299A", name: "Science museum 1", region: "North China", score: 436},
+            {rank: 33, team: "99239X", name: "Gao Xinxia", region: "West China", score: 432},
+            {rank: 35, team: "27112B", name: "Snow KING", region: "North China", score: 432},
+            {rank: 36, team: "45544K", name: "Gao Xinxia", region: "West China", score: 429},
+            {rank: 38, team: "27112A", name: "Beijing Team", region: "North China", score: 427}
+        ];
+
+        function showTab(tab) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById('section-' + tab).classList.remove('hidden');
+            
+            document.querySelectorAll('[id^="tab-"]').forEach(el => {
+                el.classList.remove('tab-active');
+                el.classList.add('bg-gray-700/50');
+            });
+            document.getElementById('tab-' + (tab === 'elementary' ? 'es' : tab === 'middle' ? 'ms' : 'cn')).classList.add('tab-active');
+            document.getElementById('tab-' + (tab === 'elementary' ? 'es' : tab === 'middle' ? 'ms' : 'cn')).classList.remove('bg-gray-700/50');
+        }
+
+        function renderRegionCards(container, regions) {
+            const html = regions.map(r => `
+                <div class="region-card card-gradient rounded-xl p-4">
+                    <div class="text-2xl font-bold">${r.count}</div>
+                    <div class="text-sm text-gray-400">${r.name}</div>
+                    <div class="text-xs text-purple-400 mt-2">Avg: ${r.avgScore}</div>
+                </div>
+            `).join('');
+            document.getElementById(container).innerHTML = html;
+        }
+
+        function renderTop20(tableId, data) {
+            const colors = ['gold', 'silver', 'bronze'];
+            const html = data.map((row, i) => `
+                <tr class="${i % 2 === 0 ? 'bg-gray-800/30' : ''}">
+                    <td class="py-3 px-4">
+                        <span class="${i < 3 ? colors[i] + ' font-bold' : ''}">#${row.rank}</span>
+                    </td>
+                    <td class="py-3 px-4 font-mono">${row.team}</td>
+                    <td class="py-3 px-4">${row.name}</td>
+                    <td class="py-3 px-4 text-gray-400 text-sm">${row.org}</td>
+                    <td class="py-3 px-4 text-sm">${row.region}</td>
+                    <td class="py-3 px-4 text-right font-bold ${row.score > 500 ? 'text-green-400' : ''}">${row.score}</td>
+                </tr>
+            `).join('');
+            document.getElementById(tableId).innerHTML = html;
+        }
+
+        function renderChina(tableId, data) {
+            const html = data.map((row, i) => `
+                <tr class="${i % 2 === 0 ? 'bg-gray-800/30' : ''}">
+                    <td class="py-2 px-3 font-bold">#${row.rank}</td>
+                    <td class="py-2 px-3 font-mono">${row.team}</td>
+                    <td class="py-2 px-3">${row.name}</td>
+                    <td class="py-2 px-3 text-gray-400 text-xs">${row.region}</td>
+                    <td class="py-2 px-3 text-right font-bold text-green-400">${row.score}</td>
+                </tr>
+            `).join('');
+            document.getElementById(tableId).innerHTML = html;
+        }
+
+        // Initialize
+        renderRegionCards('es-regions', esRegions);
+        renderRegionCards('ms-regions', msRegions);
+        renderTop20('es-top20', esTop20);
+        renderTop20('ms-top20', msTop20);
+        renderChina('china-es', chinaES);
+        renderChina('china-ms', chinaMS);
+    </script>
+</body>
+</html>

@@ -1,0 +1,2069 @@
+{
+  "arts": [
+    {
+      "number": "182A",
+      "name": "AutoMato Robotics AutoMato Robotics Club Oakville, Ontario,",
+      "location": "Canada Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "243A",
+      "name": "TechTigers FRONTIER SCHL OF INNOVATION-M Kansas City, Missouri,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "286A",
+      "name": "Techno Bananas Magikid Tustin Tustin, California,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "390G",
+      "name": "Dimond Botx RIGBY MIDDLE SCHOOL Rigby, Idaho,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "478T",
+      "name": "Elevate-Firestorm Elevate Tech Redmond, Washington,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "629Y",
+      "name": "Red&Blue SCBS Shanghai, Shanghai,",
+      "location": "China Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "821D",
+      "name": "The Ramen Dragons ED H WHITE ELEMENTARY SCHOOL Houston, Texas,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "937B",
+      "name": "Killer Whale",
+      "location": "Shanghai Jincai Experimental Primary Shanghai, Shanghai, China Elementary School",
+      "division": "arts"
+    },
+    {
+      "number": "1063E",
+      "name": "GCA - Extreme Builders GREENWOOD CHRISTIAN ACADEMY Greenwood, Indiana,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "1100S",
+      "name": "King Pins GRASSY LAKE ELEMENTARY SCHOOL Minneola, Florida,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "1227D",
+      "name": "Bolton Buildogs BOLTON CENTER SCHOOL Bolton, Connecticut,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "1810A",
+      "name": "RoboGenius RoboGenius Timonium, Maryland,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "2244B",
+      "name": "Bowie Bots JAMES BOWIE ELEMENTARY SCHOOL Dallas, Texas,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "2425R",
+      "name": "Pickled Doritos Roscomare Road",
+      "location": "Elementary Los Angeles, California, United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "2668B",
+      "name": "BASIS Bots BASIS Bots Austin, Texas,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "2783J",
+      "name": "Ice Dragons CARTER LAKE ELEMENTARY SCHOOL Carter Lake, Iowa,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "3125M",
+      "name": "ArchieBots Archiebots Robotics Academy Carmel, Indiana,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "3439C",
+      "name": "Crash Heros REACT Robotics Elizabethtown, Kentucky,",
+      "location": "United Elementary States",
+      "division": "arts"
+    },
+    {
+      "number": "3708C",
+      "name": "Shark Byte Victoria",
+      "location": "Shanghai Academy Hong Kong, Hong Kong, China Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "5004S",
+      "name": "MechaCoding S MechaCoding Academy Suwon-Si, Korea, Republic of",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "5164A",
+      "name": "Marquez Robotix/BLUE Marquez Charter Pacific Palisades, California,",
+      "location": "United Elementary States",
+      "division": "arts"
+    },
+    {
+      "number": "6177A",
+      "name": "Armored Axolotls Robotfun Academy Wellesley Hills, Massachusetts, UnitedElementary",
+      "location": "States",
+      "division": "arts"
+    },
+    {
+      "number": "6440C",
+      "name": "Guilford GearBusters GUILFORD ELEMENTARY Plainfield, Indiana,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "6677G",
+      "name": "GearForce Dr. Player Robotic Lab . Nantou Nantou, Chinese Taipei",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "6885B",
+      "name": "Coders of the Caribbean RoboPlanet Burnaby Burnaby,",
+      "location": "British Columbia, Canada Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "7799B",
+      "name": "HaMeng 上上上东上上上 Shanghai, Shanghai,",
+      "location": "China Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "8299B",
+      "name": "HZ.Club 宁宁宁泽宁宁宁泽宁宁宁宁 宁宁, Zhejiang,",
+      "location": "China Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "8873B",
+      "name": "X-STREAM THOMAS EDISON ENERGYSMART Somerset, New Jersey,",
+      "location": "United States Elementary CHARTER SCHOOL",
+      "division": "arts"
+    },
+    {
+      "number": "9066A",
+      "name": "magikid beijing 北北上北北北北北北东东上北 北北, Beijing,",
+      "location": "China Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "9919A",
+      "name": "HUA CHUANG Rockets 五五五 北北, Beijing,",
+      "location": "China Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "10404F",
+      "name": "Da'GOATS COLD SPRING SCHOOL Indianapolis, Indiana,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "10511A",
+      "name": "Alphabots CYPRESS RIDGE ELEMENTARY SCHOOL Clermont, Florida,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "11180B",
+      "name": "Colts 2 KELLY MILL ELEMENTARY Cumming, Georgia,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "13200A",
+      "name": "XPYP TEAM A Xianggang Putonghua Yanxishe Primary New Territories,",
+      "location": "Hong Kong, China Elementary School of Science And Creativity",
+      "division": "arts"
+    },
+    {
+      "number": "16677A",
+      "name": "CBS ENNIS cbs primary Clare, Clare, Ireland",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "17593X",
+      "name": "HYPER BOT CNX Simzone Robotics by ECU=Shop Chiangmai, Thailand",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "18493B",
+      "name": "Santa Rita Elementary SANTA RITA ELEMENTARY SCHOOL San Angelo, Texas,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "18823M",
+      "name": "Mt Auburn Tech Mustangs MOUNT AUBURN STEAM ACADEMY Dallas, Texas,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "20160M",
+      "name": "MINIONS THCS LY TU TRONG Hòa Bình, Vietnam",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "21217A",
+      "name": "FLTPA Soaring Eagles FURMAN TEMPLETON PREPARATORY Baltimore, Maryland,",
+      "location": "United States Elementary ACADEMY",
+      "division": "arts"
+    },
+    {
+      "number": "23011A",
+      "name": "Gaelscoil an Ráithín Gaelscoil an Ráithín Limerick, Limerick, Ireland",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "25705B",
+      "name": "Game Over EAST BEAUREGARD ELEMENTARY Deridder, Louisiana,",
+      "location": "United States Elementary SCHOOL",
+      "division": "arts"
+    },
+    {
+      "number": "26989B",
+      "name": "TPCS RoboKnights B TRADERS POINT CHRISTIAN ACADEMY Whitestown, Indiana,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "29544C",
+      "name": "Falcon Force CSA FODREA CAMPUS Columbus, Indiana,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "31186C",
+      "name": "CRAZY KOALAS PIONEER SCHOOL Ogden, Utah,",
+      "location": "United States Elementary Page 2 of 4 RE-VIQRC-26-4029 April 8, 2026 9:55 PM",
+      "division": "arts"
+    },
+    {
+      "number": "34107G",
+      "name": "The Odd Squad ST JOSEPH GRADE SCHOOL Huntington, West Virginia,",
+      "location": "United Elementary States",
+      "division": "arts"
+    },
+    {
+      "number": "34543E",
+      "name": "345RoboticsE 345Robotics George Town, Cayman Islands",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "37064D",
+      "name": "Creekside Otter Robotics CREEKSIDE ELEMENTARY SCHOOL Franklin, Tennessee,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "38413A",
+      "name": "Tech Serpents N/A Falls Church, Virginia,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "42968Y",
+      "name": "Circuit Surfers Bixby North Bixby, Oklahoma,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "46140A",
+      "name": "Floating Hotdogs Ketchup & Mustard Robotics Greenfield, Indiana,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "49466A",
+      "name": "Berry Bots CHEROKEE ELEMENTARY SCHOOL Tahlequah, Oklahoma,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "51451D",
+      "name": "The Golden Bots SAWNEE ELEMENTARY SCHOOL Cumming, Georgia,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "52710A",
+      "name": "The Rising Eagles BELLS ELEMENTARY Simpsonville, South Carolina,",
+      "location": "United Elementary States",
+      "division": "arts"
+    },
+    {
+      "number": "54445T",
+      "name": "Sneaky Snakes Lomond View",
+      "location": "Elementary Pleasant View, Utah, United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "59365B",
+      "name": "The Gladiators ST FRANCIS CATHOLIC SCHOOL Brainerd, Minnesota,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "60600B",
+      "name": "创创探探探创 创创探探宁宁探探 青岛, Shandong,",
+      "location": "China Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "62130D",
+      "name": "CyberStorm Bixby West Intermediate Bixby, Oklahoma,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "63122A",
+      "name": "Spark Attack WESTCHESTER ELEMENTARY SCHOOL. St Louis, Missouri,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "68039V",
+      "name": "IronBots Trường trung học cơ sở Cầu Giấy Hà Nội, Vietnam",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "70510F",
+      "name": "Mechanical Monkeys MEAD ELEMENTARY SCHOOL Mead, Colorado,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "72777F",
+      "name": "Ninja Turtles EAST FORK LUTHERAN GRADE SCHOOL Whiteriver, Arizona,",
+      "location": "United States Elementary AND HIGH SCHOOL",
+      "division": "arts"
+    },
+    {
+      "number": "76896A",
+      "name": "Golden Cobras Golden Cobras Lake Charles, Louisiana,",
+      "location": "United StatesElementary",
+      "division": "arts"
+    },
+    {
+      "number": "80292D",
+      "name": "Robo Rangers AOTE Foundation Troy, Michigan,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "81777A",
+      "name": "Spicy Noodle Magikid Cupertino Robotics Lab Cupertino, California,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "83920T",
+      "name": "Islanders Caribbean Robotics Academy Caguas, Puerto Rico",
+      "location": "Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "88299B",
+      "name": "Science museum 2 Youth Science & Technology Center of Beijing, Beijing,",
+      "location": "China Elementary Beijing Xicheng",
+      "division": "arts"
+    },
+    {
+      "number": "95133G",
+      "name": "Gold Bears San Jose Robotics Club San Jose, California,",
+      "location": "United States Elementary",
+      "division": "arts"
+    },
+    {
+      "number": "98016B",
+      "name": "STEMSTAR-CHRONOS HZCXYT- STEMSTAR Hangzhou, Zhejiang,",
+      "location": "China Elementary",
+      "division": "arts"
+    }
+  ],
+  "engineering": [
+    {
+      "number": "28T",
+      "name": "DORITO CHEEZY PUFFS: Robot Revolution Summit, New Jersey,",
+      "location": "United States Elementary Robot Rev",
+      "division": "engineering"
+    },
+    {
+      "number": "138Z",
+      "name": "QRCA - White AAA Training and Tuition (RTO 46396) Burleigh Heads, Queensland, AustraliaElementary",
+      "location": "",
+      "division": "engineering"
+    },
+    {
+      "number": "220X",
+      "name": "Phoenix Western Mechatronics Calgary, Alberta,",
+      "location": "Canada Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "279G",
+      "name": "Trailblazers Trailblazer Robotics Juniors Cumming, Georgia,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "331W",
+      "name": "Whiteout Geckos ROBERT WILLIS ELEMENTARY SCHOOL Bradenton, Florida,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "478M",
+      "name": "Elevate-Mac and Cheese Elevate Tech Redmond, Washington,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "812A",
+      "name": "Boba Bots I W AND ELEANOR HYDE ELEMENTARY League City, Texas,",
+      "location": "United States Elementary SCHOOL",
+      "division": "engineering"
+    },
+    {
+      "number": "861A",
+      "name": "Speedy Gears 中中农农中中中中中中中 北北, Beijing,",
+      "location": "China Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "1059A",
+      "name": "CyberKnights Alpacas KIMBERLIN ACAD FOR EXCEL Garland, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "1100E",
+      "name": "Cosmobots GRASSY LAKE ELEMENTARY SCHOOL Minneola, Florida,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "1216D",
+      "name": "Infinity Coders Wheelhouse Robotics Irving, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "1431A",
+      "name": "TITANS Sirius Dynamics Weston, Florida,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "1779A",
+      "name": "Magikid Titans MagikidCedarpark Cedar Park, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "2166A",
+      "name": "Magikid Caliber Magikid Robotics Lab Frisco Frisco, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "2410M",
+      "name": "The Costco Guys KEYSTONE ELEMENTARY SCHOOL SCH Knox, Pennsylvania,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "2633B",
+      "name": "CODE-A-ROBOT CODE-A-ROBOT Weston, Florida,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "2737A",
+      "name": "Blazing Bananas Magikid Robotics Lab Redmond Redmond, Washington,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "3030D",
+      "name": "Biscuit Robotics D Biscuit Robotics Katy, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "3439B",
+      "name": "Bot Boss REACT Robotics Elizabethtown, Kentucky,",
+      "location": "United Elementary States",
+      "division": "engineering"
+    },
+    {
+      "number": "3668C",
+      "name": "Sentient Robotics Club - BurringMacau Artificial Intelligence Education CenterMacau, Macau,",
+      "location": "China Elementary Bud",
+      "division": "engineering"
+    },
+    {
+      "number": "3988S",
+      "name": "Echosong Irvine Robotics Irvine, California,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "4751A",
+      "name": "Color Crew Robotics Edge LLC. Chandler, Arizona,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "5147B",
+      "name": "Robot Rebels VINEYARD RANCH ELEMENTARY San Antonio, Texas,",
+      "location": "United States Elementary SCHOOL",
+      "division": "engineering"
+    },
+    {
+      "number": "5559C",
+      "name": "OK-Eclipse Synthetic OpenKids Singapore, Singapore",
+      "location": "Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "5981B",
+      "name": "TechnoPods WHIGHAM ELEMENTARY SCHOOL Cutler Bay, Florida,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "6104C",
+      "name": "Chicken Buckets Magikid San Diego San Diego, California,",
+      "location": "United States Elementary Page 1 of 4 RE-VIQRC-26-4029 April 8, 2026 9:55 PM",
+      "division": "engineering"
+    },
+    {
+      "number": "6333H",
+      "name": "GX-Fellowship of the Ping Gaiax Singapore, Singapore",
+      "location": "Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "6855B",
+      "name": "Warrior Vex IQ WESTMINSTER CHRISTIAN PRIVATE Palmetto Bay, Florida,",
+      "location": "United States Elementary SCHOOL, INC.",
+      "division": "engineering"
+    },
+    {
+      "number": "7553N",
+      "name": "Mechanical Kids ICGC West Chester, Ohio,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "8282X",
+      "name": "Godspeed GotRobotics Irvine, California,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "8988P",
+      "name": "Penguin 张江江中张张中中&上上中中&福福福中语中中Shanghai, Shanghai,",
+      "location": "China Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "10142A",
+      "name": "Green Tigers Team A MANOA ELEMENTARY SCHOOL Honolulu, Hawaii,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "11086B",
+      "name": "Cybercat Kings SUMMIT SCHOOL OF AHWATUKEE Phoenix, Arizona,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "12368C",
+      "name": "Falcon Bots Emirates Science Club Dubai,",
+      "location": "United Arab Emirates Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "13650A",
+      "name": "Pickle Sickles MAPLEWOOD ELEMENTARY Sulphur, Louisiana,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "16346R",
+      "name": "Colorguard Cranberry Area Jshs Seneca, Pennsylvania,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "17222A",
+      "name": "Royal Roboteers Nysmith Independent Team Ashburn, Virginia,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "18000B",
+      "name": "Carson STEAM 2 CARSON STREET ELEMENTARY Carson, California,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "18823A",
+      "name": "Mt Auburn Lady Mustangs MOUNT AUBURN STEAM ACADEMY Dallas, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "20058C",
+      "name": "EagleTec CORAL ACADEMY OF SCIENCE LAS Henderson, Nevada,",
+      "location": "United States Elementary VEGAS - Cadence",
+      "division": "engineering"
+    },
+    {
+      "number": "21121A",
+      "name": "VEXTRONS MANATEE BAY ELEMENTARY SCHOOL Weston, Florida,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "22884A",
+      "name": "Koalabots A WEISSER PARK ELEMENTARY SCHOOL Fort Wayne, Indiana,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "25425B",
+      "name": "Knuckle Sandwich - Chaos Knuckle Sandwich Robotics, Inc. Northport, Alabama,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "26862B",
+      "name": "Quantum Master VEX中学苏学学学学学学 苏学, Jiangsu,",
+      "location": "China Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "29032E",
+      "name": "Summit Seekers ES Endeavor Microschool Collierville, Tennessee,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "31186A",
+      "name": "THE AMAZING SPORTS TEAMPIONEER SCHOOL Ogden, Utah,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "34035J",
+      "name": "IOROBOT JR İbrahim Özaydın Mesleki ve Teknik Anadolu Istanbul, Türkiye",
+      "location": "Elementary Lisesi",
+      "division": "engineering"
+    },
+    {
+      "number": "34458Z",
+      "name": "OS TECH TITANS OCEAN SPRINGS UPPER ELEMENTARY Ocean Springs, Mississippi,",
+      "location": "United Elementary SCHO States",
+      "division": "engineering"
+    },
+    {
+      "number": "35640C",
+      "name": "Techno Tigers: FE BURLESON ELEMENTARY SCHOOL Hartselle, Alabama,",
+      "location": "United States Elementary CTR+ALT+Defeat",
+      "division": "engineering"
+    },
+    {
+      "number": "37991M",
+      "name": "Los de siempre BOTS Robótica Rionegro, Colombia",
+      "location": "Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "44632N",
+      "name": "Blow the Budget LAKE ELEMENTARY SCHOOL Hartville, Ohio,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "47721K",
+      "name": "IDK I Just Work Here PRINCETON INTERMEDIATE SCHOOL Princeton, Minnesota,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "50316F",
+      "name": "The Obi-Wan Kenobots COMMODORE JOHN ROGERS Baltimore, Maryland,",
+      "location": "United States Elementary ELEMENTARY/MIDDLE",
+      "division": "engineering"
+    },
+    {
+      "number": "52654D",
+      "name": "Robo Duckies NORTHERN ELEMENTARY SCHOOL Georgetown, Kentucky,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "53976A",
+      "name": "Tara Oaks Tigerbots TARA OAKS ELEMENTARY SCHOOL Collierville, Tennessee,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "58051A",
+      "name": "杭学杭中杭马杭杭杭杭马 杭学杭中杭马杭杭杭杭马 杭学, Zhejiang,",
+      "location": "China Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "58923A",
+      "name": "RNS Robotics Rosenallis NS Portlaois, Laois, Ireland",
+      "location": "Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "60065A",
+      "name": "Motorized Militia Motorized Militia New Orleans, Louisiana,",
+      "location": "United StatesElementary",
+      "division": "engineering"
+    },
+    {
+      "number": "62130B",
+      "name": "CyberWall-e Bixby West Intermediate Bixby, Oklahoma,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "63041A",
+      "name": "CWWPS(A) GCCITKD Cheong Wong Wai Primary New Territories,",
+      "location": "Hong Kong, China Elementary School",
+      "division": "engineering"
+    },
+    {
+      "number": "66767A",
+      "name": "6 7 Future Minds of Carolinas Matthews, North Carolina,",
+      "location": "United Elementary States",
+      "division": "engineering"
+    },
+    {
+      "number": "67846J",
+      "name": "Pivot Robotics Great Plains MakerSpace - Pivot Robotics Garden City, Kansas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "69699A",
+      "name": "Dehydrated Water Reddam House Woollahra, New South Wales,",
+      "location": "Elementary Australia",
+      "division": "engineering"
+    },
+    {
+      "number": "72550A",
+      "name": "Chinchilla Chalupas Apollo Robotics Broomfield, Colorado,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "74866A",
+      "name": "Cosmic Bots B MCDANIEL INT Denison, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "80020A",
+      "name": "The Bunting Bots Rocky Robotiqs Broomfield, Colorado,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "81625S",
+      "name": "3 Stackateers Ridgeview Robotics Craig, Colorado,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "83187G",
+      "name": "Robo Cranes Rio Grande City Grulla ISD Rio Grande City, Texas,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "84401C",
+      "name": "Mystery Cowboys MARTHA & JOSH MORRISS MATH & Texarkana, Texas,",
+      "location": "United States Elementary ENGINEERING ELEMENTARY SCHOOL",
+      "division": "engineering"
+    },
+    {
+      "number": "88180Y",
+      "name": "RPM Y-Fi RPM Academy Montréal, Quebec,",
+      "location": "Canada Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "90048D",
+      "name": "Blue Thunddder SYRACUSE SCHOOL Syracuse, Utah,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "92633B",
+      "name": "WYRED: BelleBots WYRED Robotics Nappanee, Indiana,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "96627A",
+      "name": "Sharp Creek Blue Norsebots SHARP CREEK ELEMENTARY SCHOOL Wabash, Indiana,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "97793A",
+      "name": "Mecha Masters HICKS CANYON ELEMENTARY Irvine, California,",
+      "location": "United States Elementary",
+      "division": "engineering"
+    },
+    {
+      "number": "98999Y",
+      "name": "The Terminators River Ridge Academy Bluffton, South Carolina,",
+      "location": "United StatesElementary",
+      "division": "engineering"
+    },
+    {
+      "number": "99561C",
+      "name": "assabirun assabirun Rufisque, Senegal",
+      "location": "Elementary Page 4 of 4 RE-VIQRC-26-4029 April 8, 2026 9:55 PM",
+      "division": "engineering"
+    }
+  ],
+  "math": [
+    {
+      "number": "97A",
+      "name": "兰州州州州州州兰州州州A队 兰州州州州州州兰州州州 兰州, Gansu,",
+      "location": "China Elementary",
+      "division": "math"
+    },
+    {
+      "number": "243G",
+      "name": "StarTeam FRONTIER SCHL OF INNOVATION-M Kansas City, Missouri,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "428J",
+      "name": "North Loop Jaguars2 NORTH LOOP ELEMENTARY SCHOOL El Paso, Texas,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "478Z",
+      "name": "Elevate-Zero to Hero Elevate Tech Redmond, Washington,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "689A",
+      "name": "Tech Wizards Davis Youth Robotics Davis, California,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "826A",
+      "name": "Snake Byte RALPH PARR ELEMENTARY SCHOOL League City, Texas,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "985M",
+      "name": "Project McDonald's MARY OUR QUEEN SCHOOL Omaha, Nebraska,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "1069H",
+      "name": "The Destroyers Berthoud Robotics Berthoud, Colorado,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "1132C",
+      "name": "VoidMaker Lab 虚虚创虚虚虚虚 北北, Beijing,",
+      "location": "China Elementary",
+      "division": "math"
+    },
+    {
+      "number": "1243A",
+      "name": "HK - ABM Matt Robotics Hongkong,",
+      "location": "Hong Kong, China Elementary",
+      "division": "math"
+    },
+    {
+      "number": "1545M",
+      "name": "Wabash Apache Robotics WABASH MIDDLE/HIGH SCHOOL Wabash, Indiana,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "1932C",
+      "name": "Ursanauts: The 5 Menacing JOSEPH S BRUNO MONTESSORI Birmingham, Alabama,",
+      "location": "United States Elementary Gears ACADEMY",
+      "division": "math"
+    },
+    {
+      "number": "2276A",
+      "name": "robot Youth Science & Technology Center Of Beijing, Beijing,",
+      "location": "China Elementary Beijing Xicheng",
+      "division": "math"
+    },
+    {
+      "number": "2675B",
+      "name": "The DUCKS Magikid Fremont Fremont, California,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "3207F",
+      "name": "Fried Chicken Diamond Bar Robotics Diamond Bar, California,",
+      "location": "United StatesElementary",
+      "division": "math"
+    },
+    {
+      "number": "3439W",
+      "name": "Weeping Robots REACT Robotics Elizabethtown, Kentucky,",
+      "location": "United Elementary States",
+      "division": "math"
+    },
+    {
+      "number": "3931C",
+      "name": "Failing 4 Fun CAMPTON ELEMENTARY SCHOOL Campton, New Hampshire,",
+      "location": "United Elementary States",
+      "division": "math"
+    },
+    {
+      "number": "4250X",
+      "name": "Bytesize MuYv Robotics Consulting Wellington, Wellington, New Zealand",
+      "location": "Elementary",
+      "division": "math"
+    },
+    {
+      "number": "5017C",
+      "name": "Bubble Guppies GREENWICH ACADEMY Greenwich, Connecticut,",
+      "location": "United StatesElementary",
+      "division": "math"
+    },
+    {
+      "number": "5164C",
+      "name": "Marquez Robotix/GOLD Marquez Charter Pacific Palisades, California,",
+      "location": "United Elementary States",
+      "division": "math"
+    },
+    {
+      "number": "5585D",
+      "name": "D JENNIE BARKER ELEMENTARY SCHOOL Garden City, Kansas,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "6039B",
+      "name": "Unstoppable BrandywineBOTS Robotics Wilmington, Delaware,",
+      "location": "United States Elementary Page 1 of 4 RE-VIQRC-26-4029 April 8, 2026 9:56 PM",
+      "division": "math"
+    },
+    {
+      "number": "6181A",
+      "name": "Tenax Machina shanghai united international school Shanghai, Shanghai,",
+      "location": "China Elementary shangyin campus",
+      "division": "math"
+    },
+    {
+      "number": "6576A",
+      "name": "Star Ninjas GATEWAY SCIENCE ACADEMY OF ST. St. Louis, Missouri,",
+      "location": "United States Elementary LOUIS - SMILEY",
+      "division": "math"
+    },
+    {
+      "number": "6699U",
+      "name": "Super Dragon",
+      "location": "Taiwan Robotics Lab Taichung, Chinese Taipei Elementary",
+      "division": "math"
+    },
+    {
+      "number": "6885X",
+      "name": "Soda Pop RoboPlanet Burnaby Burnaby,",
+      "location": "British Columbia, Canada Elementary",
+      "division": "math"
+    },
+    {
+      "number": "8588B",
+      "name": "QingDao Bymax Team Qingdao Laigao Science and Technology Qingdao City, Shandong,",
+      "location": "China Elementary Training School",
+      "division": "math"
+    },
+    {
+      "number": "9177A",
+      "name": "琅琅琅琅琅IQ战队 南北州琅南南州州 南北州, Jiangsu,",
+      "location": "China Elementary",
+      "division": "math"
+    },
+    {
+      "number": "9965E",
+      "name": "Explosive Lightbulbs AOE Robotics Club Rockville, Maryland,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "10404G",
+      "name": "Dark Knights COLD SPRING SCHOOL Indianapolis, Indiana,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "10525D",
+      "name": "Dunkin' Ducks FOREST GLEN ELEMENTARY SCHOOL Indianapolis, Indiana,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "11860G",
+      "name": "The Gadget Girlz BRENTWOOD ELEMENTARY SCHOOL Plainfield, Indiana,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "13282A",
+      "name": "Taper Tigers A TAPER AVENUE ELEMENTARY San Pedro, California,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "16688K",
+      "name": "Dracobots ES/Kool Kats Dracobots Portland, Oregon,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "17750A",
+      "name": "MBI Davis Youth Robotics Davis, California,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "18533A",
+      "name": "New Start Robotics Team A 北北州北州北北北州州 北北, Beijing,",
+      "location": "China Elementary",
+      "division": "math"
+    },
+    {
+      "number": "20253A",
+      "name": "Golden Gears Kenar Patel Fort Mill, South Carolina,",
+      "location": "United Elementary States",
+      "division": "math"
+    },
+    {
+      "number": "23418D",
+      "name": "RED BISONS RED BISONS Chofu,Tokyo,",
+      "location": "Japan Elementary",
+      "division": "math"
+    },
+    {
+      "number": "25757B",
+      "name": "Delta Bots Diesel Learning Ashburn, Virginia,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "29766T",
+      "name": "Quarry Lads & Lassie Stinesville Robotics Team Stinesville, Indiana,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "34202D",
+      "name": "Thunderbolts GILBERT W MCNEAL ELEMENTARY Bradenton, Florida,",
+      "location": "United States Elementary SCHOOL",
+      "division": "math"
+    },
+    {
+      "number": "34802J",
+      "name": "Şişli Bilsem Robotics Junior Şişli Bilim ve Sanat Merkezi İstanbul, Türkiye",
+      "location": "Elementary",
+      "division": "math"
+    },
+    {
+      "number": "38792A",
+      "name": "Sigma THE R CHILD STEAM Center Fort Lee, New Jersey,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "43058E",
+      "name": "Fuerza G Colegio Isaac Newton Guadalajara, Jalisco, Jalisco, Mexico",
+      "location": "Elementary",
+      "division": "math"
+    },
+    {
+      "number": "46384C",
+      "name": "Da Bundlz of Wood Ida Nason Aronica",
+      "location": "Elementary Ellensburg, Washington, United StatesElementary",
+      "division": "math"
+    },
+    {
+      "number": "49466C",
+      "name": "Lightning McQueen Bots CHEROKEE ELEMENTARY SCHOOL Tahlequah, Oklahoma,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "51717R",
+      "name": "AIM ROOSEVELT ELEMENTARY SCHOOL Council Bluffs, Iowa,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "53065E",
+      "name": "The Wall-E's MT. STUART ELEMENTARY Ellensburg, Washington,",
+      "location": "United StatesElementary",
+      "division": "math"
+    },
+    {
+      "number": "55164C",
+      "name": "Robolabz Gamma Robolabz STEM Academy Fernando De La Mora, Paraguay",
+      "location": "Elementary",
+      "division": "math"
+    },
+    {
+      "number": "59713D",
+      "name": "Da Jellyfish 2.0 MERCER ELEMENTARY Princeton, West Virginia,",
+      "location": "United Elementary States",
+      "division": "math"
+    },
+    {
+      "number": "60666A",
+      "name": "Magikid Dream Builders Magikid Lab Shanghai, Shanghai,",
+      "location": "China Elementary",
+      "division": "math"
+    },
+    {
+      "number": "62536A",
+      "name": "Central Wildbots CENTRAL ELEMENTARY SCHOOL Florence, Alabama,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "63122D",
+      "name": "Dynomite WESTCHESTER ELEMENTARY SCHOOL. St Louis, Missouri,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "67052H",
+      "name": "Challenger Hotel CHALLENGER INTERMEDIATE SCHOOL Goddard, Kansas,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "68262A",
+      "name": "Cyber Knights A Tierra Del Sol",
+      "location": "Elementary El Paso, Texas, United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "71030G",
+      "name": "PNP-G VEX Academy of Guangzhou PNP studio Guangzhou, Guangdong,",
+      "location": "China Elementary",
+      "division": "math"
+    },
+    {
+      "number": "73429A",
+      "name": "A.I.M Bot Nilis's Art Studio Austin, Texas,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "77710A",
+      "name": "The Matrix Private Team Charlotte, North Carolina,",
+      "location": "United Elementary States",
+      "division": "math"
+    },
+    {
+      "number": "80602B",
+      "name": "Bussin' Buffaloes STAMPING GROUND ELEMENTARY Stamping Ground, Kentucky,",
+      "location": "United Elementary SCHOOL States",
+      "division": "math"
+    },
+    {
+      "number": "81777X",
+      "name": "Cupertino Cheese Magikid Cupertino Robotics Lab Cupertino, California,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "83988C",
+      "name": "STEMBLOCK - New Brunswick STEMBLCOK Fredericton, New Brunswick,",
+      "location": "Canada Elementary",
+      "division": "math"
+    },
+    {
+      "number": "85365B",
+      "name": "Three Big Brains Yuma Homeschool Robotics Yuma, Arizona,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "90245D",
+      "name": "Amazing Spiderbots LEWIS (ED C.) ELEMENTARY Downey, California,",
+      "location": "United States Elementary Page 3 of 4 RE-VIQRC-26-4029 April 8, 2026 9:56 PM",
+      "division": "math"
+    },
+    {
+      "number": "92981A",
+      "name": "CyberStorms CyberStorms Charlotte, North Carolina,",
+      "location": "United Elementary States",
+      "division": "math"
+    },
+    {
+      "number": "95133X",
+      "name": "NeRdS San Jose STEM San Jose, California,",
+      "location": "United States Elementary",
+      "division": "math"
+    },
+    {
+      "number": "99265B",
+      "name": "Brain Batteries The Super Saturday Program Cincinnati, Ohio,",
+      "location": "United States Elementary Page 4 of 4 RE-VIQRC-26-4029 April 8, 2026 9:56 PM",
+      "division": "math"
+    }
+  ],
+  "science": [
+    {
+      "number": "15B",
+      "name": "Crescent Catastrophe CRESCENT ELEMENTARY Anaheim, California,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "126F",
+      "name": "GSI Robotics FNATIC Robotics Lagos De Moreno, Jalisco, Mexico",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "220A",
+      "name": "Iron Legionnaires Western Mechatronics Calgary, Alberta,",
+      "location": "Canada Elementary",
+      "division": "science"
+    },
+    {
+      "number": "243F",
+      "name": "Duckies FRONTIER SCHL OF INNOVATION-M Kansas City, Missouri,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "252G",
+      "name": "Goodness I Wonder Robotics Richmond Hill, Ontario,",
+      "location": "Canada Elementary",
+      "division": "science"
+    },
+    {
+      "number": "295Z",
+      "name": "Z-woks Placer Robotics (PART) Granite Bay, California,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "473A",
+      "name": "Dragon Botz 2.0 FLAGSTAFF CHARTER ACADEMY Longmont, Colorado,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "567B",
+      "name": "Screaming Chicken 4h electric dolphins Saint Louis, Missouri,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "804A",
+      "name": "Pin Destroyers BROOKWOOD ELEMENTARY SCHOOL Houston, Texas,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "839X",
+      "name": "// Caution Tape // Caution Tape Robotics //// Markham, Ontario,",
+      "location": "Canada Elementary",
+      "division": "science"
+    },
+    {
+      "number": "985N",
+      "name": "Ninjaneers MARY OUR QUEEN SCHOOL Omaha, Nebraska,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "1097C",
+      "name": "The 3 Musketeers LUTHER BRANSON SCHOOL Canton, Mississippi,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "1216B",
+      "name": "Mech Mechanics Wheelhouse Robotics Irving, Texas,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "1295X",
+      "name": "Hypernova Hypernova Robotics Irvine, California,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "1555B",
+      "name": "The Gilded Robo-OREOS Auburn Community Robotics Auburn, Alabama,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "2305D",
+      "name": "Technovas DON ROBERTS ELEMENTARY SCHOOL Little Rock, Arkansas,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "2613E",
+      "name": "Circuit Breakers The Innovation Story Mumbai, India",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "2675C",
+      "name": "Psycho Mouse Magikid Fremont Fremont, California,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "2999F",
+      "name": "VEXZILLA CodeLab Bangkok, Thailand",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "3668A",
+      "name": "Sentient Robotics Club -",
+      "location": "Macau Artificial Intelligence Education CenterMacau, Macau, China Elementary Hyp",
+      "division": "science"
+    },
+    {
+      "number": "3931D",
+      "name": "Newbies CAMPTON ELEMENTARY SCHOOL Campton, New Hampshire,",
+      "location": "United Elementary States",
+      "division": "science"
+    },
+    {
+      "number": "4250Y",
+      "name": "Chonkbot Squad MuYv Robotics Consulting Wellington, Wellington, New Zealand",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "5017F",
+      "name": "Vexclamation Mark! Greenwich Academy Greenwich, Connecticut,",
+      "location": "United StatesElementary",
+      "division": "science"
+    },
+    {
+      "number": "5255A",
+      "name": "DragonBots Somerset Oaks Leadership and Innovation Homestead, Florida,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "5588Z",
+      "name": "Happy Builder Happy Builder Minato City, Tokyo,",
+      "location": "Japan Elementary",
+      "division": "science"
+    },
+    {
+      "number": "6039D",
+      "name": "The Eyeballs BrandywineBOTS Robotics Wilmington, Delaware,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "6210R",
+      "name": "HCS: Riptide HERITAGE CHRISTIAN SCHOOL Indianapolis, Indiana,",
+      "location": "United States Elementary Page 1 of 4 RE-VIQRC-26-4029 April 8, 2026 9:54 PM",
+      "division": "science"
+    },
+    {
+      "number": "6576C",
+      "name": "Clubstep GATEWAY SCIENCE ACADEMY OF ST. St. Louis, Missouri,",
+      "location": "United States Elementary LOUIS - SMILEY",
+      "division": "science"
+    },
+    {
+      "number": "6780A",
+      "name": "Knight Byte Pups Knight Byte Pups Atlanta, Georgia,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "8030A",
+      "name": "ARDINGLY College Zhongshan ARDINGLY College Zhongshan 中中, Guangdong,",
+      "location": "China Elementary SRCC VEX Club",
+      "division": "science"
+    },
+    {
+      "number": "8672B",
+      "name": "8672B CHINGSHIN ACADEMY 高高高高 Taipei, Chinese Taipei",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "9965X",
+      "name": "ProjectX AOE Robotics Club Rockville, Maryland,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "10432G",
+      "name": "sinavro gimhae robotics Kimhae City, Korea, Republic of",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "10692A",
+      "name": "Harry Potters GEORGE W. WHITLOW ELEMENTARY Cumming, Georgia,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "13282B",
+      "name": "Taper Tigers B TAPER AVENUE ELEMENTARY San Pedro, California,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "19901A",
+      "name": "Cooley Tigers T. S. COOLEY ELEMENTARY MAGNET Lake Charles, Louisiana,",
+      "location": "United StatesElementary SCHOOL",
+      "division": "science"
+    },
+    {
+      "number": "20259R",
+      "name": "Venus THCS Cầu Giấy Hà Nội, Vietnam",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "22020Y",
+      "name": "The Penguins Kidwe Lab Auckland, Auckland, New Zealand",
+      "location": "Elementary",
+      "division": "science"
+    },
+    {
+      "number": "25039A",
+      "name": "Lightning McBots Robots Rock Perry, Utah,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "27199A",
+      "name": "Pack 271 Cub Scouts - Bears Pack 271 - Christus Victor Lutheran Church Ocean Springs, Mississippi,",
+      "location": "United Elementary (Cub Scouts) States",
+      "division": "science"
+    },
+    {
+      "number": "32112A",
+      "name": "Rust Buckets Heritage Christian Academy Rockwall, Texas,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "34362H",
+      "name": "Natural Disaster ST JOSEPH SCHOOL Rice Lake, Wisconsin,",
+      "location": "United States Elementary Page 2 of 4 RE-VIQRC-26-4029 April 8, 2026 9:54 PM",
+      "division": "science"
+    },
+    {
+      "number": "40693R",
+      "name": "Jurassic Sparks Gillette College Gillette, Wyoming,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "43277A",
+      "name": "Gear Bots Gear Bots Chandler, Arizona,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "53919A",
+      "name": "Spartan Robotics A BETHLEHEM EVANGELICAL LUTHERAN Hortonville, Wisconsin,",
+      "location": "United States Elementary SCHOOL",
+      "division": "science"
+    },
+    {
+      "number": "55909D",
+      "name": "Tadpole Bots SACRED HEART SCHOOL Adams, Minnesota,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "58312D",
+      "name": "Da Boys/Robotics DESERT RIDGE Albuquerque, New Mexico,",
+      "location": "United Elementary States",
+      "division": "science"
+    },
+    {
+      "number": "59813B",
+      "name": "Sonic Cyborgs L F Smith",
+      "location": "Elementary Columbus, Indiana, United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "60742A",
+      "name": "Pomelo Panthers POMELO COMMUNITY CHARTER West Hills, California,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "62666A",
+      "name": "HUA CHUANG Rockets 北北北北实实北北 北北, Beijing,",
+      "location": "China Elementary",
+      "division": "science"
+    },
+    {
+      "number": "65950B",
+      "name": "PeeWee Tater Tots Coast 2 Coast Robotics Bayside, New York,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "67052N",
+      "name": "Challenger November CHALLENGER INTERMEDIATE SCHOOL Goddard, Kansas,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "68888A",
+      "name": "Anonymous",
+      "location": "Shanghai Children`s Library Shanghai 上上上, Shanghai, China Elementary",
+      "division": "science"
+    },
+    {
+      "number": "71221B",
+      "name": "STEM Squad 2 STEM For Kids Borehamwood,",
+      "location": "United Kingdom Elementary",
+      "division": "science"
+    },
+    {
+      "number": "73447C",
+      "name": "EAG Ernst-Abbe-Gymnasium Oberkochen, Baden-Württemberg,",
+      "location": "Elementary Germany",
+      "division": "science"
+    },
+    {
+      "number": "78454W",
+      "name": "Blue Watermelons STEAMwhiz - The STEM Learning Lab Guilderland, New York,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "81777Y",
+      "name": "Obsidian Drittens Magikid Cupertino Robotics Lab Cupertino, California,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "84212E",
+      "name": "The Airheads EAST HILLS MIDDLE SCHOOL Greenwood, Arkansas,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "85968A",
+      "name": "SWA RoboKnights ES Sinarmas World Academy Kota Tangerang Selatan, Banten,",
+      "location": "Elementary Indonesia",
+      "division": "science"
+    },
+    {
+      "number": "90000A",
+      "name": "Makerspace Elementary MAKERSPACE by INNOVATIVE LEARNINGRabat, Morocco",
+      "location": "Elementary FOR YOUTH (ILY)",
+      "division": "science"
+    },
+    {
+      "number": "93557G",
+      "name": "Artemis-8513 FusionBot Brooklyn, New York,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "96000A",
+      "name": "Wired Warriors The Mind Spark Exton, Pennsylvania,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "96833A",
+      "name": "Flying Squirrels OLIVE J DODGE ELEMENTARY SCHOOL Mobile, Alabama,",
+      "location": "United States Elementary",
+      "division": "science"
+    },
+    {
+      "number": "99396D",
+      "name": "Donut Divas Hartselle Robotics Club - Morgan County 4H Hartselle, Alabama,",
+      "location": "United States Elementary Page 4 of 4 RE-VIQRC-26-4029 April 8, 2026 9:54 PM",
+      "division": "science"
+    }
+  ],
+  "technology": [
+    {
+      "number": "15C",
+      "name": "Crescent Overdrive CRESCENT ELEMENTARY Anaheim, California,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "126G",
+      "name": "GSI Robotics GSI Robotics San Juan De Los Lagos, Jalisco,",
+      "location": "Elementary Mexico",
+      "division": "technology"
+    },
+    {
+      "number": "220C",
+      "name": "Censored Western Mechatronics Calgary, Alberta,",
+      "location": "Canada Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "243K",
+      "name": "MechaMinds FRONTIER SCHL OF Kansas City, Missouri,",
+      "location": "United States Elementary INNOVATION-ELEMENTARY",
+      "division": "technology"
+    },
+    {
+      "number": "252S",
+      "name": "Sunshine I Wonder Robotics Richmond Hill, Ontario,",
+      "location": "Canada Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "331S",
+      "name": "Sesame Squad ROBERT WILLIS ELEMENTARY SCHOOL Bradenton, Florida,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "478J",
+      "name": "Elevate-478J Elevate Tech Redmond, Washington,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "603X",
+      "name": "VEXRAYS RIZE Robotics Goffstown, New Hampshire,",
+      "location": "United Elementary States",
+      "division": "technology"
+    },
+    {
+      "number": "804B",
+      "name": "Rust in Piece BROOKWOOD ELEMENTARY SCHOOL Houston, Texas,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "839Y",
+      "name": "// Caution Tape Y-Stack // Caution Tape Robotics //// Markham, Ontario,",
+      "location": "Canada Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "1100A",
+      "name": "Lazer Pins GRASSY LAKE ELEMENTARY SCHOOL Minneola, Florida,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "1216C",
+      "name": "Robo Rebels Wheelhouse Robotics Irving, Texas,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "1354A",
+      "name": "Ctrl Alt Defeat!!! HERITAGE SCHOOL Layton, Utah,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "1729V",
+      "name": "Victorious International Robotics Academy Almaty, Kazakhstan",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "2033A",
+      "name": "Project Quantum Guardians Alliance Las Vegas, Nevada,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "2675F",
+      "name": "Air Drone Basis Fremont Magikid Fremont Fremont, California,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "2999K",
+      "name": "PB&J CodeLab Bangkok, Thailand",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "3437A",
+      "name": "FHES Platinum Robofalcons FOREST HILLS SCHOOL Florence, Alabama,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "3668B",
+      "name": "Sentient Robotics Club - Big",
+      "location": "Macau Artificial Intelligence Education CenterMacau, Macau, China Elementary Mac",
+      "division": "technology"
+    },
+    {
+      "number": "3988D",
+      "name": "Fried Egg Irvine Robotics Irvine, California,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "4440A",
+      "name": "Eaglebotics Wild Aces EAGLE CREST ELEMENTARY SCHOOL Longmont, Colorado,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "5090A",
+      "name": "Dragon Team 北北北北北北师北北北北北北北 北北北, Beijing,",
+      "location": "China Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "5280N",
+      "name": "Mathematicians SOARING HEIGHTS PK-8 Erie, Colorado,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "6039F",
+      "name": "Red Velvet Robotics BrandywineBOTS Robotics Wilmington, Delaware,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "6333C",
+      "name": "GX-The 67s Gaiax Singapore, Singapore",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "6651C",
+      "name": "Popcorns GATEWAY SCIENCE ACAD-SOUTH ELE Saint Louis, Missouri,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "6808X",
+      "name": "→Southpointe← Southpointe Academy Richmond,",
+      "location": "British Columbia, Canada Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "7427A",
+      "name": "Tigears NORTH PARK SCHOOL Roy, Utah,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "8181N",
+      "name": "The Black Box MANDARIN IMMERSION MAGNET Houston, Texas,",
+      "location": "United States Elementary SCHOOL",
+      "division": "technology"
+    },
+    {
+      "number": "9452M",
+      "name": "Cyber Cookies M&M Pasadena, California,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "10014C",
+      "name": "Upper Perk Robotics Upper Perk Robotics Perkasie, Pennsylvania,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "10452D",
+      "name": "Digital Dragons Haslett Robotics Club Haslett, Michigan,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "10692E",
+      "name": "Probots GEORGE W. WHITLOW ELEMENTARY Cumming, Georgia,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "15034C",
+      "name": "BadgerBOTS C BINFORD ELEMENTARY SCHOOL Bloomington, Indiana,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "16894B",
+      "name": "Dromore NS 2 Dromore NS Killygordon, Donegal, Ireland",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "18000A",
+      "name": "Carson STEAM CARSON STREET ELEMENTARY Carson, California,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "20267B",
+      "name": "Quantum Gear The Beyond Coding Seoul, Korea, Republic of",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "22524M",
+      "name": "Juicy Musubi Island Robotics Waipahu, Hawaii,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "25073A",
+      "name": "Snapdragons Amelang Home Longmont, Colorado,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "26862A",
+      "name": "Infinite VEX ACADEMY@Suzhou Suzhou, Jiangsu,",
+      "location": "China Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "28595T",
+      "name": "Bot Boys Good Shepherd Lutheran Sioux Falls, South Dakota,",
+      "location": "United Elementary States",
+      "division": "technology"
+    },
+    {
+      "number": "32356B",
+      "name": "Boost+Academy Boost+ Enrichment Academy Naperville, Illinois,",
+      "location": "United States Elementary Page 2 of 4 RE-VIQRC-26-4029 April 8, 2026 9:55 PM",
+      "division": "technology"
+    },
+    {
+      "number": "34458D",
+      "name": "TECHNO DRAGONS OCEAN SPRINGS UPPER ELEMENTARY Ocean Springs, Mississippi,",
+      "location": "United Elementary SCHO States",
+      "division": "technology"
+    },
+    {
+      "number": "35640A",
+      "name": "Techno Tigers in Tutus & TuxesFE BURLESON ELEMENTARY SCHOOL Hartselle, Alabama,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "40701A",
+      "name": "SP_407_Warsaw Szkoła Podstawowa nr 407 Warszawa, Poland",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "43631M",
+      "name": "MechaVolt MechaVolt Katy, Texas,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "47721D",
+      "name": "Dino Bots PRINCETON INTERMEDIATE SCHOOL Princeton, Minnesota,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "52510A",
+      "name": "Club SLB SEED Primaria Club SLB SEED Primaria Villahermosa, Tabasco, Mexico",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "57290D",
+      "name": "Load & Link Lions KILBY LABORATORY SCHOOL Florence, Alabama,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "58766B",
+      "name": "Mad Engineers Omotec Mumbai, India",
+      "location": "Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "60011E",
+      "name": "BananaBotz BRIGGS PUBLIC SCHOOL Tahlequah, Oklahoma,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "61593S",
+      "name": "PJ Professionals EAST POINTE ELEMENTARY SCHOOL Greenwood, Arkansas,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "62762A",
+      "name": "AXEL Bots AXEL Bots Great Falls, Virginia,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "67352D",
+      "name": "Trojan Delta WEST MARSHALL MIDDLE SCHOOL State Center, Iowa,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "69000E",
+      "name": "Relax 上上北上上上际北北 Shanghai, Shanghai,",
+      "location": "China Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "71711B",
+      "name": "Los Esquites INDEPENDENCE ELEMENTARY South Gate, California,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "74756F",
+      "name": "Mythri-CodeZilla Mythri Stem Academy Henderson, Nevada,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "78682C",
+      "name": "DynamicDolphinBots 78682C DAVES CREEK ELEMENTARY SCHOOL Cumming, Georgia,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "81500A",
+      "name": "Gummy Squirrels Gummy Squirrels St. Petersburg, Florida,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "82823A",
+      "name": "Space Explorers Hungry Rabbits Robotics Royse City, Texas,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "84218A",
+      "name": "Bot Squad-Bot Busters CEDAR GROVE ELEMENTARY SCHOOL Cedar Grove, West Virginia,",
+      "location": "United Elementary States",
+      "division": "technology"
+    },
+    {
+      "number": "86273C",
+      "name": "Engineering Enchiladas Carpenter Community Charter Studio City, California,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "91429X",
+      "name": "Prometheus Prometheus Stem Labs Clermont, Florida,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "93557X",
+      "name": "Ares 2009 FusionBot Brooklyn, New York,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "96000S",
+      "name": "Aerodynamics The Mind Spark Exton, Pennsylvania,",
+      "location": "United States Elementary Page 3 of 4 RE-VIQRC-26-4029 April 8, 2026 9:55 PM",
+      "division": "technology"
+    },
+    {
+      "number": "96902C",
+      "name": "ABE StarBots Team C AMY BEVERLAND ELEMENTARY Indianapolis, Indiana,",
+      "location": "United States Elementary",
+      "division": "technology"
+    },
+    {
+      "number": "99396M",
+      "name": "The Mighty Littlefoot Hartselle Robotics Club - Morgan County 4H Hartselle, Alabama,",
+      "location": "United States Elementary Page 4 of 4 RE-VIQRC-26-4029 April 8, 2026 9:55 PM",
+      "division": "technology"
+    }
+  ],
+  "design": [],
+  "innovate": [],
+  "opportunity": [],
+  "research": [],
+  "spirit": []
+}

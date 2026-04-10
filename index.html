@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VEX World Championship 2026 | 世锦赛指南</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="vex-data/viqrc-division-teams.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
@@ -170,20 +171,8 @@
         <button onclick="showTab('overview')" id="tab-overview" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap tab-active text-sm">
           🏠 Overview <span class="text-xs text-gray-400">总览</span>
         </button>
-        <button onclick="showTab('day26')" id="tab-day26" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-          Apr 26 <span class="text-xs text-gray-400">26日</span>
-        </button>
-        <button onclick="showTab('day27')" id="tab-day27" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-          Apr 27 <span class="text-xs text-gray-400">27日</span>
-        </button>
-        <button onclick="showTab('day28')" id="tab-day28" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-          Apr 28 <span class="text-xs text-gray-400">28日</span>
-        </button>
-        <button onclick="showTab('day29')" id="tab-day29" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-          Apr 29 <span class="text-xs text-gray-400">29日</span>
-        </button>
-        <button onclick="showTab('day30')" id="tab-day30" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
-          Apr 30 <span class="text-xs text-gray-400">30日</span>
+        <button onclick="showTab('agenda')" id="tab-agenda" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
+          📅 Agenda <span class="text-xs text-gray-400">日程安排</span>
         </button>
         <button onclick="showTab('info')" id="tab-info" class="px-4 py-2.5 font-medium text-gray-600 hover:text-blue-600 whitespace-nowrap text-sm">
           ℹ️ Info <span class="text-xs text-gray-400">实用信息</span>
@@ -232,10 +221,19 @@
                 <span class="cn text-sm">最新资讯</span>
               </div>
             </div>
-            <div class="bg-amber-50 rounded-lg p-3">
-              <div class="text-xs font-bold text-amber-800 mb-1">🔔 Game Manual v4.0</div>
-              <p class="text-xs text-gray-600 leading-relaxed">VIQRC Mix &amp; Match rule updates — CoC, rubber bands, full-event DQ rules revised.</p>
-              <p class="text-xs text-gray-400 mt-1 leading-relaxed">橡皮筋尺寸、全场 DQ 等多项重要规则更新</p>
+            <div class="space-y-2">
+              <!-- Division Release -->
+              <div class="bg-purple-50 rounded-lg p-3 border-l-4 border-purple-500">
+                <div class="text-xs font-bold text-purple-800 mb-1">🏆 Official Division Assignments Released!</div>
+                <p class="text-xs text-gray-600 leading-relaxed">774 teams from around the world — check your division now!</p>
+                <p class="text-xs text-gray-400 mt-1 leading-relaxed">774支赛队来自全球各地 — 快去查看你的分区！</p>
+              </div>
+              <!-- Game Manual Update -->
+              <div class="bg-amber-50 rounded-lg p-3 border-l-4 border-amber-500">
+                <div class="text-xs font-bold text-amber-800 mb-1">🔔 Game Manual v4.0 Update</div>
+                <p class="text-xs text-gray-600 leading-relaxed">Mix &amp; Match rule updates — CoC, rubber bands, full-event DQ rules revised.</p>
+                <p class="text-xs text-gray-400 mt-1 leading-relaxed">橡皮筋尺寸、全场 DQ 等多项重要规则更新</p>
+              </div>
             </div>
             <div class="mt-2 text-xs text-blue-600 font-medium">View all updates → 查看全部 →</div>
           </div>
@@ -372,192 +370,167 @@
         </div>
       </div>
 
-      <!-- ===== DAY 26 TAB ===== -->
-      <div id="content-day26" class="tab-content hidden">
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <div class="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-5 py-3">
-            <h2 class="text-lg font-bold">April 26, Sunday</h2>
-            <p class="text-indigo-200 text-sm">4月26日 周日 · Check-in · Badge &amp; Wristband · Practice</p>
-          </div>
-          <div class="p-5 space-y-5">
-            <div class="border-l-4 border-indigo-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                📋 Team Check-in <span class="text-sm font-normal text-gray-400">赛队报到</span>
-              </h3>
-              <div class="mt-2 bg-indigo-50 rounded-lg p-3 text-sm space-y-1">
-                <p class="font-semibold">📍 Plaza Lobby</p>
-                <p class="text-gray-400 text-xs">地点：广场大厅</p>
-                <p class="text-gray-600">America's Center Convention Complex</p>
-              </div>
-              <div class="mt-2 text-xs bg-orange-50 text-orange-700 p-2.5 rounded border border-orange-200">
-                <p class="font-semibold">⚠️ Parking Pass — Coaches only, collected at check-in</p>
-                <p class="text-orange-400 mt-0.5">停车证仅发给教练，须在报到时领取</p>
-              </div>
+
+      <!-- ===== AGENDA TAB (Combined All Days) ===== -->
+      <div id="content-agenda" class="tab-content hidden">
+        <div class="space-y-4">
+
+          <!-- Day 26 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-4 py-2">
+              <h2 class="text-base font-bold">Apr 26 · Sunday <span class="text-indigo-200 text-xs ml-2">4月26日 周日</span></h2>
+              <p class="text-indigo-200 text-xs">Check-in · Badge & Wristband · Practice</p>
             </div>
-            <div class="border-l-4 border-pink-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🏷️ Badge &amp; Wristband <span class="text-sm font-normal text-gray-400">姓名牌 &amp; 手环领取</span>
-              </h3>
-              <div class="mt-2 bg-pink-50 rounded-lg p-3 text-sm space-y-1.5">
-                <p class="font-semibold">Required at all times | 全程必须佩戴：</p>
-                <ul class="text-gray-600 space-y-1">
-                  <li>✅ Wristband + name badge at all times &nbsp;<span class="text-gray-400 text-xs">全程佩戴手环及姓名牌</span></li>
-                  <li>✅ Present to enter Exhibition Hall &amp; Dome &nbsp;<span class="text-gray-400 text-xs">进 Dome/展厅须出示</span></li>
-                </ul>
-              </div>
-            </div>
-            <div class="border-l-4 border-blue-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🤖 MAGIKID Practice Field Open <span class="text-sm font-normal text-gray-400">专属练习场开放</span>
-              </h3>
-              <div class="mt-2 bg-blue-50 rounded-lg p-3 text-sm">
-                <div class="flex items-center justify-between">
-                  <div>
-                    <p class="font-semibold">Embassy Suites by Hilton St. Louis Downtown</p>
-                    <p class="text-gray-500">610 North 7th Street, St. Louis, MO 63101</p>
-                  </div>
-                  <div class="flex gap-1 flex-shrink-0 ml-2">
-                    <button onclick="openMap('610 North 7th Street, St. Louis, MO 63101')" class="text-xs bg-green-100 hover:bg-green-200 text-green-700 px-2 py-1 rounded font-medium">🗺️</button>
-                    <button onclick="copyAddress('610 North 7th Street, St. Louis, MO 63101')" class="text-xs bg-blue-100 hover:bg-blue-200 text-blue-700 px-2 py-1 rounded font-medium">📋</button>
-                  </div>
+            <div class="p-4 space-y-3 text-sm">
+              <div class="flex items-start gap-3">
+                <span class="text-indigo-500 font-bold min-w-[80px]">📋 报到</span>
+                <div>
+                  <p class="font-medium">Team Check-in · Plaza Lobby</p>
+                  <p class="text-gray-400 text-xs">America's Center Convention Complex</p>
                 </div>
               </div>
-              <div class="mt-2 text-xs bg-red-50 text-red-600 p-2.5 rounded border border-red-200">
-                <p class="font-semibold">⚠️ Practice Area Rules</p>
-                <ul class="mt-1 space-y-1">
-                  <li>🚫 <strong>One adult per team</strong> &nbsp;<span class="text-red-400">每队仅1位家长</span></li>
-                  <li>📜 <strong>Student Centered Policy</strong> &nbsp;<span class="text-red-400">严格遵守</span></li>
-                </ul>
+              <div class="flex items-start gap-3">
+                <span class="text-pink-500 font-bold min-w-[80px]">🏷️ 领取</span>
+                <div>
+                  <p class="font-medium">Badge & Wristband</p>
+                  <p class="text-gray-400 text-xs">姓名牌 &amp; 手环 · 全程必须佩戴</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-blue-500 font-bold min-w-[80px]">🤖 练习</span>
+                <div>
+                  <p class="font-medium">MAGIKID Practice Field Open</p>
+                  <p class="text-gray-400 text-xs">Embassy Suites · 专属练习场开放</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- ===== DAY 27 TAB ===== -->
-      <div id="content-day27" class="tab-content hidden">
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <div class="bg-gradient-to-r from-green-600 to-green-700 text-white px-5 py-3">
-            <h2 class="text-lg font-bold">April 27, Monday</h2>
-            <p class="text-green-200 text-sm">4月27日 周一 · Practice · Medals · VRC Finals</p>
-          </div>
-          <div class="p-5 space-y-4">
-            <div class="border-l-4 border-blue-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🤖 MAGIKID Practice Field Open <span class="text-sm font-normal text-gray-400">专属练习场开放</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">All day — all teams welcome &nbsp;<span class="text-gray-400">全天开放</span></p>
+          <!-- Day 27 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-gradient-to-r from-green-600 to-green-700 text-white px-4 py-2">
+              <h2 class="text-base font-bold">Apr 27 · Monday <span class="text-green-200 text-xs ml-2">4月27日 周一</span></h2>
+              <p class="text-green-200 text-xs">Practice · Medals · VRC Finals</p>
             </div>
-            <div class="border-l-4 border-amber-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🏅 Medal Pickup <span class="text-sm font-normal text-gray-400">领取参与奖牌</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Collect your VIQRC participation medal &nbsp;<span class="text-gray-400">领取 VIQRC 参与奖牌</span></p>
-            </div>
-            <div class="border-l-4 border-purple-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🏆 Watch VRC World Finals <span class="text-sm font-normal text-gray-400">观摩 VRC 世界总决赛</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Witness the top VRC teams compete for the World Championship &nbsp;<span class="text-gray-400">观摩顶级 VRC 队伍角逐世界冠军</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===== DAY 28 TAB ===== -->
-      <div id="content-day28" class="tab-content hidden">
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <div class="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-5 py-3">
-            <h2 class="text-lg font-bold">April 28, Tuesday — VIQRC Day 1</h2>
-            <p class="text-purple-200 text-sm">4月28日 周二 · Pit Setup · Inspection · Skills · Opening Ceremony</p>
-          </div>
-          <div class="p-5 space-y-4">
-            <div class="border-l-4 border-indigo-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🔧 Pit Setup &amp; Decorating <span class="text-sm font-normal text-gray-400">调试区布置装饰</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Set up your team pit &amp; booth &nbsp;<span class="text-gray-400">布置赛队调试区</span></p>
-            </div>
-            <div class="border-l-4 border-cyan-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                ✅ Robot Inspection <span class="text-sm font-normal text-gray-400">机器人检录</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">All robots must pass inspection before competing &nbsp;<span class="text-gray-400">所有机器人须通过检录方能参赛</span></p>
-              <div class="mt-2 text-xs bg-cyan-50 text-cyan-700 p-2 rounded">
-                ⚠️ Rubber band rule: ≤ 7.5" long, ≤ 0.25" wide · 橡皮筋：长≤7.5"，宽≤0.25"
+            <div class="p-4 space-y-3 text-sm">
+              <div class="flex items-start gap-3">
+                <span class="text-blue-500 font-bold min-w-[80px]">🤖 练习</span>
+                <div>
+                  <p class="font-medium">MAGIKID Practice Field Open</p>
+                  <p class="text-gray-400 text-xs">全天开放 · All teams welcome</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-amber-500 font-bold min-w-[80px]">🏅 奖牌</span>
+                <div>
+                  <p class="font-medium">Medal Pickup · 领取参与奖牌</p>
+                  <p class="text-gray-400 text-xs">VIQRC participation medal</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-purple-500 font-bold min-w-[80px]">🏆 观摩</span>
+                <div>
+                  <p class="font-medium">Watch VRC World Finals</p>
+                  <p class="text-gray-400 text-xs">观摩 VRC 世界总决赛</p>
+                </div>
               </div>
             </div>
-            <div class="border-l-4 border-green-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🎯 Robot Skills Challenge <span class="text-sm font-normal text-gray-400">机器人技能挑战赛</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Driver &amp; Programming Skills matches begin &nbsp;<span class="text-gray-400">操作技能 &amp; 编程技能赛开始</span></p>
+          </div>
+
+          <!-- Day 28 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-4 py-2">
+              <h2 class="text-base font-bold">Apr 28 · Tuesday <span class="text-purple-200 text-xs ml-2">4月28日 周二</span></h2>
+              <p class="text-purple-200 text-xs">VIQRC Day 1 · Pit Setup · Inspection · Skills · Opening</p>
             </div>
-            <div class="border-l-4 border-amber-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🎉 Opening Ceremony <span class="text-sm font-normal text-gray-400">开幕式</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">VIQRC Opening Ceremony &nbsp;<span class="text-gray-400">VIQRC 开幕式</span></p>
+            <div class="p-4 space-y-3 text-sm">
+              <div class="flex items-start gap-3">
+                <span class="text-indigo-500 font-bold min-w-[80px]">🔧 布置</span>
+                <div>
+                  <p class="font-medium">Pit Setup &amp; Decorating · 调试区布置</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-cyan-500 font-bold min-w-[80px]">✅ 检录</span>
+                <div>
+                  <p class="font-medium">Robot Inspection · 机器人检录</p>
+                  <p class="text-gray-400 text-xs">所有机器人须通过检录方能参赛</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-green-500 font-bold min-w-[80px]">🎯 技能</span>
+                <div>
+                  <p class="font-medium">Robot Skills Challenge · 机器人技能挑战赛</p>
+                  <p class="text-gray-400 text-xs">操作技能 &amp; 编程技能赛开始</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-amber-500 font-bold min-w-[80px]">🎉 开幕</span>
+                <div>
+                  <p class="font-medium">Opening Ceremony · 开幕式</p>
+                </div>
+              </div>
             </div>
           </div>
+
+          <!-- Day 29 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 py-2">
+              <h2 class="text-base font-bold">Apr 29 · Wednesday <span class="text-orange-200 text-xs ml-2">4月29日 周三</span></h2>
+              <p class="text-orange-200 text-xs">VIQRC Day 2 · Qualifying Matches · Skills</p>
+            </div>
+            <div class="p-4 space-y-3 text-sm">
+              <div class="flex items-start gap-3">
+                <span class="text-blue-500 font-bold min-w-[80px]">🏁 资格赛</span>
+                <div>
+                  <p class="font-medium">VIQRC Qualifying Matches</p>
+                  <p class="text-gray-400 text-xs">所有赛队参加资格赛轮次</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-green-500 font-bold min-w-[80px]">🎯 技能</span>
+                <div>
+                  <p class="font-medium">Robot Skills Challenge</p>
+                  <p class="text-gray-400 text-xs">继续操作 &amp; 编程技能赛</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 30 -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-gradient-to-r from-red-600 to-red-700 text-white px-4 py-2">
+              <h2 class="text-base font-bold">Apr 30 · Thursday <span class="text-red-200 text-xs ml-2">4月30日 周四</span></h2>
+              <p class="text-red-200 text-xs">VIQRC Day 3 · Alliance · Finals · Closing</p>
+            </div>
+            <div class="p-4 space-y-3 text-sm">
+              <div class="flex items-start gap-3">
+                <span class="text-purple-500 font-bold min-w-[80px]">🤝 联盟</span>
+                <div>
+                  <p class="font-medium">Alliance Selection · 联盟选择</p>
+                  <p class="text-gray-400 text-xs">排名靠前的队伍选择联盟搭档</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-indigo-500 font-bold min-w-[80px]">🏆 决赛</span>
+                <div>
+                  <p class="font-medium">Division Finals · 分区决赛</p>
+                  <p class="text-gray-400 text-xs">决出分区冠军</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="text-amber-500 font-bold min-w-[80px]">🌍 闭幕</span>
+                <div>
+                  <p class="font-medium">World Finals &amp; Closing Ceremony</p>
+                  <p class="text-gray-400 text-xs">世界总决赛 &amp; 闭幕式</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
-      <!-- ===== DAY 29 TAB ===== -->
-      <div id="content-day29" class="tab-content hidden">
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <div class="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-5 py-3">
-            <h2 class="text-lg font-bold">April 29, Wednesday — VIQRC Day 2</h2>
-            <p class="text-orange-200 text-sm">4月29日 周三 · Qualifying Matches · Skills Challenge</p>
-          </div>
-          <div class="p-5 space-y-4">
-            <div class="border-l-4 border-blue-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🏁 VIQRC Qualifying Matches <span class="text-sm font-normal text-gray-400">VIQRC 资格赛</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">All teams compete in qualification rounds &nbsp;<span class="text-gray-400">所有赛队参加资格赛轮次</span></p>
-            </div>
-            <div class="border-l-4 border-green-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🎯 Robot Skills Challenge <span class="text-sm font-normal text-gray-400">机器人技能挑战赛</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Continue Driver &amp; Programming Skills &nbsp;<span class="text-gray-400">继续操作 &amp; 编程技能赛</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===== DAY 30 TAB ===== -->
-      <div id="content-day30" class="tab-content hidden">
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <div class="bg-gradient-to-r from-red-600 to-red-700 text-white px-5 py-3">
-            <h2 class="text-lg font-bold">April 30, Thursday — VIQRC Day 3 (Finals)</h2>
-            <p class="text-red-200 text-sm">4月30日 周四 · Alliance · Finals · Closing Ceremony</p>
-          </div>
-          <div class="p-5 space-y-4">
-            <div class="border-l-4 border-purple-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🤝 Alliance Selection <span class="text-sm font-normal text-gray-400">联盟选择</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Top-ranked teams select their alliance partners &nbsp;<span class="text-gray-400">排名靠前的队伍选择联盟搭档</span></p>
-            </div>
-            <div class="border-l-4 border-indigo-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🏆 Division Finals <span class="text-sm font-normal text-gray-400">分区决赛</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Division champions are crowned &nbsp;<span class="text-gray-400">决出分区冠军</span></p>
-            </div>
-            <div class="border-l-4 border-amber-500 pl-4">
-              <h3 class="font-bold flex items-center gap-2">
-                🌍 World Finals &amp; Closing Ceremony <span class="text-sm font-normal text-gray-400">世界总决赛 &amp; 闭幕式</span>
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">The ultimate matches and awards &nbsp;<span class="text-gray-400">终极对决 &amp; 颁奖典礼</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===== INFO TAB ===== -->
       <div id="content-info" class="tab-content hidden">
         <div class="space-y-5">
 
@@ -710,8 +683,95 @@
                 <div class="text-amber-100 text-sm">最新资讯 &amp; 规则更新</div>
               </div>
             </div>
-          </div>
+</div>
 
+          <!-- Division Announcement -->
+          <div class="bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-gradient-to-r from-purple-600 to-pink-600 px-5 py-3 text-white">
+              <div class="text-xs font-semibold text-purple-200 mb-1">🏆 Division Release · 分区公布</div>
+              <h2 class="text-base font-bold">VEX Worlds 2026 Official Division Assignments Released!</h2>
+              <p class="text-purple-100 text-xs mt-0.5">2026 VEX 世锦赛官方分区名单公布！774支赛队来自全球各地</p>
+            </div>
+            <div class="p-4">
+              
+              <!-- Stats Overview -->
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-blue-700">774</div>
+                  <div class="text-xs text-blue-600">Total Teams<br><span class="text-blue-400">总参赛队</span></div>
+                </div>
+                <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-green-700">384</div>
+                  <div class="text-xs text-green-600">Elementary<br><span class="text-green-400">小学组</span></div>
+                </div>
+                <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-orange-700">390</div>
+                  <div class="text-xs text-orange-600">Middle School<br><span class="text-orange-400">中学组</span></div>
+                </div>
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-purple-700">10</div>
+                  <div class="text-xs text-purple-600">Divisions<br><span class="text-purple-400">分区数</span></div>
+                </div>
+              </div>
+
+              <!-- Elementary School Divisions -->
+              <div class="mb-4">
+                <h3 class="text-sm font-bold text-gray-700 mb-2">🏫 Elementary School | 小学组</h3>
+                <div class="grid grid-cols-5 gap-2">
+                  <button onclick="showDivisionModal('Elementary School', 'VIQRC', 'Arts', true)" class="bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Arts</div>
+                    <div class="text-xs text-blue-500">76 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Elementary School', 'VIQRC', 'Engineering', true)" class="bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Engineering</div>
+                    <div class="text-xs text-blue-500">78 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Elementary School', 'VIQRC', 'Math', true)" class="bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Math</div>
+                    <div class="text-xs text-blue-500">76 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Elementary School', 'VIQRC', 'Science', true)" class="bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Science</div>
+                    <div class="text-xs text-blue-500">77 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Elementary School', 'VIQRC', 'Technology', true)" class="bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Technology</div>
+                    <div class="text-xs text-blue-500">77 teams</div>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Middle School Divisions -->
+              <div>
+                <h3 class="text-sm font-bold text-gray-700 mb-2">🏫 Middle School | 中学组</h3>
+                <div class="grid grid-cols-5 gap-2">
+                  <button onclick="showDivisionModal('Middle School', 'VIQRC', 'Design', true)" class="bg-orange-100 hover:bg-orange-200 text-orange-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Design</div>
+                    <div class="text-xs text-orange-500">78 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Middle School', 'VIQRC', 'Innovate', true)" class="bg-orange-100 hover:bg-orange-200 text-orange-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Innovate</div>
+                    <div class="text-xs text-orange-500">78 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Middle School', 'VIQRC', 'Opportunity', true)" class="bg-orange-100 hover:bg-orange-200 text-orange-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Opportunity</div>
+                    <div class="text-xs text-orange-500">78 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Middle School', 'VIQRC', 'Research', true)" class="bg-orange-100 hover:bg-orange-200 text-orange-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Research</div>
+                    <div class="text-xs text-orange-500">78 teams</div>
+                  </button>
+                  <button onclick="showDivisionModal('Middle School', 'VIQRC', 'Spirit', true)" class="bg-orange-100 hover:bg-orange-200 text-orange-700 rounded-lg p-2 text-center transition cursor-pointer">
+                    <div class="font-bold text-sm">Spirit</div>
+                    <div class="text-xs text-orange-500">78 teams</div>
+                  </button>
+                </div>
+              </div>
+
+              <p class="text-xs text-gray-500 mt-4 text-center">Click any division to view all teams and their current Skill World Ranking | 点击分区查看该分区所有队伍及当前技能赛世界排名</p>
+            </div>
+          </div>
+          
           <!-- Game Manual 4.0 -->
           <div class="bg-white rounded-xl shadow-md overflow-hidden">
             <div class="bg-gradient-to-r from-blue-700 to-blue-900 px-5 py-3 text-white">
@@ -893,36 +953,36 @@
     };
 
     const teamDetails = {
-      '3207F':  { lab: 'Diamond Bar',     region: 'Southern California', div: 'ES' },
-      '3211G':  { lab: 'Diamond Bar',     region: 'Southern California', div: 'MS' },
-      '3211H':  { lab: 'Diamond Bar',     region: 'Southern California', div: 'MS' },
-      '3988D':  { lab: 'Irvine',          region: 'Southern California', div: 'ES' },
-      '3988S':  { lab: 'Irvine',          region: 'Southern California', div: 'ES' },
-      '3369B':  { lab: 'Irvine',          region: 'Southern California', div: 'MS' },
-      '6104C':  { lab: 'San Diego',       region: 'Southern California', div: 'ES' },
-      '9452M':  { lab: 'San Marino',      region: 'Southern California', div: 'ES' },
-      '286A':   { lab: 'Tustin',          region: 'Southern California', div: 'ES' },
-      '81777A': { lab: 'Cupertino',       region: 'Northern California', div: 'ES' },
-      '81777X': { lab: 'Cupertino',       region: 'Northern California', div: 'ES' },
-      '81777Y': { lab: 'Cupertino',       region: 'Northern California', div: 'ES' },
-      '81777T': { lab: 'Cupertino',       region: 'Northern California', div: 'MS' },
-      '81777U': { lab: 'Cupertino',       region: 'Northern California', div: 'MS' },
-      '81777W': { lab: 'Cupertino',       region: 'Northern California', div: 'MS' },
-      '81777Z': { lab: 'Cupertino',       region: 'Northern California', div: 'MS' },
-      '2675B':  { lab: 'Fremont',          region: 'Northern California', div: 'ES' },
-      '2675C':  { lab: 'Fremont',          region: 'Northern California', div: 'ES' },
-      '2675F':  { lab: 'Fremont',          region: 'Northern California', div: 'ES' },
-      '1779A':  { lab: 'Cedar Park',       region: 'Texas',               div: 'ES' },
-      '2166A':  { lab: 'Frisco',           region: 'Texas',               div: 'ES' },
-      '2166B':  { lab: 'Frisco',           region: 'Texas',               div: 'MS' },
-      '75035M': { lab: 'Frisco',           region: 'Texas',               div: 'MS' },
-      '21136A': { lab: 'Highland Park',   region: 'Texas',               div: 'MS' },
-      '2737A':  { lab: 'Redmond/Seattle',  region: 'Other US',           div: 'ES' },
-      '18697A': { lab: 'Castle Hill/Sydney', region: 'Australia',         div: 'ES' },
-      '69699A': { lab: 'Castle Hill/Sydney', region: 'Australia',         div: 'ES' },
-      '46658A': { lab: 'Pymble/Sydney',   region: 'Australia',           div: 'ES' },
-      '9066A':  { lab: 'Beijing',          region: 'China',              div: 'ES' },
-      '60666A': { lab: 'Shanghai',         region: 'China',              div: 'ES' },
+      '3207F':  { lab: 'Diamond Bar',     region: 'Southern California', div: 'ES', program: 'VIQRC' },
+      '3211G':  { lab: 'Diamond Bar',     region: 'Southern California', div: 'MS', program: 'VIQRC' },
+      '3211H':  { lab: 'Diamond Bar',     region: 'Southern California', div: 'MS', program: 'VIQRC' },
+      '3988D':  { lab: 'Irvine',          region: 'Southern California', div: 'ES', program: 'VIQRC' },
+      '3988S':  { lab: 'Irvine',          region: 'Southern California', div: 'ES', program: 'VIQRC' },
+      '3369B':  { lab: 'Irvine',          region: 'Southern California', div: 'MS', program: 'VIQRC' },
+      '6104C':  { lab: 'San Diego',       region: 'Southern California', div: 'ES', program: 'VIQRC' },
+      '9452M':  { lab: 'San Marino',      region: 'Southern California', div: 'ES', program: 'VIQRC' },
+      '286A':   { lab: 'Tustin',          region: 'Southern California', div: 'ES', program: 'VIQRC' },
+      '81777A': { lab: 'Cupertino',       region: 'Northern California', div: 'ES', program: 'VIQRC' },
+      '81777X': { lab: 'Cupertino',       region: 'Northern California', div: 'ES', program: 'VIQRC' },
+      '81777Y': { lab: 'Cupertino',       region: 'Northern California', div: 'ES', program: 'VIQRC' },
+      '81777T': { lab: 'Cupertino',       region: 'Northern California', div: 'MS', program: 'VIQRC' },
+      '81777U': { lab: 'Cupertino',       region: 'Northern California', div: 'MS', program: 'VIQRC' },
+      '81777W': { lab: 'Cupertino',       region: 'Northern California', div: 'MS', program: 'VIQRC' },
+      '81777Z': { lab: 'Cupertino',       region: 'Northern California', div: 'MS', program: 'VIQRC' },
+      '2675B':  { lab: 'Fremont',          region: 'Northern California', div: 'ES', program: 'VIQRC' },
+      '2675C':  { lab: 'Fremont',          region: 'Northern California', div: 'ES', program: 'VIQRC' },
+      '2675F':  { lab: 'Fremont',          region: 'Northern California', div: 'ES', program: 'VIQRC' },
+      '1779A':  { lab: 'Cedar Park',       region: 'Texas',               div: 'ES', program: 'VIQRC' },
+      '2166A':  { lab: 'Frisco',           region: 'Texas',               div: 'ES', program: 'VIQRC' },
+      '2166B':  { lab: 'Frisco',           region: 'Texas',               div: 'MS', program: 'VIQRC' },
+      '75035M': { lab: 'Frisco',           region: 'Texas',               div: 'MS', program: 'VIQRC' },
+      '21136A': { lab: 'Highland Park',   region: 'Texas',               div: 'MS', program: 'VIQRC' },
+      '2737A':  { lab: 'Redmond/Seattle',  region: 'Other US',           div: 'ES', program: 'VIQRC' },
+      '18697A': { lab: 'Castle Hill/Sydney', region: 'Australia',         div: 'ES', program: 'VIQRC' },
+      '69699A': { lab: 'Castle Hill/Sydney', region: 'Australia',         div: 'ES', program: 'VIQRC' },
+      '46658A': { lab: 'Pymble/Sydney',   region: 'Australia',           div: 'ES', program: 'VIQRC' },
+      '9066A':  { lab: 'Beijing',          region: 'China',              div: 'ES', program: 'VIQRC' },
+      '60666A': { lab: 'Shanghai',         region: 'China',              div: 'ES', program: 'VIQRC' },
     };
 
     let currentLab = null;
@@ -1017,7 +1077,244 @@
       }
     }
 
-    // Team display with hotel info
+    // VIQRC Division PDF links (Elementary & Middle School - Apr 28-30)
+    const viqrcDivisionPDFs = {
+      'Elementary School': {
+        'Arts': 'https://recf.org/documents/2026/04/arts-division-list-viqrc-elementary-school-2026-vex-robotics-world-championship.pdf/',
+        'Engineering': 'https://recf.org/documents/2026/04/engineering-division-list-viqrc-elementary-school-2026-vex-robotics-world-championship.pdf/',
+        'Math': 'https://recf.org/documents/2026/04/math-division-list-viqrc-elementary-school-2026-vex-robotics-world-championship.pdf/',
+        'Science': 'https://recf.org/documents/2026/04/science-division-list-viqrc-elementary-school-2026-vex-robotics-world-championship.pdf/',
+        'Technology': 'https://recf.org/documents/2026/04/technology-division-list-viqrc-elementary-school-2026-vex-robotics-world-championship.pdf/',
+      },
+      'Middle School': {
+        'Spirit': 'https://recf.org/documents/2026/04/spirit-division-list-viqrc-middle-school-2026-vex-robotics-world-championship.pdf/',
+        'Design': 'https://recf.org/documents/2026/04/design-division-list-viqrc-middle-school-2026-vex-robotics-world-championship.pdf/',
+        'Innovate': 'https://recf.org/documents/2026/04/innovate-division-list-viqrc-middle-school-2026-vex-robotics-world-championship.pdf/',
+        'Opportunity': 'https://recf.org/documents/2026/04/opportunity-division-list-viqrc-middle-school-2026-vex-robotics-world-championship.pdf/',
+        'Research': 'https://recf.org/documents/2026/04/research-division-list-viqrc-middle-school-2026-vex-robotics-world-championship.pdf/',
+      }
+    };
+
+    // VIQRC Division Teams with Skill World Rankings
+    // Data loaded from vex-data/viqrc-division-teams.js (extracted from official PDFs)
+    // Skill World Rank: Lower number = Higher ranking
+
+    function getDivFullName(divCode) {
+      const map = {
+        'ES': 'Elementary School',
+        'MS': 'Middle School',
+        'HS': 'High School',
+        'U': 'College/University'
+      };
+      return map[divCode] || divCode;
+    }
+
+    function getDivPDFLink(divFullName, program) {
+      if (program === 'VIQRC' && viqrcDivisionPDFs[divFullName]) {
+        const divisions = viqrcDivisionPDFs[divFullName];
+        const keys = Object.keys(divisions);
+        return keys.length > 0 ? divisions[keys[0]] : 'https://recf.org/vex_worlds/division-lists/';
+      }
+      return 'https://recf.org/vex_worlds/division-lists/';
+    }
+    
+    function getAllDivisionPDFs(divFullName, program) {
+      if (program === 'VIQRC' && viqrcDivisionPDFs[divFullName]) {
+        return viqrcDivisionPDFs[divFullName];
+      }
+      return null;
+    }
+
+    function showDivisionModal(divFullName, divCode, specificDivName, showAll) {
+      const modal = document.getElementById('divisionModal');
+      const modalTitle = document.getElementById('divisionModalTitle');
+      const modalContent = document.getElementById('divisionModalContent');
+      const currentTeamNum = document.getElementById('teamSelect').value;
+      const currentTeam = currentTeamNum && teamDetails[currentTeamNum] ? teamDetails[currentTeamNum] : null;
+      const program = currentTeam ? currentTeam.program : 'VIQRC';
+      
+      // Get division name to show
+      const divNameToShow = specificDivName || divFullName;
+      modalTitle.textContent = `🏆 ${divNameToShow} · VIQRC`;
+      
+      // Get division teams data
+      const divisionData = viqrcDivisionTeams[divFullName];
+      const divisionTeams = divisionData ? divisionData[divNameToShow] : null;
+      const allPDFs = getAllDivisionPDFs(divFullName, program);
+      
+      // Get current team's skill rank
+      let currentSkillRank = null;
+      if (currentTeamNum && divisionTeams) {
+        const currentTeamData = divisionTeams.find(t => t.num === currentTeamNum);
+        if (currentTeamData && currentTeamData.skillRank) {
+          currentSkillRank = currentTeamData.skillRank;
+        }
+      }
+      
+      let html = '';
+      
+      // Legend
+      html += `
+        <div class="mb-4 p-3 bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg border border-amber-200">
+          <p class="text-sm font-semibold text-amber-800 mb-2">📊 Skill World Ranking Highlights | 技能赛世界排名高亮</p>
+          <div class="flex flex-wrap gap-3 text-xs">
+            <span class="flex items-center gap-1">
+              <span class="w-3 h-3 bg-red-500 rounded"></span>
+              <span class="text-gray-600">比你排名高 (Skill Rank Higher)</span>
+            </span>
+            <span class="flex items-center gap-1">
+              <span class="w-3 h-3 bg-green-500 rounded"></span>
+              <span class="text-gray-600">你的队伍 (Your team)</span>
+            </span>
+            <span class="flex items-center gap-1">
+              <span class="w-3 h-3 bg-gray-200 rounded"></span>
+              <span class="text-gray-600">比你排名低 (Skill Rank Lower)</span>
+            </span>
+          </div>
+        </div>
+      `;
+      
+      // Division Teams Section
+      if (divisionTeams && divisionTeams.length > 0) {
+        // Sort by skill rank
+        const sortedTeams = [...divisionTeams].sort((a, b) => {
+          if (a.skillRank && b.skillRank) return a.skillRank - b.skillRank;
+          if (a.skillRank) return -1;
+          if (b.skillRank) return 1;
+          return 0;
+        });
+        
+        // Determine which teams to show: all, higher ranked than current, or top 80
+        let teamsToShow = sortedTeams;
+        if (!showAll && currentSkillRank) {
+          const higherRanked = sortedTeams.filter(t => t.skillRank && t.skillRank < currentSkillRank);
+          if (higherRanked.length > 0) {
+            teamsToShow = higherRanked;
+          } else {
+            // No one ranks higher, show top 80
+            teamsToShow = sortedTeams.filter(t => t.skillRank && t.skillRank <= 80);
+          }
+        }
+        
+        const sectionTitle = showAll ? 
+          `🏆 All Teams in ${divNameToShow} Division | ${divNameToShow} 分区全部赛队` :
+          (currentSkillRank ? `⚔️ Teams Ranked Higher Than You (比你排名高的队伍)` : `🏆 All Teams in ${divNameToShow} Division`);
+        
+        html += `
+          <div class="mb-3 flex items-center justify-between">
+            <p class="text-sm font-semibold text-gray-700">${sectionTitle}</p>
+            <span class="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded-full">${teamsToShow.length} teams</span>
+          </div>
+          
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <table class="w-full text-xs">
+              <thead class="bg-gray-100">
+                <tr>
+                  <th class="text-left p-2 font-semibold text-gray-600">#</th>
+                  <th class="text-left p-2 font-semibold text-gray-600">World Rank</th>
+                  <th class="text-left p-2 font-semibold text-gray-600">Team</th>
+                  <th class="text-left p-2 font-semibold text-gray-600">Name</th>
+                  <th class="text-left p-2 font-semibold text-gray-600">Region</th>
+                  <th class="text-right p-2 font-semibold text-gray-600">Score</th>
+                  <th class="text-right p-2 font-semibold text-gray-600">Auto</th>
+                  <th class="text-right p-2 font-semibold text-gray-600">Driver</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-100">
+        `;
+        
+        teamsToShow.forEach((team, idx) => {
+          const isCurrent = team.num === currentTeamNum;
+          const isHigherRank = currentSkillRank && team.skillRank && team.skillRank < currentSkillRank;
+          
+          let rowClass = '';
+          let rankBadge = '';
+          
+          if (isCurrent) {
+            rowClass = 'bg-green-100';
+          } else if (isHigherRank) {
+            rowClass = 'bg-red-50 hover:bg-red-100';
+          }
+          
+          if (team.skillRank && team.skillRank <= 10) {
+            rankBadge = '<span class="ml-1 text-amber-500">⭐</span>';
+          } else if (team.skillRank && team.skillRank <= 50) {
+            rankBadge = '<span class="ml-1 text-gray-400">🔥</span>';
+          }
+          
+          html += `
+            <tr class="${rowClass}">
+              <td class="p-2 text-gray-400">${idx + 1}</td>
+              <td class="p-2 font-semibold ${team.skillRank ? 'text-gray-700' : 'text-gray-400'}">
+                ${team.skillRank ? `<span class="${isHigherRank ? 'text-red-600 font-bold' : ''}">#${team.skillRank}</span>` : '-'}
+                ${team.skillRank ? rankBadge : ''}
+                ${isHigherRank ? '<span class="ml-1 text-xs text-red-500">↑</span>' : ''}
+              </td>
+              <td class="p-2">
+                <div class="flex flex-col gap-0.5">
+                  <span class="font-bold ${isCurrent ? 'text-green-700' : 'text-blue-600'}">${team.num}</span>
+                  ${team.magikid ? '<span class="text-xs bg-blue-100 text-blue-600 px-1 rounded w-fit">MAGIKID</span>' : ''}
+                </div>
+              </td>
+              <td class="p-2 text-gray-600">${team.name || '-'}</td>
+              <td class="p-2 text-xs text-gray-500">${team.region || '-'}</td>
+              <td class="p-2 text-right font-semibold ${team.score && team.score >= 400 ? 'text-amber-600' : team.score && team.score >= 300 ? 'text-blue-600' : 'text-gray-700'}">${team.score || '-'}</td>
+              <td class="p-2 text-right text-gray-500">${team.autoScore || '-'}</td>
+              <td class="p-2 text-right text-gray-500">${team.driverScore || '-'}</td>
+            </tr>
+          `;
+        });
+        
+        html += '</tbody></table></div>';
+        
+        // Summary - only show when not in "show all" mode
+        if (!showAll && currentSkillRank) {
+          const higherCount = sortedTeams.filter(t => t.skillRank && t.skillRank < currentSkillRank).length;
+          const lowerCount = sortedTeams.filter(t => t.skillRank && t.skillRank > currentSkillRank).length;
+          const shownHigherCount = teamsToShow.filter(t => t.skillRank && t.skillRank < currentSkillRank).length;
+          html += `
+            <div class="mt-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
+              <p class="text-sm font-semibold text-blue-800">📈 Your Skill Ranking Summary | 你的技能赛排名情况</p>
+              <div class="flex gap-6 mt-2 text-xs">
+                <div><span class="font-bold text-red-600">${shownHigherCount}</span> <span class="text-gray-600">teams ranked higher than you</span></div>
+                <div><span class="font-bold text-green-600">${currentSkillRank}</span> <span class="text-gray-600">your Skill World Rank</span></div>
+              </div>
+              ${shownHigherCount === 0 ? '<p class="text-xs text-amber-600 mt-2">⚡ No teams ranked higher — showing Top 80 in this division</p>' : ''}
+            </div>
+          `;
+        }
+      } else {
+        html += `
+          <div class="text-center py-8 text-gray-500 bg-gray-50 rounded-lg">
+            <p class="text-sm">No team data available for this division.</p>
+            <p class="text-xs text-gray-400 mt-1">此分区暂无赛队数据</p>
+          </div>
+        `;
+      }
+      
+      modalContent.innerHTML = html;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeDivisionModal() {
+      const modal = document.getElementById('divisionModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    // Get specific division name for a team
+    function getTeamSpecificDivision(teamNum) {
+      for (const [level, divisions] of Object.entries(viqrcDivisionTeams)) {
+        for (const [divName, teams] of Object.entries(divisions)) {
+          const found = teams.find(t => t.num === teamNum);
+          if (found) return { level, divName, teams };
+        }
+      }
+      return null;
+    }
+
+    // Team display with hotel info and division
     function displayTeamInfo(teamNum) {
       const infoDiv = document.getElementById('teamInfoDisplay');
       const detailsDiv = document.getElementById('teamDetailsDiv');
@@ -1026,6 +1323,14 @@
       
       if (teamNum && teamDetails[teamNum]) {
         const info = teamDetails[teamNum];
+        // Get full division name from div code (ES->Elementary, MS->Middle School)
+        const divFullName = getDivFullName(info.div);
+        const program = info.program || 'VIQRC';
+        
+        // Get specific division (e.g., "Arts", "Engineering")
+        const teamDivData = getTeamSpecificDivision(teamNum);
+        const specificDivName = teamDivData ? teamDivData.divName : null;
+        
         let hotelHtml = '';
         if (hotelName) {
           hotelHtml = `
@@ -1043,12 +1348,44 @@
             </div>
           </div>`;
         }
+        
+        // Build division teams preview - simple version without team list
+        let divisionInfo = '';
+        if (teamDivData && specificDivName) {
+          const mySkillRank = teamDivData.teams.find(t => t.num === teamNum)?.skillRank;
+          divisionInfo = `
+            <div class="mt-3 pt-2 border-t border-purple-200">
+              <div class="flex items-center gap-2">
+                <span class="text-xs text-purple-600 font-medium">🏆 Division · 分区</span>
+                <button onclick="showDivisionModal('${divFullName}', '${program}', '${specificDivName}', true)" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-bold px-2 py-0.5 rounded-full cursor-pointer hover:opacity-90 transition">
+                  ${specificDivName}
+                </button>
+                <span class="text-xs text-gray-400">${divFullName}</span>
+                ${mySkillRank ? `<span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded font-medium">Skill #${mySkillRank}</span>` : ''}
+              </div>
+            </div>
+          `;
+        } else {
+          divisionInfo = `
+            <div class="mt-3 pt-2 border-t border-purple-200">
+              <div class="flex items-center gap-2">
+                <span class="text-xs text-purple-600 font-medium">🏆 Division · 分区</span>
+                <button onclick="showDivisionModal('${divFullName}', '${program}', '${divFullName}', true)" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-bold px-2 py-0.5 rounded-full cursor-pointer hover:opacity-90 transition">
+                  ${divFullName}
+                </button>
+                <span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded">${program}</span>
+              </div>
+            </div>
+          `;
+        }
+        
         detailsDiv.innerHTML = `
           <div class="grid grid-cols-3 gap-2 text-xs">
             <div><span class="text-gray-400">Team</span><br><span class="font-bold text-blue-800">${teamNum}</span></div>
             <div><span class="text-gray-400">Lab</span><br><span class="font-semibold">${info.lab}</span></div>
-            <div><span class="text-gray-400">Division</span><br><span class="font-semibold">${info.div}</span></div>
+            <div><span class="text-gray-400">Level</span><br><span class="font-semibold">${info.div}</span></div>
           </div>
+          ${divisionInfo}
           ${hotelHtml}
         `;
         infoDiv.classList.remove('hidden');
@@ -1202,6 +1539,7 @@
     window.addEventListener('DOMContentLoaded', () => {
       checkStoredLab();
       setTimeout(loadSavedTeam, 100);
+      setTimeout(renderMagikidTeamsList, 200);
       document.getElementById('teamForm').addEventListener('change', (e) => {
         saveTeamInfo();
         if (e.target.id === 'teamSelect' || e.target.id === 'hotelSelect') {
@@ -1214,6 +1552,19 @@
       setTimeout(checkFormComplete, 200);
     });
   </script>
+
+  <!-- Division Modal -->
+  <div id="divisionModal" class="hidden fixed inset-0 z-50 items-center justify-center p-4 bg-black/50">
+    <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[90vh] overflow-hidden">
+      <div class="bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 text-white px-5 py-4 flex items-center justify-between">
+        <h3 id="divisionModalTitle" class="font-bold text-lg">🏆 Division Teams</h3>
+        <button onclick="closeDivisionModal()" class="text-white/80 hover:text-white text-2xl leading-none">&times;</button>
+      </div>
+      <div id="divisionModalContent" class="p-5 overflow-y-auto max-h-[calc(90vh-80px)]">
+        <!-- Content injected by JS -->
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

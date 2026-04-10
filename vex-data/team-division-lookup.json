@@ -1,0 +1,4538 @@
+{
+  "81777A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1,
+    "score": 548
+  },
+  "1512X": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 6,
+    "score": 479
+  },
+  "5571K": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 9,
+    "score": 465
+  },
+  "8299B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 39,
+    "score": 414
+  },
+  "95133G": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 44,
+    "score": 405
+  },
+  "88299B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 57,
+    "score": 391
+  },
+  "38413A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 60,
+    "score": 389
+  },
+  "20160M": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 85,
+    "score": 354
+  },
+  "5004S": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 99,
+    "score": 341
+  },
+  "9919A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 102,
+    "score": 339
+  },
+  "17593X": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 119,
+    "score": 329
+  },
+  "68039V": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 129,
+    "score": 324
+  },
+  "46140A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 165,
+    "score": 303
+  },
+  "26989B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 184,
+    "score": 292
+  },
+  "8873B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 202,
+    "score": 276
+  },
+  "6885B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 210,
+    "score": 272
+  },
+  "3125M": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 224,
+    "score": 264
+  },
+  "6677G": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 225,
+    "score": 262
+  },
+  "58071A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 231,
+    "score": 261
+  },
+  "9066A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 236,
+    "score": 257
+  },
+  "1100S": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 241,
+    "score": 254
+  },
+  "6440C": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 302,
+    "score": 224
+  },
+  "52710A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 303,
+    "score": 224
+  },
+  "80292D": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 330,
+    "score": 215
+  },
+  "18823M": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 332,
+    "score": 215
+  },
+  "5988X": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 342,
+    "score": 212
+  },
+  "6177A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 360,
+    "score": 207
+  },
+  "13722X": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 377,
+    "score": 201
+  },
+  "7799B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 401,
+    "score": 193
+  },
+  "60600B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 406,
+    "score": 191
+  },
+  "90222B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 464,
+    "score": 178
+  },
+  "99174A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 471,
+    "score": 177
+  },
+  "96712B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 477,
+    "score": 176
+  },
+  "37064D": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 548,
+    "score": 158
+  },
+  "2668B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 587,
+    "score": 151
+  },
+  "10511A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 652,
+    "score": 141
+  },
+  "31186C": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 768,
+    "score": 129
+  },
+  "10404F": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 776,
+    "score": 128
+  },
+  "59365B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 806,
+    "score": 125
+  },
+  "2425R": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 836,
+    "score": 122
+  },
+  "1810A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 850,
+    "score": 121
+  },
+  "54445T": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 868,
+    "score": 120
+  },
+  "5164A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 915,
+    "score": 118
+  },
+  "2244B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 918,
+    "score": 118
+  },
+  "1063E": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 922,
+    "score": 118
+  },
+  "6593C": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 927,
+    "score": 117
+  },
+  "13200A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 946,
+    "score": 117
+  },
+  "51451D": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1002,
+    "score": 112
+  },
+  "16677A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1037,
+    "score": 111
+  },
+  "3439C": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1040,
+    "score": 111
+  },
+  "98016B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1056,
+    "score": 110
+  },
+  "62130D": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1099,
+    "score": 107
+  },
+  "23011A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1129,
+    "score": 105
+  },
+  "92964B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1187,
+    "score": 102
+  },
+  "85287A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1202,
+    "score": 101
+  },
+  "25705B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1240,
+    "score": 98
+  },
+  "76896A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1269,
+    "score": 97
+  },
+  "11180B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1345,
+    "score": 92
+  },
+  "42968Y": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1430,
+    "score": 88
+  },
+  "4183E": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1449,
+    "score": 87
+  },
+  "21217A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1626,
+    "score": 79
+  },
+  "2783J": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1883,
+    "score": 69
+  },
+  "49466A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1903,
+    "score": 68
+  },
+  "1227D": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1945,
+    "score": 67
+  },
+  "72777F": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 1964,
+    "score": 66
+  },
+  "70510F": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 2033,
+    "score": 64
+  },
+  "18493B": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 2056,
+    "score": 63
+  },
+  "34107G": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 2105,
+    "score": 62
+  },
+  "63122A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 2294,
+    "score": 57
+  },
+  "29544C": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 2578,
+    "score": 51
+  },
+  "3708C": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 2580,
+    "score": 51
+  },
+  "83920T": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 3514,
+    "score": 36
+  },
+  "34543E": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 4456,
+    "score": 26
+  },
+  "66775A": {
+    "division": "arts",
+    "grade": "Elementary",
+    "world_rank": 4785,
+    "score": 22
+  },
+  "2026": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "4029": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": null,
+    "score": null
+  },
+  "3988S": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 5,
+    "score": 492
+  },
+  "97793A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 18,
+    "score": 448
+  },
+  "6104C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 20,
+    "score": 441
+  },
+  "95059A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 25,
+    "score": 431
+  },
+  "2737A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 34,
+    "score": 423
+  },
+  "58051A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 74,
+    "score": 373
+  },
+  "8988P": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 77,
+    "score": 368
+  },
+  "8282X": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 84,
+    "score": 354
+  },
+  "8866K": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 93,
+    "score": 346
+  },
+  "60065A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 103,
+    "score": 339
+  },
+  "69699A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 108,
+    "score": 335
+  },
+  "1100E": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 116,
+    "score": 331
+  },
+  "6593B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 125,
+    "score": 326
+  },
+  "9699P": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 132,
+    "score": 321
+  },
+  "80020A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 145,
+    "score": 314
+  },
+  "26862B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 158,
+    "score": 307
+  },
+  "1431A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 160,
+    "score": 307
+  },
+  "17222A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 179,
+    "score": 296
+  },
+  "1779A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 223,
+    "score": 265
+  },
+  "66767A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 255,
+    "score": 243
+  },
+  "21121A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 256,
+    "score": 242
+  },
+  "18000B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 272,
+    "score": 233
+  },
+  "3030D": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 281,
+    "score": 230
+  },
+  "42403A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 322,
+    "score": 218
+  },
+  "5559C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 365,
+    "score": 205
+  },
+  "63041A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 398,
+    "score": 194
+  },
+  "2166A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 404,
+    "score": 192
+  },
+  "2633B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 419,
+    "score": 188
+  },
+  "6656F": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 426,
+    "score": 187
+  },
+  "34035J": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 428,
+    "score": 186
+  },
+  "10142A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 432,
+    "score": 185
+  },
+  "20058C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 439,
+    "score": 184
+  },
+  "92633B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 441,
+    "score": 183
+  },
+  "29032E": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 455,
+    "score": 179
+  },
+  "25425B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 490,
+    "score": 174
+  },
+  "53976A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 502,
+    "score": 171
+  },
+  "10459A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 503,
+    "score": 171
+  },
+  "12368C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 514,
+    "score": 168
+  },
+  "50316F": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 539,
+    "score": 160
+  },
+  "18823A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 558,
+    "score": 156
+  },
+  "74866A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 565,
+    "score": 155
+  },
+  "98999Y": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 610,
+    "score": 147
+  },
+  "7553N": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 642,
+    "score": 142
+  },
+  "1216D": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 644,
+    "score": 142
+  },
+  "35640C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 667,
+    "score": 139
+  },
+  "81625S": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 671,
+    "score": 139
+  },
+  "52654D": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 738,
+    "score": 131
+  },
+  "62130B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 742,
+    "score": 131
+  },
+  "3668C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 767,
+    "score": 130
+  },
+  "6855B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 769,
+    "score": 129
+  },
+  "34458Z": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 826,
+    "score": 123
+  },
+  "5147B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 949,
+    "score": 117
+  },
+  "44632N": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 965,
+    "score": 115
+  },
+  "96627A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1004,
+    "score": 112
+  },
+  "47721K": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1101,
+    "score": 107
+  },
+  "3439B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1102,
+    "score": 107
+  },
+  "6333H": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1196,
+    "score": 102
+  },
+  "72550A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1225,
+    "score": 100
+  },
+  "31186A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1242,
+    "score": 98
+  },
+  "88180Y": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1284,
+    "score": 96
+  },
+  "2410M": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1341,
+    "score": 92
+  },
+  "13650A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1365,
+    "score": 91
+  },
+  "90048D": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1498,
+    "score": 85
+  },
+  "84401C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1571,
+    "score": 82
+  },
+  "11086B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1609,
+    "score": 80
+  },
+  "16346R": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1668,
+    "score": 77
+  },
+  "67846J": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1710,
+    "score": 75
+  },
+  "58923A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1751,
+    "score": 74
+  },
+  "83187G": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1791,
+    "score": 72
+  },
+  "5981B": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 1968,
+    "score": 66
+  },
+  "22884A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 2288,
+    "score": 58
+  },
+  "1059A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 2663,
+    "score": 49
+  },
+  "4751A": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": 4714,
+    "score": 23
+  },
+  "46396": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "37991M": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": null,
+    "score": null
+  },
+  "99561C": {
+    "division": "engineering",
+    "grade": "Elementary",
+    "world_rank": null,
+    "score": null
+  },
+  "2988A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 3,
+    "score": 504
+  },
+  "81777X": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 8,
+    "score": 466
+  },
+  "2675B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 32,
+    "score": 423
+  },
+  "1132C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 41,
+    "score": 412
+  },
+  "60666A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 47,
+    "score": 402
+  },
+  "2276A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 72,
+    "score": 374
+  },
+  "6699U": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 73,
+    "score": 374
+  },
+  "6885X": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 87,
+    "score": 351
+  },
+  "95133X": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 94,
+    "score": 345
+  },
+  "3207F": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 100,
+    "score": 340
+  },
+  "8588B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 105,
+    "score": 336
+  },
+  "73429A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 157,
+    "score": 309
+  },
+  "9965E": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 162,
+    "score": 307
+  },
+  "18533A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 175,
+    "score": 300
+  },
+  "17750A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 183,
+    "score": 292
+  },
+  "8877Y": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 195,
+    "score": 283
+  },
+  "71030G": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 234,
+    "score": 257
+  },
+  "77710A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 253,
+    "score": 244
+  },
+  "83988C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 273,
+    "score": 232
+  },
+  "25757B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 289,
+    "score": 228
+  },
+  "1243A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 309,
+    "score": 222
+  },
+  "29766T": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 344,
+    "score": 212
+  },
+  "16688K": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 370,
+    "score": 203
+  },
+  "1545M": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 391,
+    "score": 196
+  },
+  "10525D": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 392,
+    "score": 196
+  },
+  "4250X": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 461,
+    "score": 179
+  },
+  "31837K": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 467,
+    "score": 178
+  },
+  "27093A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 478,
+    "score": 176
+  },
+  "38792A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 517,
+    "score": 166
+  },
+  "7919A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 518,
+    "score": 166
+  },
+  "6632A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 524,
+    "score": 165
+  },
+  "20253A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 528,
+    "score": 164
+  },
+  "92981A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 557,
+    "score": 156
+  },
+  "9177A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 602,
+    "score": 149
+  },
+  "68262A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 622,
+    "score": 145
+  },
+  "59713D": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 675,
+    "score": 138
+  },
+  "98854A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 677,
+    "score": 138
+  },
+  "6039B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 704,
+    "score": 134
+  },
+  "10404G": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 708,
+    "score": 134
+  },
+  "6576A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 709,
+    "score": 134
+  },
+  "13282A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 799,
+    "score": 126
+  },
+  "67052H": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 853,
+    "score": 121
+  },
+  "58071B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 894,
+    "score": 119
+  },
+  "11860G": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 919,
+    "score": 118
+  },
+  "6181A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 992,
+    "score": 112
+  },
+  "89998Z": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1057,
+    "score": 110
+  },
+  "99265B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1084,
+    "score": 109
+  },
+  "34802J": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1131,
+    "score": 105
+  },
+  "62536A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1156,
+    "score": 103
+  },
+  "96793B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1186,
+    "score": 102
+  },
+  "55164C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1206,
+    "score": 101
+  },
+  "21302B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1221,
+    "score": 100
+  },
+  "5164C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1266,
+    "score": 97
+  },
+  "3439W": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1304,
+    "score": 94
+  },
+  "13722Z": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1312,
+    "score": 94
+  },
+  "90245D": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1373,
+    "score": 91
+  },
+  "1932C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1375,
+    "score": 91
+  },
+  "1069H": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1444,
+    "score": 87
+  },
+  "85365B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1512,
+    "score": 84
+  },
+  "80602B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1599,
+    "score": 81
+  },
+  "51717R": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1787,
+    "score": 72
+  },
+  "53065E": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1814,
+    "score": 71
+  },
+  "46384C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1816,
+    "score": 71
+  },
+  "49466C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1839,
+    "score": 70
+  },
+  "5017C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 1847,
+    "score": 70
+  },
+  "5585D": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 2120,
+    "score": 62
+  },
+  "2547B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 2175,
+    "score": 60
+  },
+  "63122D": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 2654,
+    "score": 49
+  },
+  "37500B": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 2734,
+    "score": 47
+  },
+  "3931C": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 2753,
+    "score": 47
+  },
+  "34202D": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 3244,
+    "score": 38
+  },
+  "23418D": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 3281,
+    "score": 38
+  },
+  "43058E": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 3684,
+    "score": 35
+  },
+  "18963A": {
+    "division": "math",
+    "grade": "Elementary",
+    "world_rank": 3813,
+    "score": 34
+  },
+  "2675C": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 19,
+    "score": 447
+  },
+  "81777Y": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 27,
+    "score": 430
+  },
+  "9199A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 30,
+    "score": 429
+  },
+  "1933M": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 49,
+    "score": 401
+  },
+  "62666A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 51,
+    "score": 398
+  },
+  "7231G": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 62,
+    "score": 387
+  },
+  "3668A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 97,
+    "score": 343
+  },
+  "68888A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 135,
+    "score": 320
+  },
+  "30707A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 142,
+    "score": 315
+  },
+  "19901A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 149,
+    "score": 313
+  },
+  "96000A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 173,
+    "score": 300
+  },
+  "20259R": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 174,
+    "score": 300
+  },
+  "93557G": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 177,
+    "score": 299
+  },
+  "1295X": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 220,
+    "score": 266
+  },
+  "8882A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 229,
+    "score": 261
+  },
+  "32112A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 279,
+    "score": 230
+  },
+  "10432G": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 299,
+    "score": 225
+  },
+  "81020A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 300,
+    "score": 224
+  },
+  "4250Y": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 304,
+    "score": 224
+  },
+  "8672B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 305,
+    "score": 224
+  },
+  "2999F": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 308,
+    "score": 222
+  },
+  "22020Y": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 331,
+    "score": 215
+  },
+  "99396D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 337,
+    "score": 214
+  },
+  "18697A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 341,
+    "score": 213
+  },
+  "6780A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 375,
+    "score": 201
+  },
+  "9965X": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 395,
+    "score": 195
+  },
+  "43277A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 397,
+    "score": 194
+  },
+  "46658A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 402,
+    "score": 192
+  },
+  "2613E": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 427,
+    "score": 186
+  },
+  "25039A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 429,
+    "score": 186
+  },
+  "53919A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 480,
+    "score": 175
+  },
+  "34362H": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 493,
+    "score": 174
+  },
+  "55909D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 495,
+    "score": 173
+  },
+  "3321A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 538,
+    "score": 161
+  },
+  "91416X": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 555,
+    "score": 156
+  },
+  "6576C": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 591,
+    "score": 151
+  },
+  "17890D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 626,
+    "score": 144
+  },
+  "59813B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 629,
+    "score": 144
+  },
+  "96833A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 674,
+    "score": 138
+  },
+  "65950B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 694,
+    "score": 136
+  },
+  "5255A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 701,
+    "score": 135
+  },
+  "6210R": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 705,
+    "score": 134
+  },
+  "52106B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 744,
+    "score": 131
+  },
+  "67052N": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 864,
+    "score": 120
+  },
+  "50108A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 867,
+    "score": 120
+  },
+  "73447C": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 950,
+    "score": 116
+  },
+  "27199A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 971,
+    "score": 114
+  },
+  "8030A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1018,
+    "score": 112
+  },
+  "60742A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1121,
+    "score": 106
+  },
+  "13282B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1177,
+    "score": 102
+  },
+  "71221B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1208,
+    "score": 101
+  },
+  "5017F": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1222,
+    "score": 100
+  },
+  "84212E": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1232,
+    "score": 99
+  },
+  "1555B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1272,
+    "score": 97
+  },
+  "1216B": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1376,
+    "score": 91
+  },
+  "12022C": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1469,
+    "score": 86
+  },
+  "1097C": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1474,
+    "score": 86
+  },
+  "10692A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1491,
+    "score": 85
+  },
+  "6632D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1502,
+    "score": 84
+  },
+  "14581M": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1590,
+    "score": 81
+  },
+  "85968A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1669,
+    "score": 77
+  },
+  "37500C": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1836,
+    "score": 70
+  },
+  "26041A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1843,
+    "score": 70
+  },
+  "78454W": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 1894,
+    "score": 68
+  },
+  "98854C": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 2004,
+    "score": 65
+  },
+  "2305D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 2014,
+    "score": 65
+  },
+  "6039D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 2637,
+    "score": 50
+  },
+  "16781R": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 2787,
+    "score": 46
+  },
+  "3931D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 2788,
+    "score": 46
+  },
+  "58312D": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 3040,
+    "score": 42
+  },
+  "34998J": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 3126,
+    "score": 41
+  },
+  "40693R": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 3732,
+    "score": 34
+  },
+  "5588Z": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": 3838,
+    "score": 34
+  },
+  "90000A": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": null,
+    "score": null
+  },
+  "8513": {
+    "division": "science",
+    "grade": "Elementary",
+    "world_rank": null,
+    "score": null
+  },
+  "3988D": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 11,
+    "score": 461
+  },
+  "5090A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 36,
+    "score": 419
+  },
+  "2675F": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 37,
+    "score": 418
+  },
+  "9452M": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 76,
+    "score": 369
+  },
+  "6808X": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 79,
+    "score": 363
+  },
+  "69000E": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 81,
+    "score": 357
+  },
+  "58766B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 98,
+    "score": 341
+  },
+  "2033A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 122,
+    "score": 328
+  },
+  "82823A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 139,
+    "score": 319
+  },
+  "91429X": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 146,
+    "score": 314
+  },
+  "26862A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 153,
+    "score": 311
+  },
+  "43631M": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 167,
+    "score": 303
+  },
+  "8882B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 182,
+    "score": 292
+  },
+  "2626X": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 191,
+    "score": 289
+  },
+  "81500A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 248,
+    "score": 248
+  },
+  "2373V": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 257,
+    "score": 242
+  },
+  "96902C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 295,
+    "score": 227
+  },
+  "20267B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 320,
+    "score": 219
+  },
+  "93557X": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 351,
+    "score": 210
+  },
+  "8696A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 356,
+    "score": 208
+  },
+  "62762A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 362,
+    "score": 206
+  },
+  "18000A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 410,
+    "score": 190
+  },
+  "99396M": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 436,
+    "score": 184
+  },
+  "16894B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 451,
+    "score": 180
+  },
+  "30707B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 466,
+    "score": 178
+  },
+  "8181N": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 473,
+    "score": 177
+  },
+  "12059G": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 476,
+    "score": 176
+  },
+  "15034C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 482,
+    "score": 175
+  },
+  "3668B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 485,
+    "score": 175
+  },
+  "25073A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 494,
+    "score": 173
+  },
+  "10692E": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 519,
+    "score": 166
+  },
+  "78682C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 525,
+    "score": 165
+  },
+  "1100A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 533,
+    "score": 163
+  },
+  "22524M": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 540,
+    "score": 160
+  },
+  "2999K": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 560,
+    "score": 156
+  },
+  "1729V": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 561,
+    "score": 156
+  },
+  "98854E": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 574,
+    "score": 152
+  },
+  "74756F": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 577,
+    "score": 152
+  },
+  "61593S": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 599,
+    "score": 149
+  },
+  "3437A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 615,
+    "score": 146
+  },
+  "34458D": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 616,
+    "score": 146
+  },
+  "66396B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 628,
+    "score": 144
+  },
+  "1216C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 630,
+    "score": 144
+  },
+  "5876A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 653,
+    "score": 141
+  },
+  "96000S": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 654,
+    "score": 141
+  },
+  "28595T": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 658,
+    "score": 140
+  },
+  "60011E": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 662,
+    "score": 140
+  },
+  "57290D": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 707,
+    "score": 134
+  },
+  "6593A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 741,
+    "score": 131
+  },
+  "53919B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 751,
+    "score": 130
+  },
+  "19968A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 757,
+    "score": 130
+  },
+  "6333C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 758,
+    "score": 130
+  },
+  "10014C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 784,
+    "score": 127
+  },
+  "7427A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 852,
+    "score": 121
+  },
+  "5280N": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 910,
+    "score": 118
+  },
+  "50298B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 974,
+    "score": 114
+  },
+  "84218A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 989,
+    "score": 113
+  },
+  "35640A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 997,
+    "score": 112
+  },
+  "1354A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1130,
+    "score": 105
+  },
+  "4440A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1226,
+    "score": 100
+  },
+  "32356B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1316,
+    "score": 93
+  },
+  "47721D": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1317,
+    "score": 93
+  },
+  "71711B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1419,
+    "score": 89
+  },
+  "86273C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1457,
+    "score": 87
+  },
+  "52510A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1550,
+    "score": 83
+  },
+  "90048C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1634,
+    "score": 79
+  },
+  "40701A": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 1838,
+    "score": 70
+  },
+  "67352D": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 2241,
+    "score": 58
+  },
+  "18721D": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 2383,
+    "score": 55
+  },
+  "6039F": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 2454,
+    "score": 54
+  },
+  "10452D": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 2776,
+    "score": 46
+  },
+  "37500E": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 3099,
+    "score": 41
+  },
+  "6651C": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 3561,
+    "score": 36
+  },
+  "13519B": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": 3951,
+    "score": 32
+  },
+  "2009": {
+    "division": "technology",
+    "grade": "Elementary",
+    "world_rank": null,
+    "score": null
+  },
+  "81777Z": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1,
+    "score": 550
+  },
+  "93601E": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 44,
+    "score": 419
+  },
+  "24250P": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 45,
+    "score": 419
+  },
+  "3211G": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 67,
+    "score": 392
+  },
+  "21136A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 96,
+    "score": 362
+  },
+  "58852B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 102,
+    "score": 356
+  },
+  "2205B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 119,
+    "score": 341
+  },
+  "29627Y": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 125,
+    "score": 339
+  },
+  "45544A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 130,
+    "score": 336
+  },
+  "13863J": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 136,
+    "score": 333
+  },
+  "90418B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 152,
+    "score": 324
+  },
+  "46032C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 158,
+    "score": 320
+  },
+  "20259E": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 185,
+    "score": 311
+  },
+  "3373A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 202,
+    "score": 304
+  },
+  "5280B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 211,
+    "score": 301
+  },
+  "9964E": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 213,
+    "score": 300
+  },
+  "10700Z": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 233,
+    "score": 293
+  },
+  "2623S": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 237,
+    "score": 292
+  },
+  "31614C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 266,
+    "score": 283
+  },
+  "1065B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 269,
+    "score": 281
+  },
+  "37837B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 285,
+    "score": 275
+  },
+  "8432B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 296,
+    "score": 271
+  },
+  "80821C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 298,
+    "score": 270
+  },
+  "12357X": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 337,
+    "score": 251
+  },
+  "61317X": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 354,
+    "score": 246
+  },
+  "6210X": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 362,
+    "score": 244
+  },
+  "67294B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 383,
+    "score": 238
+  },
+  "4250S": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 385,
+    "score": 238
+  },
+  "26277E": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 387,
+    "score": 237
+  },
+  "47747V": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 406,
+    "score": 231
+  },
+  "3722Y": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 409,
+    "score": 229
+  },
+  "39920B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 423,
+    "score": 225
+  },
+  "44844E": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 426,
+    "score": 224
+  },
+  "74756B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 442,
+    "score": 221
+  },
+  "11471B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 494,
+    "score": 210
+  },
+  "2999H": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 498,
+    "score": 210
+  },
+  "8866X": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 499,
+    "score": 210
+  },
+  "92640A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 531,
+    "score": 205
+  },
+  "2420A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 534,
+    "score": 204
+  },
+  "7222C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 724,
+    "score": 171
+  },
+  "78380H": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 761,
+    "score": 165
+  },
+  "11108A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 766,
+    "score": 165
+  },
+  "1216A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 800,
+    "score": 156
+  },
+  "36238A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 852,
+    "score": 149
+  },
+  "72065B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 892,
+    "score": 145
+  },
+  "52152A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 924,
+    "score": 140
+  },
+  "6046A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 931,
+    "score": 140
+  },
+  "2820D": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1017,
+    "score": 133
+  },
+  "1916A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1049,
+    "score": 131
+  },
+  "33363C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1098,
+    "score": 128
+  },
+  "28595A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1146,
+    "score": 124
+  },
+  "77773P": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1149,
+    "score": 124
+  },
+  "58130G": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1214,
+    "score": 119
+  },
+  "79755C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1290,
+    "score": 115
+  },
+  "16346A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1335,
+    "score": 112
+  },
+  "49131F": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1475,
+    "score": 107
+  },
+  "3686D": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1484,
+    "score": 107
+  },
+  "84063C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1623,
+    "score": 100
+  },
+  "6512B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 1980,
+    "score": 86
+  },
+  "14581A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 2094,
+    "score": 82
+  },
+  "9619A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 2116,
+    "score": 81
+  },
+  "4751G": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 2129,
+    "score": 80
+  },
+  "99144A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 2351,
+    "score": 72
+  },
+  "55508C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 2575,
+    "score": 64
+  },
+  "1502B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 2835,
+    "score": 58
+  },
+  "64932A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 3362,
+    "score": 47
+  },
+  "50491C": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 3438,
+    "score": 46
+  },
+  "22222B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 4142,
+    "score": 36
+  },
+  "9209R": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 5346,
+    "score": 21
+  },
+  "8035A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": 5368,
+    "score": 21
+  },
+  "4028": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "17489A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "18677A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "41927W": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "55902B": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "75172X": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "87853A": {
+    "division": "design",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "71777A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 2,
+    "score": 540
+  },
+  "9933X": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 5,
+    "score": 493
+  },
+  "81777U": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 8,
+    "score": 488
+  },
+  "9156A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 9,
+    "score": 480
+  },
+  "8818N": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 11,
+    "score": 476
+  },
+  "12242A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 32,
+    "score": 436
+  },
+  "5679A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 40,
+    "score": 426
+  },
+  "6177D": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 42,
+    "score": 425
+  },
+  "45318B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 47,
+    "score": 416
+  },
+  "2585A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 51,
+    "score": 409
+  },
+  "3088R": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 64,
+    "score": 398
+  },
+  "95133F": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 78,
+    "score": 380
+  },
+  "3722U": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 87,
+    "score": 368
+  },
+  "78151N": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 100,
+    "score": 357
+  },
+  "46032A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 103,
+    "score": 356
+  },
+  "27519A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 115,
+    "score": 344
+  },
+  "57775A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 123,
+    "score": 339
+  },
+  "1024G": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 140,
+    "score": 331
+  },
+  "60141A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 163,
+    "score": 318
+  },
+  "25425A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 179,
+    "score": 313
+  },
+  "3332E": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 184,
+    "score": 312
+  },
+  "1087X": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 189,
+    "score": 311
+  },
+  "20698X": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 206,
+    "score": 302
+  },
+  "2048A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 209,
+    "score": 302
+  },
+  "31337W": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 219,
+    "score": 298
+  },
+  "91445E": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 225,
+    "score": 295
+  },
+  "6441A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 236,
+    "score": 292
+  },
+  "13765C": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 240,
+    "score": 290
+  },
+  "82717K": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 262,
+    "score": 284
+  },
+  "2285D": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 276,
+    "score": 278
+  },
+  "93558B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 313,
+    "score": 261
+  },
+  "74801F": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 316,
+    "score": 260
+  },
+  "9408A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 333,
+    "score": 253
+  },
+  "4526A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 347,
+    "score": 248
+  },
+  "29627F": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 399,
+    "score": 233
+  },
+  "2831F": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 421,
+    "score": 225
+  },
+  "11263X": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 493,
+    "score": 211
+  },
+  "4079B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 497,
+    "score": 210
+  },
+  "48495C": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 515,
+    "score": 208
+  },
+  "19601A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 542,
+    "score": 203
+  },
+  "23761B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 559,
+    "score": 202
+  },
+  "14180A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 570,
+    "score": 200
+  },
+  "2810S": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 573,
+    "score": 200
+  },
+  "58387A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 580,
+    "score": 198
+  },
+  "77298A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 653,
+    "score": 185
+  },
+  "66799V": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 660,
+    "score": 184
+  },
+  "39404B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 676,
+    "score": 180
+  },
+  "17890E": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 694,
+    "score": 177
+  },
+  "46587A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 731,
+    "score": 170
+  },
+  "32092A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 775,
+    "score": 163
+  },
+  "85202M": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 838,
+    "score": 151
+  },
+  "50491K": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 848,
+    "score": 150
+  },
+  "17074B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 874,
+    "score": 147
+  },
+  "36832C": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 901,
+    "score": 144
+  },
+  "11064A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 974,
+    "score": 137
+  },
+  "79420X": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1001,
+    "score": 134
+  },
+  "80505A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1029,
+    "score": 132
+  },
+  "55821E": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1105,
+    "score": 127
+  },
+  "8366A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1196,
+    "score": 121
+  },
+  "44632S": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1242,
+    "score": 118
+  },
+  "34802U": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1315,
+    "score": 114
+  },
+  "64330A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1316,
+    "score": 114
+  },
+  "41400M": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1333,
+    "score": 112
+  },
+  "15153Z": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1457,
+    "score": 108
+  },
+  "1356A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1489,
+    "score": 106
+  },
+  "6671K": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1579,
+    "score": 102
+  },
+  "88700E": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1647,
+    "score": 99
+  },
+  "1828A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1950,
+    "score": 87
+  },
+  "21549F": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 1993,
+    "score": 86
+  },
+  "72777B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 2014,
+    "score": 85
+  },
+  "10622A": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 2047,
+    "score": 84
+  },
+  "54965M": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 2497,
+    "score": 67
+  },
+  "7991B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 2993,
+    "score": 56
+  },
+  "4854B": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": 3292,
+    "score": 48
+  },
+  "2585": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "3453D": {
+    "division": "innovate",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "80608A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 10,
+    "score": 477
+  },
+  "8818S": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 15,
+    "score": 461
+  },
+  "81777W": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 16,
+    "score": 454
+  },
+  "3668X": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 25,
+    "score": 446
+  },
+  "8395A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 41,
+    "score": 426
+  },
+  "46032B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 63,
+    "score": 399
+  },
+  "13789X": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 68,
+    "score": 392
+  },
+  "78258A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 74,
+    "score": 386
+  },
+  "12248A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 84,
+    "score": 372
+  },
+  "45318D": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 110,
+    "score": 347
+  },
+  "6177G": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 113,
+    "score": 345
+  },
+  "6441B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 124,
+    "score": 339
+  },
+  "32901A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 137,
+    "score": 332
+  },
+  "37311C": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 157,
+    "score": 321
+  },
+  "29627W": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 161,
+    "score": 319
+  },
+  "6699C": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 162,
+    "score": 319
+  },
+  "2613A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 174,
+    "score": 314
+  },
+  "90007A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 181,
+    "score": 313
+  },
+  "28134G": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 227,
+    "score": 294
+  },
+  "1025A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 229,
+    "score": 294
+  },
+  "5813H": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 251,
+    "score": 287
+  },
+  "3369B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 253,
+    "score": 287
+  },
+  "86752A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 261,
+    "score": 285
+  },
+  "66990Z": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 274,
+    "score": 280
+  },
+  "52111A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 280,
+    "score": 276
+  },
+  "9937A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 284,
+    "score": 275
+  },
+  "48952F": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 288,
+    "score": 274
+  },
+  "5004W": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 305,
+    "score": 266
+  },
+  "3182A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 322,
+    "score": 255
+  },
+  "39920A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 326,
+    "score": 255
+  },
+  "3722X": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 327,
+    "score": 255
+  },
+  "15167B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 331,
+    "score": 253
+  },
+  "14335X": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 335,
+    "score": 252
+  },
+  "1418Z": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 341,
+    "score": 250
+  },
+  "18386F": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 367,
+    "score": 243
+  },
+  "1901B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 412,
+    "score": 227
+  },
+  "47400J": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 444,
+    "score": 220
+  },
+  "79755A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 479,
+    "score": 214
+  },
+  "96933A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 556,
+    "score": 203
+  },
+  "2820A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 606,
+    "score": 193
+  },
+  "2166B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 615,
+    "score": 191
+  },
+  "4613A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 647,
+    "score": 186
+  },
+  "19920A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 652,
+    "score": 185
+  },
+  "17467A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 662,
+    "score": 183
+  },
+  "60355A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 691,
+    "score": 178
+  },
+  "92633A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 764,
+    "score": 165
+  },
+  "21555C": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 790,
+    "score": 159
+  },
+  "64443S": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 807,
+    "score": 155
+  },
+  "9532B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 811,
+    "score": 155
+  },
+  "9200B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 818,
+    "score": 154
+  },
+  "8009A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 857,
+    "score": 149
+  },
+  "58387E": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 925,
+    "score": 140
+  },
+  "93558Z": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 985,
+    "score": 136
+  },
+  "10673J": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1016,
+    "score": 133
+  },
+  "2929A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1057,
+    "score": 130
+  },
+  "25991A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1132,
+    "score": 125
+  },
+  "41400R": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1150,
+    "score": 124
+  },
+  "77612C": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1166,
+    "score": 123
+  },
+  "1114A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1319,
+    "score": 114
+  },
+  "55508B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1437,
+    "score": 109
+  },
+  "55883B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1452,
+    "score": 108
+  },
+  "4224A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1530,
+    "score": 104
+  },
+  "73447A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1609,
+    "score": 100
+  },
+  "44713A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1648,
+    "score": 99
+  },
+  "31408A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1818,
+    "score": 91
+  },
+  "75035M": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1832,
+    "score": 91
+  },
+  "21133A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 1946,
+    "score": 87
+  },
+  "11289B": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 2310,
+    "score": 74
+  },
+  "11086A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 2505,
+    "score": 67
+  },
+  "58072C": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 2549,
+    "score": 65
+  },
+  "24250E": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 2564,
+    "score": 65
+  },
+  "2367F": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 3108,
+    "score": 53
+  },
+  "83920A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 3674,
+    "score": 43
+  },
+  "71843A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": 4959,
+    "score": 26
+  },
+  "35249A": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "37311": {
+    "division": "opportunity",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "8588A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 4,
+    "score": 494
+  },
+  "5491M": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 7,
+    "score": 489
+  },
+  "46032D": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 24,
+    "score": 447
+  },
+  "2470Z": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 34,
+    "score": 432
+  },
+  "27112B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 35,
+    "score": 432
+  },
+  "3211H": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 49,
+    "score": 409
+  },
+  "9666F": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 65,
+    "score": 397
+  },
+  "30041B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 106,
+    "score": 348
+  },
+  "3383D": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 114,
+    "score": 345
+  },
+  "17593V": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 129,
+    "score": 336
+  },
+  "9233G": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 138,
+    "score": 331
+  },
+  "77806A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 149,
+    "score": 325
+  },
+  "65165E": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 155,
+    "score": 322
+  },
+  "11686B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 160,
+    "score": 319
+  },
+  "4270A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 167,
+    "score": 318
+  },
+  "80066B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 197,
+    "score": 307
+  },
+  "4010S": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 218,
+    "score": 298
+  },
+  "4815A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 239,
+    "score": 290
+  },
+  "7323W": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 242,
+    "score": 289
+  },
+  "36409A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 250,
+    "score": 287
+  },
+  "1065C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 263,
+    "score": 284
+  },
+  "54037F": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 297,
+    "score": 271
+  },
+  "16885A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 301,
+    "score": 270
+  },
+  "44844K": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 306,
+    "score": 266
+  },
+  "3030A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 325,
+    "score": 255
+  },
+  "31655A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 342,
+    "score": 250
+  },
+  "10452Y": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 384,
+    "score": 238
+  },
+  "74756C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 392,
+    "score": 236
+  },
+  "2625D": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 393,
+    "score": 236
+  },
+  "63273A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 437,
+    "score": 222
+  },
+  "81880A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 460,
+    "score": 218
+  },
+  "6114A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 473,
+    "score": 215
+  },
+  "2205H": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 526,
+    "score": 205
+  },
+  "22320A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 561,
+    "score": 201
+  },
+  "55580B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 574,
+    "score": 199
+  },
+  "44100D": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 576,
+    "score": 199
+  },
+  "88180C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 632,
+    "score": 189
+  },
+  "8882H": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 636,
+    "score": 188
+  },
+  "12368B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 641,
+    "score": 187
+  },
+  "8128Z": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 649,
+    "score": 185
+  },
+  "72065X": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 711,
+    "score": 174
+  },
+  "3722G": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 719,
+    "score": 171
+  },
+  "75640A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 728,
+    "score": 170
+  },
+  "11108B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 737,
+    "score": 168
+  },
+  "20352C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 739,
+    "score": 168
+  },
+  "84732B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 753,
+    "score": 166
+  },
+  "24250Y": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 765,
+    "score": 165
+  },
+  "99396B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 769,
+    "score": 164
+  },
+  "92855E": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 791,
+    "score": 159
+  },
+  "2820J": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 837,
+    "score": 151
+  },
+  "1948A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 867,
+    "score": 148
+  },
+  "6512C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 907,
+    "score": 144
+  },
+  "94001B": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 970,
+    "score": 137
+  },
+  "58130W": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1015,
+    "score": 133
+  },
+  "60011D": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1063,
+    "score": 130
+  },
+  "34107C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1083,
+    "score": 128
+  },
+  "1695S": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1129,
+    "score": 125
+  },
+  "15104C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1278,
+    "score": 116
+  },
+  "78843A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1328,
+    "score": 113
+  },
+  "10851F": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1344,
+    "score": 112
+  },
+  "81192Z": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1360,
+    "score": 112
+  },
+  "1336A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1397,
+    "score": 110
+  },
+  "45908C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1433,
+    "score": 109
+  },
+  "28952G": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1562,
+    "score": 103
+  },
+  "56721E": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1709,
+    "score": 95
+  },
+  "13888A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1829,
+    "score": 91
+  },
+  "40693P": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 1965,
+    "score": 87
+  },
+  "37991E": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 2124,
+    "score": 81
+  },
+  "18778E": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 2503,
+    "score": 67
+  },
+  "21549A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 2778,
+    "score": 59
+  },
+  "48212C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 2886,
+    "score": 57
+  },
+  "91361A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 4510,
+    "score": 32
+  },
+  "50284C": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": 5493,
+    "score": 19
+  },
+  "6265A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "70270A": {
+    "division": "research",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "81777T": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 17,
+    "score": 454
+  },
+  "95014X": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 20,
+    "score": 451
+  },
+  "9296A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 22,
+    "score": 451
+  },
+  "88299A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 31,
+    "score": 436
+  },
+  "6565N": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 54,
+    "score": 405
+  },
+  "8588X": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 66,
+    "score": 393
+  },
+  "3383F": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 89,
+    "score": 367
+  },
+  "8269A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 105,
+    "score": 352
+  },
+  "63330Z": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 109,
+    "score": 347
+  },
+  "19375B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 111,
+    "score": 346
+  },
+  "46000A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 116,
+    "score": 343
+  },
+  "60027B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 120,
+    "score": 340
+  },
+  "48251D": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 127,
+    "score": 338
+  },
+  "45318A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 192,
+    "score": 311
+  },
+  "55821C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 195,
+    "score": 309
+  },
+  "2831D": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 246,
+    "score": 288
+  },
+  "4815B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 252,
+    "score": 287
+  },
+  "3078B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 256,
+    "score": 286
+  },
+  "46168A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 258,
+    "score": 285
+  },
+  "36409C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 264,
+    "score": 284
+  },
+  "10515B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 272,
+    "score": 281
+  },
+  "3287A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 294,
+    "score": 272
+  },
+  "91416Y": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 303,
+    "score": 268
+  },
+  "50491F": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 319,
+    "score": 256
+  },
+  "27493X": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 328,
+    "score": 254
+  },
+  "76782A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 352,
+    "score": 248
+  },
+  "6333B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 361,
+    "score": 245
+  },
+  "11686X": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 365,
+    "score": 243
+  },
+  "6174B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 376,
+    "score": 239
+  },
+  "1729R": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 405,
+    "score": 231
+  },
+  "39401A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 413,
+    "score": 227
+  },
+  "5567A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 420,
+    "score": 225
+  },
+  "31337B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 422,
+    "score": 225
+  },
+  "78151C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 449,
+    "score": 219
+  },
+  "3722H": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 462,
+    "score": 218
+  },
+  "70484D": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 464,
+    "score": 217
+  },
+  "2626T": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 468,
+    "score": 216
+  },
+  "17035D": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 474,
+    "score": 215
+  },
+  "80100A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 481,
+    "score": 214
+  },
+  "1065D": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 492,
+    "score": 211
+  },
+  "9137A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 528,
+    "score": 205
+  },
+  "79089E": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 562,
+    "score": 201
+  },
+  "84732C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 569,
+    "score": 200
+  },
+  "1336C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 596,
+    "score": 195
+  },
+  "99806B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 655,
+    "score": 184
+  },
+  "7702A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 657,
+    "score": 184
+  },
+  "44408E": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 732,
+    "score": 170
+  },
+  "13205A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 819,
+    "score": 154
+  },
+  "2281B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 850,
+    "score": 149
+  },
+  "22903C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 856,
+    "score": 149
+  },
+  "4028X": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 864,
+    "score": 148
+  },
+  "29081C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 879,
+    "score": 146
+  },
+  "54567A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 887,
+    "score": 145
+  },
+  "11110A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 929,
+    "score": 140
+  },
+  "20616B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 952,
+    "score": 138
+  },
+  "4469A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 972,
+    "score": 137
+  },
+  "41400C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1245,
+    "score": 118
+  },
+  "13952C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1259,
+    "score": 117
+  },
+  "57069C": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1493,
+    "score": 106
+  },
+  "74778A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1494,
+    "score": 106
+  },
+  "10946F": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1563,
+    "score": 103
+  },
+  "9826K": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1685,
+    "score": 97
+  },
+  "21549B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1767,
+    "score": 93
+  },
+  "17760K": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1778,
+    "score": 93
+  },
+  "72777A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1813,
+    "score": 91
+  },
+  "82312A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1857,
+    "score": 91
+  },
+  "2035A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1871,
+    "score": 90
+  },
+  "15153X": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 1884,
+    "score": 90
+  },
+  "2501X": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 2210,
+    "score": 76
+  },
+  "58312G": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 2282,
+    "score": 74
+  },
+  "92855J": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 2502,
+    "score": 67
+  },
+  "47998A": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 3012,
+    "score": 56
+  },
+  "34543G": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": 3981,
+    "score": 38
+  },
+  "24610B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "31851B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  },
+  "65990B": {
+    "division": "spirit",
+    "grade": "Middle School",
+    "world_rank": null,
+    "score": null
+  }
+}
