@@ -400,7 +400,7 @@ const viqrcDivisionTeams = {
   'Middle School': {
     'Design': [
       { num: '81777Z', name: 'Hot Slice', org: 'Magikid Cupertino Robotics Lab', region: 'California - North', skillRank: 1, score: 550, autoScore: 246, driverScore: 304, magikid: true },
-      { num: '93601E', name: 'CHEESY APPLES', org: 'Shore', region: 'Australia', skillRank: 44, score: 419, autoScore: 201, driverScore: 218, magikid: false },
+      { num: '93601E', name: 'CHEESY APPLES', org: 'Shore', region: 'Australia', skillRank: 44, score: 419, autoScore: 201, driverScore: 218, magikid: true },
       { num: '24250P', name: 'VEX Vikings Team Papa', org: 'BRENTWOOD MIDDLE SCHOOL', region: 'Tennessee', skillRank: 45, score: 419, autoScore: 201, driverScore: 218, magikid: false },
       { num: '3211G', name: 'The Scorpions', org: 'Diamond Bar Robotics', region: 'California - South', skillRank: 67, score: 392, autoScore: 144, driverScore: 248, magikid: false },
       { num: '21136A', name: 'Capybara', org: 'Magikid Highland Park', region: 'Texas - Region 2', skillRank: 96, score: 362, autoScore: 112, driverScore: 250, magikid: true },
