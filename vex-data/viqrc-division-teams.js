@@ -86,6 +86,7 @@ const viqrcDivisionTeams = {
       { num: '629Y', name: 'Red&Blue SCBS', org: 'N/A', region: 'China', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '821D', name: 'The Ramen Dragons ED H', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '937B', name: 'Killer Whale Shanghai Jincai Experimental', org: 'N/A', region: 'China', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '35D', name: 'The Chicken Nugget Destroyers', org: 'Cranbrook Schools', region: 'Michigan, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
     'Engineering': [
       { num: '3988S', name: 'Echosong', org: 'Irvine Robotics', region: 'California - South', skillRank: 5, score: 492, autoScore: 235, driverScore: 257, magikid: false },
@@ -172,6 +173,7 @@ const viqrcDivisionTeams = {
       { num: '618X', name: 'XRaccoon Minhang Experimental Primary School', org: 'N/A', region: 'China', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '812A', name: 'Boba Bots I W AND', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '861A', name: 'Speedy Gears 中中 中中中中中中中农农 北北,', org: 'N/A', region: 'China', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '28T', name: 'DORITO CHEEZY PUFFS:', org: 'Robot Revolution Summit', region: 'New Jersey, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
     'Math': [
       { num: '2988A', name: 'Mecha Arbiter', org: 'Shanghai Fenghua Junior High School', region: 'East China', skillRank: 3, score: 504, autoScore: 201, driverScore: 303, magikid: false },
@@ -257,6 +259,7 @@ const viqrcDivisionTeams = {
       { num: '689A', name: 'Tech Wizards Davis Youth Robotics', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '826A', name: 'Snake Byte RALPH PARR ELEMENTARY', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '985M', name: 'Project McDonald\'s MARY OUR QUEEN', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '97A', name: '兰州州州州州州兰州州州A队', org: '兰州州州州州州兰州州州', region: 'Gansu, China', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
     'Science': [
       { num: '2675C', name: 'Psycho Mouse', org: 'Magikid Fremont', region: 'California - North', skillRank: 19, score: 447, autoScore: 201, driverScore: 246, magikid: true },
@@ -344,6 +347,7 @@ const viqrcDivisionTeams = {
       { num: '804A', name: 'Pin Destroyers BROOKWOOD ELEMENTARY SCHOOL', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '839X', name: '// Caution Tape // Caution', org: 'N/A', region: 'Canada', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '985N', name: 'Ninjaneers MARY OUR QUEEN SCHOOL', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '15B', name: 'Crescent Catastrophe', org: 'CRESCENT ELEMENTARY', region: 'California, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
     'Technology': [
       { num: '3988D', name: 'Fried Egg', org: 'Irvine Robotics', region: 'California - South', skillRank: 11, score: 461, autoScore: 230, driverScore: 231, magikid: false },
@@ -431,6 +435,7 @@ const viqrcDivisionTeams = {
       { num: '804B', name: 'Rust in Piece BROOKWOOD ELEMENTARY', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '839Y', name: '// Caution Tape Y-Stack //', org: 'N/A', region: 'Canada', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '986A', name: 'STEMSTAR-Ancient Gear Shanghai Jincai Hongwen', org: 'N/A', region: 'China', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '15C', name: 'Crescent Overdrive', org: 'CRESCENT ELEMENTARY', region: 'California, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
   },
   'Middle School': {
@@ -519,6 +524,7 @@ const viqrcDivisionTeams = {
       { num: '791A', name: 'Blue Bamboo Garage Team', org: 'N/A', region: 'Japan', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '839D', name: '// Caution Tape Dill Pickled', org: 'N/A', region: 'Canada', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '952S', name: 'Ridgely Robotics Ridgely Middle School', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '47A', name: 'Fuzzy Logic', org: 'Evergreen Middle School PTSA', region: 'Washington, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
     'Innovate': [
       { num: '71777A', name: 'Vortex-R', org: 'Kunshan Xinzhen Middle School', region: 'East China', skillRank: 2, score: 540, autoScore: 247, driverScore: 293, magikid: false },
@@ -604,6 +610,7 @@ const viqrcDivisionTeams = {
       { num: '727H', name: 'Home-field Advantage Magnus Robotics', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '839A', name: '// Caution Tape Alpha //', org: 'N/A', region: 'Canada', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '929V', name: 'Hereford Zone Robotics Hereford Middle', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '84B', name: 'Timberline Tech Titans', org: 'TIMBERLINE MIDDLE SCHOOL', region: 'Washington, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
     'Opportunity': [
       { num: '80608A', name: 'Potato Nuggets', org: 'El Retiro', region: 'California - South', skillRank: 10, score: 477, autoScore: 203, driverScore: 274, magikid: false },
@@ -688,8 +695,11 @@ const viqrcDivisionTeams = {
       { num: '770Z', name: 'Re-imagine Robotics Zero Gravity Re-imagine', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '839B', name: '// Caution Tape Beta //', org: 'N/A', region: 'Canada', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '952E', name: 'Ridgely Robotics Ridgely Middle School', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '36C', name: 'Elmer's Glue', org: 'Cranbrook Schools', region: 'Michigan, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
+      { num: '92E', name: 'VEXMEN: Elixir', org: 'Brandywine Robotics Inc', region: 'Pennsylvania, United States', skillRank: null, score: null, autoScore: null, driverScore: null, magikid: false },
     ],
     'Research': [
+      { num: '47S', name: 'The Elites', org: 'Evergreen Middle School PTSA', region: 'Washington, United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '8588A', name: 'Tsingtao  Bymax Team', org: 'The Middle School Affiliated to Qingdao University', region: 'Middle China', skillRank: 4, score: 494, autoScore: 246, driverScore: 248, magikid: false },
       { num: '5491M', name: 'HAPPY HIPPO', org: 'Fancy Robotics International', region: 'Chinese Taipei', skillRank: 7, score: 489, autoScore: 214, driverScore: 275, magikid: false },
       { num: '46032D', name: 'UNITY Robotics', org: 'Creekside Middle School', region: 'Indiana - Region 2 - Central', skillRank: 24, score: 447, autoScore: 201, driverScore: 246, magikid: false },
@@ -860,6 +870,7 @@ const viqrcDivisionTeams = {
       { num: '836B', name: 'RoboBees B growingSTEMS', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '921A', name: 'daxiaobao Shanghai Soong Ching Ling', org: 'N/A', region: 'China', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
       { num: '985D', name: 'Dapper Ducks MARY OUR QUEEN', org: 'N/A', region: 'United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
+      { num: '78X', name: 'TrailBlazers', org: 'Trailblazer Robotics', region: 'Georgia, United States', skillRank: 999, score: 0, autoScore: 0, driverScore: 0, magikid: false },
     ],
   }
 };
